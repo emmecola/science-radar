@@ -1,0 +1,168 @@
+task_source_critique:
+  description: >
+    Review the news articles and papers provided below. For each item, determine
+    whether it is directly about the following topic:
+
+    TOPIC: {topic}
+
+    Keep a source if the topic is its primary subject. Discard if the topic appears
+    only as an example or passing reference, or if the connection requires more than
+    one inferential step. Sources may cover the topic from any perspective (science,
+    society, economics, policy). For ambiguous cases, default to discard.
+
+    Return a JSON array of approved sources. Never approve or discard without a reason.
+
+    NEWS:
+    {news_results}
+
+    PAPERS:
+    {paper_results}
+  agent: source_critic
+  expected_output: JSON array of approved sources with title, url, and approval reason.
+
+task_curate_novelty:
+  description: >
+    From the approved sources, select the 2-3 most novel and surprising items.
+    Justify each pick.
+  agent: curator_novelty
+  context:
+    - task_source_critique
+  expected_output: >
+    Numbered list of 2-3 items. Each entry: title, source URL, and 1-2 sentence
+    justification focused on why this item is novel or surprising.
+
+task_curate_science:
+  description: >
+    From the approved sources, select the 2-3 items with the strongest scientific
+    merit and evidence quality. Justify each pick.
+  agent: curator_science
+  context:
+    - task_source_critique
+  expected_output: >
+    Numbered list of 2-3 items. Each entry: title, source URL, and 1-2 sentence
+    justification focused on methodological rigour or evidence quality.
+
+task_curate_impact:
+  description: >
+    From the approved sources, select the 2-3 items with the greatest potential
+    societal, policy, or domain-specific impact. Justify each pick.
+  agent: curator_impact
+  context:
+    - task_source_critique
+  expected_output: >
+    Numbered list of 2-3 items. Each entry: title, source URL, and 1-2 sentence
+    justification focused on real-world consequences or policy relevance.
+
+task_arbitrate:
+  description: >
+    You have received three shortlists from curators focused on novelty, scientific
+    relevance, and societal impact. Before deciding, use web_search when a summary 
+    is too thin to assess writability, or a curator claim needs verification. 
+    Then make the final selection of 1 item to feature.
+    Your output must include: (1) the additional context you retrieved, (2) your
+    final selection with title, source URL, and one-sentence summary, (3) a clear
+    defence of your choice — do not just average the inputs, and (4) a writing brief
+    for the writer including: the hook (most surprising aspect), key facts/numbers/mechanisms
+    to include, the editorial angle, and any caveats or limitations to acknowledge.
+  agent: arbiter
+  context:
+    - task_curate_novelty
+    - task_curate_science
+    - task_curate_impact
+  expected_output: >
+    Four sections: (1) Additional context retrieved from web search, (2) Selected
+    item with title, URL, and one-sentence summary, (3) Arbitration rationale
+    explaining why this item over alternatives, (4) Writing brief with hook, key
+    facts, editorial angle, and caveats.
+
+task_write:
+  description: >
+    Write a 680–720 word article with inline links based on the following curation brief.
+    Follow this structure exactly: (1) Hook ~50w, (2) Context ~100w, (3) Core finding ~250w,
+    (4) Implications ~200w, (5) Limits and caveats ~100w.
+    Core claims must come from the curation brief. You may use web search only to clarify
+    missing details or verify background context — not to add new findings.
+    Output ONLY the article in markdown — no preamble, no meta-commentary, just the
+    article starting with the title.
+
+    CURATION BRIEF:
+    {curation_brief}
+  agent: writer
+  expected_output: >
+    Clean markdown article starting directly with the title, no preamble or
+    meta-commentary.
+
+task_editorial_critique:
+  description: >
+    Score the following article on structure, clarity, engagement, and sources
+    (1–10 each). Do not evaluate factual accuracy — that is handled separately
+    by the fact checker. Return a JSON verdict followed by specific, actionable
+    revision notes.
+
+    ARTICLE:
+    {article}
+  agent: editorial_critic
+  expected_output: >
+    JSON object with scores for structure, clarity, engagement, sources, overall
+    average, and a verdict of APPROVE or REVISE. Followed by prioritised revision
+    notes referencing specific paragraphs or sentences.
+
+task_fact_check:
+  description: >
+    Verify all claims in the following article against the original source material
+    and external evidence. Use web_search only when uncertainty is high or the stakes
+    of an error are significant.
+
+    ARTICLE:
+    {article}
+
+    CURATION BRIEF (original source material):
+    {curation_brief}
+  agent: fact_checker
+  expected_output: JSON of verified/flagged claims.
+
+task_revise:
+  description: >
+    Revise the article to address all issues raised by the editorial critic and fact
+    checker. Fix every flagged or unverified claim, correct any wrong figures or
+    attributions, and incorporate editorial feedback on clarity and sourcing.
+    Preserve the core structure and voice of the article — only change what is
+    flagged or necessary to fix flagged issues. Output ONLY the final revised
+    article in markdown. Do not include any preamble, reasoning, corrections
+    summary, or meta-commentary — just the clean article text starting directly
+    with the title.
+
+    ARTICLE:
+    {article}
+
+    EDITORIAL CRITIQUE:
+    {editorial_critique}
+
+    FACT CHECK:
+    {fact_check}
+  agent: writer
+  expected_output: >
+    Clean revised markdown article with no preamble, no corrections summary, no
+    meta-commentary — just the article text starting with the title.
+
+task_illustrate:
+  description: >
+    Write an image generation prompt for the following article, then generate
+    the illustration and return the image URL.
+
+    The prompt must open with a named visual style from the skill's rotation
+    table, follow the five-part structure (style → subject → composition →
+    mood → exclude), and stay within 60–120 words.
+
+    Hard constraints:
+    - No text, labels, or words anywhere in the image — this is absolute
+    - Do not use objects that inherently display numbers or text: no
+      clocks, thermostats, dials, gauges, scoreboards, or signs.
+    - Do not depict the scientific mechanism literally — no molecular
+      structures, gene scissors, chemical pathways, or named biological
+      processes. Use metaphor and mood instead.
+
+    ARTICLE:
+    {revised_article}
+  agent: illustrator
+  expected_output: The prompt used for image generation, followed by the image URL.

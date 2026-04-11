@@ -1,0 +1,26 @@
+[project]
+name = "science_radar"
+version = "0.1.0"
+description = "Science Radar - Topic intelligence pipeline using crewAI"
+authors = [{ name = "Moreno Colaiacovo" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[anthropic,tools]==1.12.2",
+    "fal-client>=0.13.2",
+    "requests>=2.32.5",
+    "python-dotenv>=1.1.1",
+]
+
+[project.scripts]
+science_radar = "science_radar.main:run_pipeline"
+run_crew = "science_radar.main:run_pipeline"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
+
+[dependency-groups]
+dev = []
