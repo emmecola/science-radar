@@ -5,4 +5,5 @@ __pycache__/
 *.pyo
 dist/
 .DS_Store
-output/
+output/*
+!output/*_example.md

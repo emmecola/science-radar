@@ -1,4 +1,4 @@
-![Science Radar logo](science_radar.png "Generated with Nano Banana Pro")
+![Science Radar logo](science_radar-small.png "Generated with Nano Banana Pro")
 
 Science Radar is a multi-agent pipeline that monitors a scientific topic of your choice, selects the most relevant and novel source from recent news and academic papers, and produces a publication-ready illustrated essay.
 
@@ -76,8 +76,8 @@ TOPIC_SEMANTIC = "your Semantic Scholar query"  # see https://api.semanticschola
 You can also tune how many sources are fetched and how far back to look:
 
 ```python
-NEWS_LIMIT = 20    # number of news articles to fetch
-PAPERS_LIMIT = 20  # number of papers to fetch
+NEWS_LIMIT = 30    # number of news articles to fetch
+PAPERS_LIMIT = 30  # number of papers to fetch
 DAYS_LIMIT = 7     # look back this many days
 ```
 
