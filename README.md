@@ -4,7 +4,7 @@
 ![CrewAI](https://img.shields.io/badge/crewai-1.12.2-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-Science Radar is a multi-agent pipeline built with built with [CrewAI](https://crewai.com) that monitors a scientific topic of your choice, selects the most relevant and novel source from recent news and academic papers, and produces a publication-ready illustrated essay.
+Science Radar is a multi-agent pipeline built with [CrewAI](https://crewai.com) that monitors a scientific topic of your choice, selects the most relevant and novel source from recent news and academic papers, and produces a publication-ready illustrated essay.
 
 ## What it does
 
