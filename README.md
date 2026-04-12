@@ -1,6 +1,10 @@
 ![Science Radar logo](science_radar-small.png "Generated with Nano Banana Pro")
 
-Science Radar is a multi-agent pipeline that monitors a scientific topic of your choice, selects the most relevant and novel source from recent news and academic papers, and produces a publication-ready illustrated essay.
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![CrewAI](https://img.shields.io/badge/crewai-1.12.2-orange)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+Science Radar is a multi-agent pipeline built with built with [CrewAI](https://crewai.com) that monitors a scientific topic of your choice, selects the most relevant and novel source from recent news and academic papers, and produces a publication-ready illustrated essay.
 
 ## What it does
 
@@ -9,7 +13,7 @@ Each run executes a fixed seven-step pipeline:
 1. **Scout** — fetches recent news (NewsAPI) and academic papers (Semantic Scholar) for the configured topic.
 2. **Critique & curate** — multiple agents score each source for novelty, scientific rigour, and societal impact. An arbiter selects the single best source and produces a curation brief.
 3. **Write** — a writer agent drafts a ~700-word essay aimed at an intelligent non-specialist reader.
-4. **Editorial critique** — an editorial agent reviews the draft for clarity, structure, and sourcing quality.
+4. **Editorial critique** — an editorial agent reviews the draft for structure, clarity, engagement, and sourcing quality.
 5. **Fact-check** — a fact-checker verifies every claim against the curation brief and the web.
 6. **Revise** — the writer incorporates all editorial and fact-check feedback into a final draft.
 7. **Illustrate** — an illustrator agent writes an image prompt and generates a cover illustration via fal.ai.
@@ -29,7 +33,7 @@ pip install uv
 
 # Clone the repo and install dependencies
 git clone https://codeberg.org/emmecola/science-radar.git
-cd science_radar
+cd science-radar
 uv sync
 ```
 
