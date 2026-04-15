@@ -1,8 +1,8 @@
 ![Science Radar logo](science_radar-small.png "Generated with Nano Banana Pro")
-
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![CrewAI](https://img.shields.io/badge/crewai-1.12.2-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/emmecola/science-radar)
 
 Science Radar is a multi-agent pipeline built with [CrewAI](https://crewai.com) that monitors a scientific topic of your choice, selects the most relevant and novel source from recent news and academic papers, and produces a publication-ready illustrated essay.
 
