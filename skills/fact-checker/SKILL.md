@@ -62,6 +62,10 @@ Use available web search tools when:
 
 Do not search for every claim. Reserve tool use for claims where uncertainty is high or the stakes of an error are significant.
 
+## Conciseness
+
+Keep each `note` brief and focused: one or two sentences stating the verification source, the correction, or the reason for unverifiability. Avoid long explanations, quoted passages, or multiple paragraphs. The goal is a dense, scannable report, not an essay.
+
 ## Hard Rules
 
 - If the original source is ambiguous, mark as `modified` and clarify, do not guess

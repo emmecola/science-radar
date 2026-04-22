@@ -57,8 +57,8 @@ serves the emotional tone of the essay:
 | Brutalist graphic design | Industrial, technological, hard infrastructure |
 | Renaissance chiaroscuro | Ethics, duality, light vs. shadow themes |
 
-If the essay's tone fits none of these, invent a style that serves
-it — but describe it with the same specificity.
+Do not invent styles. If more than one style seems applicable, pick
+the single best fit rather than combining or creating a hybrid.
 
 ## Prompt Structure
 
