@@ -23,6 +23,7 @@ _required_vars = {
     "CRITIC_MODEL": os.getenv("CRITIC_MODEL"),
     "CURATOR_MODEL": os.getenv("CURATOR_MODEL"),
     "WRITER_MODEL": os.getenv("WRITER_MODEL"),
+    "ILLUSTRATION_MODEL": os.getenv("ILLUSTRATION_MODEL"),
     "FAL_MODEL": os.getenv("FAL_MODEL"),
     "ANTHROPIC_API_KEY": os.getenv("ANTHROPIC_API_KEY"),
     "FAL_KEY": os.getenv("FAL_KEY"),
@@ -37,9 +38,10 @@ if _missing_vars:
     sys.exit(1)
 
 _scout_llm   = LLM(model=_required_vars["SCOUT_MODEL"],   max_retries=5)
-_critic_llm  = LLM(model=_required_vars["CRITIC_MODEL"],  max_retries=5)
+_critic_llm  = LLM(model=_required_vars["CRITIC_MODEL"],  max_retries=5, max_tokens=8192)
 _curator_llm = LLM(model=_required_vars["CURATOR_MODEL"], max_retries=5)
 _writer_llm  = LLM(model=_required_vars["WRITER_MODEL"],  max_retries=5)
+_illustration_llm = LLM(model=_required_vars["ILLUSTRATION_MODEL"], max_retries=5)
 
 
 @CrewBase
@@ -85,7 +87,7 @@ class ScienceRadar():
 
     @agent
     def illustrator(self) -> Agent:
-        return Agent(config=self.agents_config['illustrator'], llm=_writer_llm, skills=[str(_skills_dir / "image-prompt-writer")], tools=[generate_illustration], verbose=True)  # type: ignore[index]
+        return Agent(config=self.agents_config['illustrator'], llm=_illustration_llm, skills=[str(_skills_dir / "image-prompt-writer")], tools=[generate_illustration], verbose=True)  # type: ignore[index]
 
     # --- Tasks ---
 
