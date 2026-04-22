@@ -62,9 +62,10 @@ The pipeline uses four model slots, each tunable independently:
 | Variable | Default | Role |
 |---|---|---|
 | `SCOUT_MODEL` | `anthropic/claude-haiku-4-5` | Source critique |
-| `CRITIC_MODEL` | `anthropic/claude-sonnet-4-6` | Editorial critique, fact-check, arbitration |
-| `CURATOR_MODEL` | `anthropic/claude-opus-4-6` | Curation scoring |
-| `WRITER_MODEL` | `anthropic/claude-sonnet-4-6` | Writing and illustration |
+| `CURATOR_MODEL` | `anthropic/claude-sonnet-4-6` | Curation scoring |
+| `CRITIC_MODEL` | `anthropic/claude-opus-4-7` | Editorial critique, fact-check, arbitration |
+| `WRITER_MODEL` | `anthropic/claude-opus-4-7` | Writing |
+| `ILLUSTRATION_MODEL` | `anthropic/claude-sonnet-4-6` | Illustration |
 | `FAL_MODEL` | `fal-ai/flux/dev` | Image generation |
 
 ### Topic
@@ -80,8 +81,8 @@ TOPIC_SEMANTIC = "your Semantic Scholar query"  # see https://api.semanticschola
 You can also tune how many sources are fetched and how far back to look:
 
 ```python
-NEWS_LIMIT = 30    # number of news articles to fetch
-PAPERS_LIMIT = 30  # number of papers to fetch
+NEWS_LIMIT = 100    # number of news articles to fetch
+PAPERS_LIMIT = 50  # number of papers to fetch
 DAYS_LIMIT = 7     # look back this many days
 ```
 
