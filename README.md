@@ -1,4 +1,5 @@
 ![Science Radar logo](science_radar-small.png "Generated with Nano Banana Pro")
+
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![CrewAI](https://img.shields.io/badge/crewai-1.12.2-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
