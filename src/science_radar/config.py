@@ -6,6 +6,6 @@ TOPIC_NEWSAPI = '(GMO OR biotech OR biotechnology OR NGT OR "genome edited" OR "
 TOPIC_SEMANTIC = '(GMO | biotech | NGT | "genome edited" | "genome-edited" | CRISPR | "genome editing" | "genetically modified" | "genetically engineered") + (crop | agriculture | plants | food | agrifood)'
 
 # Search limits
-NEWS_LIMIT = 30
-PAPERS_LIMIT = 30
+NEWS_LIMIT = 100
+PAPERS_LIMIT = 50
 DAYS_LIMIT = 7
