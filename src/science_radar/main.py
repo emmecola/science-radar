@@ -78,6 +78,19 @@ def run_pipeline():
         "paper_results": paper_results,
     })
 
+    # Unpack intermediate outputs from critique_crew tasks
+    _task_labels = [
+        "Source Critique",
+        "Novelty Curation",
+        "Science Curation",
+        "Impact Curation",
+        "Curation Arbiter (Final)",
+    ]
+    _curation_intermediates = {
+        label: t.raw
+        for label, t in zip(_task_labels, curation_result.tasks_output)
+    }
+
     # Step 3: Write
     print("\n3. WRITING ARTICLE...")
     article = crew.writing_crew().kickoff(inputs={"curation_brief": curation_result.raw})
@@ -138,8 +151,20 @@ def run_pipeline():
 ## Raw Paper Results
 {paper_results}
 
-## Curation Brief
-{curation_result.raw}
+## Source Critique
+{_curation_intermediates["Source Critique"]}
+
+## Novelty Curation
+{_curation_intermediates["Novelty Curation"]}
+
+## Science Curation
+{_curation_intermediates["Science Curation"]}
+
+## Impact Curation
+{_curation_intermediates["Impact Curation"]}
+
+## Curation Brief (Arbiter)
+{_curation_intermediates["Curation Arbiter (Final)"]}
 
 ## First Draft
 {article.raw}
