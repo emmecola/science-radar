@@ -22,7 +22,7 @@ Each run executes a fixed seven-step pipeline:
 Two files are saved to the `output/` directory:
 
 - `article_<timestamp>.md` — the final illustrated essay, ready to publish.
-- `pipeline_<timestamp>.md` — a full audit trail with scout data, curation brief, first draft, critique, fact-check, revised article, and illustration prompt + URL.
+- `pipeline_<timestamp>.md` — a full audit trail with scout data, curation results, first draft, critique, fact-check, revised article, and illustration prompt + URL.
 
 ## Installation
 
@@ -58,7 +58,7 @@ cp .env.example .env
 
 ### Models
 
-The pipeline uses four model slots, each tunable independently:
+The pipeline uses five model slots, each tunable independently:
 
 | Variable | Default | Role |
 |---|---|---|
