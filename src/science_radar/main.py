@@ -122,13 +122,22 @@ def run_pipeline():
     article_file = output_dir / f"article_{timestamp}.md"
     pipeline_file = output_dir / f"pipeline_{timestamp}.md"
 
-    # Extract illustration URL from illustrator output
-    illustration_url = None
-    url_match = re.search(r'https?://[^\s\)]+', illustration.raw)
-    if url_match:
-        illustration_url = url_match.group()
+    # Extract illustration from illustrator output and save it
+    illustration_path = None
+    try:
+        illustration_data = json.loads(illustration.raw)
+        if isinstance(illustration_data, dict) and "image_b64" in illustration_data:
+            image_data = base64.b64decode(illustration_data["image_b64"])
+            illustration_path = output_dir / f"illustration_{timestamp}.png"
+            with open(illustration_path, "wb") as f:
+                f.write(image_data)
+    except (json.JSONDecodeError, KeyError, ValueError):
+        pass
 
-    illustration_md = f"\n![Illustration]({illustration_url})\n" if illustration_url else ""
+    # The article and image are both in the output directory, so the markdown
+    # reference is just the filename.
+    image_ref = illustration_path.name if illustration_path else None
+    illustration_md = f"\n![Illustration]({image_ref})\n" if image_ref else ""
 
     with open(article_file, "w") as f:
         f.write(illustration_md + "\n" + revised_article.raw)

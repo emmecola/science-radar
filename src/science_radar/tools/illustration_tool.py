@@ -27,16 +27,10 @@ def generate_illustration(prompt: str) -> str:
         response = client.images.generate(
             model=image_model,
             prompt=prompt,
-            size="1792x1024",
+            size="2048x1152",
         )
         if response.data and response.data[0].b64_json:
-            image_data = base64.b64decode(response.data[0].b64_json)
-            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            filepath = f"output/illustration_{timestamp}.png"
-            os.makedirs("output", exist_ok=True)
-            with open(filepath, "wb") as f:
-                f.write(image_data)
-            return f"Illustration saved: {filepath}"
+            return json.dumps({"image_b64": response.data[0].b64_json})
         return json.dumps({"error": "Image generation failed — no base64 data returned."})
     except Exception as e:
         return json.dumps({"error": f"Image generation error: {e}"})
