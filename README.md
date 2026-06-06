@@ -17,7 +17,7 @@ Each run executes a fixed seven-step pipeline:
 4. **Editorial critique** — an editorial agent reviews the draft for structure, clarity, engagement, and sourcing quality.
 5. **Fact-check** — a fact-checker verifies every claim against the curation brief and the web.
 6. **Revise** — the writer incorporates all editorial and fact-check feedback into a final draft.
-7. **Illustrate** — an illustrator agent writes an image prompt and generates a cover illustration via fal.ai.
+7. **Illustrate** — an illustrator agent writes an image prompt and generates a cover illustration via MeliousAI.
 
 Two files are saved to the `output/` directory:
 
@@ -50,24 +50,25 @@ cp .env.example .env
 
 | Variable | Required | Description |
 |---|---|---|
-| `ANTHROPIC_API_KEY` | Yes | Anthropic API key for all LLM agents |
-| `FAL_KEY` | Yes | fal.ai key for image generation |
+| `MELIOUS_API_KEY` | Yes | MeliousAI API key for all LLM agents and image generation |
 | `NEWSAPI_KEY` | Yes | NewsAPI key for news scouting |
 | `BRAVE_API_KEY` | Yes | Brave Search key for web fact-checking |
 | `SEMANTIC_SCHOLAR_API_KEY` | No | Semantic Scholar key (optional, raises rate limits) |
 
 ### Models
 
-The pipeline uses five model slots, each tunable independently:
+The pipeline uses five model slots, each tunable independently. All default to MeliousAI's `kimi-k2.6`:
 
 | Variable | Default | Role |
 |---|---|---|
-| `SCOUT_MODEL` | `anthropic/claude-haiku-4-5` | Source critique |
-| `CURATOR_MODEL` | `anthropic/claude-sonnet-4-6` | Curation scoring |
-| `CRITIC_MODEL` | `anthropic/claude-opus-4-7` | Editorial critique, fact-check, arbitration |
-| `WRITER_MODEL` | `anthropic/claude-opus-4-7` | Writing |
-| `ILLUSTRATION_MODEL` | `anthropic/claude-sonnet-4-6` | Illustration |
-| `FAL_MODEL` | `fal-ai/flux/dev` | Image generation |
+| `SCOUT_MODEL` | `kimi-k2.6:speed` | Source critique |
+| `CURATOR_MODEL` | `kimi-k2.6:speed` | Curation scoring |
+| `CRITIC_MODEL` | `kimi-k2.6:speed` | Editorial critique, fact-check, arbitration |
+| `WRITER_MODEL` | `kimi-k2.6:speed` | Writing |
+| `ILLUSTRATION_MODEL` | `kimi-k2.6:speed` | Illustration prompt writing |
+| `MELIOUS_IMAGE_MODEL` | `qwen-image` | Image generation |
+
+> **Tip:** MeliousAI supports routing flavors via suffixes. Append `:speed` for faster responses (recommended for most agents), `:balanced` for quality (default), or `:eco` for greener routing. See [Melious routing docs](https://melious.ai/docs/concepts/routing).
 
 ### Topic
 
