@@ -1,3 +1,8 @@
+from pathlib import Path
+
+# Central output directory for all pipeline artifacts
+OUTPUT_DIR = Path(__file__).resolve().parent.parent.parent / "output"
+
 # Topic configuration - change TOPIC to switch topics
 TOPIC = "GMO and genome editing in agriculture or food sector"
 

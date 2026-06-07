@@ -1,11 +1,10 @@
 #!/usr/bin/env python
-import base64
 import json
 import warnings
 from datetime import datetime
 from pathlib import Path
 
-from science_radar.config import TOPIC, TOPIC_NEWSAPI, TOPIC_SEMANTIC
+from science_radar.config import OUTPUT_DIR, TOPIC, TOPIC_NEWSAPI, TOPIC_SEMANTIC
 from science_radar.crew import ScienceRadar
 from science_radar.lib import search_news, search_papers
 
@@ -42,9 +41,7 @@ def run_pipeline():
     print(f"Started at: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
 
-    # Use project root for output directory (src/science_radar/main.py -> project root is 3 levels up)
-    project_root = Path(__file__).resolve().parent.parent.parent
-    output_dir = project_root / "output"
+    output_dir = OUTPUT_DIR
     output_dir.mkdir(exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M")
 
@@ -128,15 +125,12 @@ def run_pipeline():
     article_file = output_dir / f"article_{timestamp}.md"
     pipeline_file = output_dir / f"pipeline_{timestamp}.md"
 
-    # Extract illustration from illustrator output and save it
+    # Extract illustration path from illustrator output (image already saved by the tool)
     illustration_path = None
     try:
         illustration_data = json.loads(illustration.raw)
-        if isinstance(illustration_data, dict) and "image_b64" in illustration_data:
-            image_data = base64.b64decode(illustration_data["image_b64"])
-            illustration_path = output_dir / f"illustration_{timestamp}.png"
-            with open(illustration_path, "wb") as f:
-                f.write(image_data)
+        if isinstance(illustration_data, dict) and "image_path" in illustration_data:
+            illustration_path = Path(illustration_data["image_path"])
     except (json.JSONDecodeError, KeyError, ValueError):
         pass
 

@@ -167,5 +167,5 @@ task_illustrate:
   agent: illustrator
   expected_output: >
     Return ONLY the JSON object returned by the generate_illustration tool,
-    with no extra commentary. The JSON contains an "image_b64" key with the
-    base64-encoded PNG image data.
+    with no extra commentary. The JSON contains an "image_path" key with the
+    local file path to the saved PNG image.
