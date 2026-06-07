@@ -71,6 +71,7 @@ def run_pipeline():
         return None, None
 
     # Step 2: Critique + Curate
+    critique_time = datetime.now()
     print("\n2. SOURCE CRITIQUE + CURATION...")
     curation_result = crew.critique_crew().kickoff(inputs={
         "topic": TOPIC,
@@ -92,14 +93,17 @@ def run_pipeline():
     }
 
     # Step 3: Write
+    write_time = datetime.now()
     print("\n3. WRITING ARTICLE...")
     article = crew.writing_crew().kickoff(inputs={"curation_brief": curation_result.raw})
 
     # Step 4: Editorial critique
+    editorial_time = datetime.now()
     print("\n4. EDITORIAL CRITIQUE...")
     critique = crew.critique_writing_crew().kickoff(inputs={"article": article.raw})
 
     # Step 5: Fact check
+    factcheck_time = datetime.now()
     print("\n5. FACT CHECK...")
     fact_check = crew.fact_check_crew().kickoff(inputs={
         "article": article.raw,
@@ -107,6 +111,7 @@ def run_pipeline():
     })
 
     # Step 6: Revise
+    revise_time = datetime.now()
     print("\n6. REVISING ARTICLE...")
     revised_article = crew.revision_crew().kickoff(inputs={
         "article": article.raw,
@@ -115,6 +120,7 @@ def run_pipeline():
     })
 
     # Step 7: Illustrate
+    illustrate_time = datetime.now()
     print("\n7. ILLUSTRATION...")
     illustration = crew.illustrate_crew().kickoff(inputs={"revised_article": revised_article.raw})
 
@@ -198,6 +204,12 @@ def run_pipeline():
     duration = end_time - start_time
     print(f"\nPIPELINE COMPLETE!")
     print(f"Started at: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Critique and curation started at: {critique_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Writing started at: {write_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Editorial check started at: {editorial_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Fact-check started at: {factcheck_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Revision started at: {revise_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Illustration started at: {illustrate_time.strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"Ended at:   {end_time.strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"Duration:   {duration}")
     print(f"Article: {article_file}")
