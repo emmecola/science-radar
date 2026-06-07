@@ -1,6 +1,6 @@
 #!/usr/bin/env python
+import base64
 import json
-import re
 import warnings
 from datetime import datetime
 from pathlib import Path
