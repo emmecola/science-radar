@@ -27,7 +27,7 @@ def generate_illustration(prompt: str) -> str:
         response = client.images.generate(
             model=image_model,
             prompt=prompt,
-            size="2048x1152",
+            size="1792x1024",
         )
         if response.data and response.data[0].b64_json:
             return json.dumps({"image_b64": response.data[0].b64_json})
