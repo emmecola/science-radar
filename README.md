@@ -85,7 +85,8 @@ You can also tune how many sources are fetched and how far back to look:
 ```python
 NEWS_LIMIT = 100    # number of news articles to fetch
 PAPERS_LIMIT = 50  # number of papers to fetch
-DAYS_LIMIT = 7     # look back this many days
+NEWS_DAYS_LIMIT = 7      # look back this many days for news
+PAPERS_DAYS_LIMIT = 7    # look back this many days for papers
 ```
 
 ## Running

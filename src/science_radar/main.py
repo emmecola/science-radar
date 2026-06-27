@@ -43,7 +43,7 @@ def run_pipeline():
 
     output_dir = OUTPUT_DIR
     output_dir.mkdir(exist_ok=True)
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M")
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
     crew = ScienceRadar()
 

@@ -13,7 +13,6 @@ dependencies = [
 
 [project.scripts]
 science_radar = "science_radar.main:run_pipeline"
-run_crew = "science_radar.main:run_pipeline"
 
 [build-system]
 requires = ["hatchling"]

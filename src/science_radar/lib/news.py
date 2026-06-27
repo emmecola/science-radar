@@ -5,12 +5,12 @@ from datetime import datetime, timedelta
 
 import requests
 
-from science_radar.config import TOPIC_NEWSAPI, NEWS_LIMIT, DAYS_LIMIT
+from science_radar.config import TOPIC_NEWSAPI, NEWS_LIMIT, NEWS_DAYS_LIMIT
 
 _RETRY_DELAYS = [5, 15, 30]  # seconds between retries on 429
 
 
-def search_news(query: str = TOPIC_NEWSAPI, days: int = DAYS_LIMIT) -> str:
+def search_news(query: str = TOPIC_NEWSAPI, days: int = NEWS_DAYS_LIMIT) -> str:
     """Search recent news articles from the last N days on a given topic."""
     if not os.getenv("NEWSAPI_KEY"):
         return json.dumps({"error": "NEWSAPI_KEY environment variable is not set"}, indent=2)

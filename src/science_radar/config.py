@@ -13,4 +13,5 @@ TOPIC_SEMANTIC = '(GMO | biotech | NGT | "genome edited" | "genome-edited" | CRI
 # Search limits
 NEWS_LIMIT = 100
 PAPERS_LIMIT = 50
-DAYS_LIMIT = 7
+NEWS_DAYS_LIMIT = 7
+PAPERS_DAYS_LIMIT = 7
