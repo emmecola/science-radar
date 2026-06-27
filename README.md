@@ -57,16 +57,16 @@ cp .env.example .env
 
 ### Models
 
-The pipeline uses five model slots, each tunable independently. All default to MeliousAI's `kimi-k2.6`:
+The pipeline uses five model slots, each tunable independently. All default to MeliousAI's `glm-5.2`:
 
 | Variable | Default | Role |
 |---|---|---|
-| `SCOUT_MODEL` | `kimi-k2.6:speed` | Source critique |
-| `CURATOR_MODEL` | `kimi-k2.6:speed` | Curation scoring |
-| `CRITIC_MODEL` | `kimi-k2.6:speed` | Editorial critique, fact-check, arbitration |
-| `WRITER_MODEL` | `kimi-k2.6:speed` | Writing |
-| `ILLUSTRATION_MODEL` | `kimi-k2.6:speed` | Illustration prompt writing |
-| `MELIOUS_IMAGE_MODEL` | `qwen-image` | Image generation |
+| `SCOUT_MODEL` | `glm-5.2:speed` | Source critique |
+| `CURATOR_MODEL` | `glm-5.2:speed` | Curation scoring |
+| `CRITIC_MODEL` | `glm-5.2:speed` | Editorial critique, fact-check, arbitration |
+| `WRITER_MODEL` | `glm-5.2:speed` | Writing |
+| `ILLUSTRATION_MODEL` | `glm-5.2:speed` | Illustration prompt writing |
+| `MELIOUS_IMAGE_MODEL` | `flux-2-klein-9b` | Image generation |
 
 > **Tip:** MeliousAI supports routing flavors via suffixes. Append `:speed` for faster responses (recommended for most agents), `:balanced` for quality (default), or `:eco` for greener routing. See [Melious routing docs](https://melious.ai/docs/concepts/routing).
 
