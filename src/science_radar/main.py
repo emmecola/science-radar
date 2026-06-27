@@ -69,15 +69,8 @@ def run_pipeline():
             "paper_results": paper_results,
         })
 
-        _task_labels = [
-            "Source Critique",
-            "Novelty Curation",
-            "Science Curation",
-            "Impact Curation",
-            "Curation Arbiter (Final)",
-        ]
         _curation_intermediates = {
-            label: t.raw for label, t in zip(_task_labels, curation_result.tasks_output)
+            t.task.name: t.raw for t in curation_result.tasks_output
         }
         for label, raw in _curation_intermediates.items():
             sections[label] = raw
