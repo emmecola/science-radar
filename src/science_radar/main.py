@@ -8,6 +8,7 @@ from science_radar.config import OUTPUT_DIR, TOPIC, TOPIC_NEWSAPI, TOPIC_SEMANTI
 from science_radar.crew import ScienceRadar
 from science_radar.lib import search_news, search_papers
 from science_radar.report import flush_report, save_article
+from science_radar.lib.validate import parse_critic_output
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
@@ -72,6 +73,11 @@ def run_pipeline():
         _curation_intermediates = {
             t.task.name: t.raw for t in curation_result.tasks_output
         }
+
+        # Validate source-critic JSON output before proceeding
+        critique_raw = _curation_intermediates.get("Source Critique", "")
+        parse_critic_output(critique_raw)
+
         for label, raw in _curation_intermediates.items():
             sections[label] = raw
         sections["Curation Brief (Arbiter)"] = curation_result.raw
