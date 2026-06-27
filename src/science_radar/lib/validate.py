@@ -31,16 +31,22 @@ def parse_critic_output(raw: str) -> list[dict]:
             f"Source critique output must be a JSON array, got {type(data).__name__}"
         )
 
-    required = {"title", "url", "reason"}
     for i, item in enumerate(data):
         if not isinstance(item, dict):
             raise ValueError(
                 f"Source critique item {i} must be an object, got {type(item).__name__}"
             )
-        missing = required - set(item.keys())
+        keys = set(item.keys())
+        missing = []
+        if "title" not in keys:
+            missing.append("title")
+        if "url" not in keys:
+            missing.append("url")
+        if not any("reason" in k.lower() for k in keys):
+            missing.append("any key containing 'reason'")
         if missing:
             raise ValueError(
-                f"Source critique item {i} missing required fields: {', '.join(sorted(missing))}"
+                f"Source critique item {i} missing required fields: {', '.join(missing)}"
             )
 
     return data
