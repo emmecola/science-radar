@@ -71,7 +71,7 @@ def run_pipeline():
         })
 
         _curation_intermediates = {
-            t.task.name: t.raw for t in curation_result.tasks_output
+            t.name: t.raw for t in curation_result.tasks_output
         }
 
         # Validate source-critic JSON output before proceeding
