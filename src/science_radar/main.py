@@ -7,6 +7,7 @@ from pathlib import Path
 from science_radar.config import OUTPUT_DIR, TOPIC, TOPIC_NEWSAPI, TOPIC_SEMANTIC
 from science_radar.crew import ScienceRadar
 from science_radar.lib import search_news, search_papers
+from science_radar.report import flush_report, save_article
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
@@ -19,22 +20,6 @@ def _fetch_papers() -> str:
     return search_papers(TOPIC_SEMANTIC)
 
 
-def _save_error_report(output_dir: Path, timestamp: str, error_msg: str) -> Path:
-    """Save an error report file when the pipeline fails."""
-    error_file = output_dir / f"error_{timestamp}.md"
-    error_content = f"""# Pipeline Error Report — {datetime.now().strftime('%Y-%m-%d %H:%M')}
-
-## Topic
-{TOPIC}
-
-## Error
-{error_msg}
-"""
-    with open(error_file, "w") as f:
-        f.write(error_content)
-    return error_file
-
-
 def run_pipeline():
     start_time = datetime.now()
     print(f"SCIENCE RADAR: {TOPIC}")
@@ -45,168 +30,149 @@ def run_pipeline():
     output_dir.mkdir(exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
-    crew = ScienceRadar()
-
-    # Step 1: Scouts (deterministic — direct API calls, no LLM)
-    print("\n1. SCOUTING SOURCES...")
-    news_results = _fetch_news()
-    paper_results = _fetch_papers()
-
-    # Check for API errors before proceeding
-    news_data = json.loads(news_results)
-    paper_data = json.loads(paper_results)
-    errors = []
-    if isinstance(news_data, dict) and "error" in news_data:
-        errors.append(f"News API failed: {news_data['error']}")
-    if isinstance(paper_data, dict) and "error" in paper_data:
-        errors.append(f"Paper API failed: {paper_data['error']}")
-    if errors:
-        error_msg = "; ".join(errors)
-        print(f"\nERROR: {error_msg}")
-        error_file = _save_error_report(output_dir, timestamp, error_msg)
-        print(f"Error report saved to: {error_file}")
-        return None, None
-
-    # Step 2: Critique + Curate
-    critique_time = datetime.now()
-    print("\n2. SOURCE CRITIQUE + CURATION...")
-    curation_result = crew.critique_crew().kickoff(inputs={
-        "topic": TOPIC,
-        "news_results": news_results,
-        "paper_results": paper_results,
-    })
-
-    # Unpack intermediate outputs from critique_crew tasks
-    _task_labels = [
-        "Source Critique",
-        "Novelty Curation",
-        "Science Curation",
-        "Impact Curation",
-        "Curation Arbiter (Final)",
-    ]
-    _curation_intermediates = {
-        label: t.raw
-        for label, t in zip(_task_labels, curation_result.tasks_output)
-    }
-
-    # Step 3: Write
-    write_time = datetime.now()
-    print("\n3. WRITING ARTICLE...")
-    article = crew.writing_crew().kickoff(inputs={"curation_brief": curation_result.raw})
-
-    # Step 4: Editorial critique
-    editorial_time = datetime.now()
-    print("\n4. EDITORIAL CRITIQUE...")
-    critique = crew.critique_writing_crew().kickoff(inputs={"article": article.raw})
-
-    # Step 5: Fact check
-    factcheck_time = datetime.now()
-    print("\n5. FACT CHECK...")
-    fact_check = crew.fact_check_crew().kickoff(inputs={
-        "article": article.raw,
-        "curation_brief": curation_result.raw,
-    })
-
-    # Step 6: Revise
-    revise_time = datetime.now()
-    print("\n6. REVISING ARTICLE...")
-    revised_article = crew.revision_crew().kickoff(inputs={
-        "article": article.raw,
-        "editorial_critique": critique.raw,
-        "fact_check": fact_check.raw,
-    })
-
-    # Step 7: Illustrate
-    illustrate_time = datetime.now()
-    print("\n7. ILLUSTRATION...")
-    illustration = crew.illustrate_crew().kickoff(inputs={"revised_article": revised_article.raw})
-
-    # Save final output
     article_file = output_dir / f"article_{timestamp}.md"
     pipeline_file = output_dir / f"pipeline_{timestamp}.md"
 
-    # Extract illustration path from illustrator output (image already saved by the tool)
-    illustration_path = None
+    # Incremental audit-trail accumulator
+    sections = {}
+
+    def _flush(status: str) -> None:
+        flush_report(pipeline_file, TOPIC, sections, status)
+
+    crew = ScienceRadar()
+
     try:
-        illustration_data = json.loads(illustration.raw)
-        if isinstance(illustration_data, dict) and "image_path" in illustration_data:
-            illustration_path = Path(illustration_data["image_path"])
-    except (json.JSONDecodeError, KeyError, ValueError):
-        pass
+        # Step 1: Scouts (deterministic — direct API calls, no LLM)
+        print("\n1. SCOUTING SOURCES...")
+        news_results = _fetch_news()
+        paper_results = _fetch_papers()
+        news_data = json.loads(news_results)
+        paper_data = json.loads(paper_results)
+        errors = []
+        if isinstance(news_data, dict) and "error" in news_data:
+            errors.append(f"News API failed: {news_data['error']}")
+        if isinstance(paper_data, dict) and "error" in paper_data:
+            errors.append(f"Paper API failed: {paper_data['error']}")
+        if errors:
+            raise RuntimeError("; ".join(errors))
 
-    # The article and image are both in the output directory, so the markdown
-    # reference is just the filename.
-    image_ref = illustration_path.name if illustration_path else None
-    illustration_md = f"\n![Illustration]({image_ref})\n" if image_ref else ""
+        sections["Raw News Results"] = news_results
+        sections["Raw Paper Results"] = paper_results
+        print("  OK")
 
-    with open(article_file, "w") as f:
-        f.write(illustration_md + "\n" + revised_article.raw)
+        # Step 2: Critique + Curate
+        critique_time = datetime.now()
+        print("\n2. SOURCE CRITIQUE + CURATION...")
+        curation_result = crew.critique_crew().kickoff(inputs={
+            "topic": TOPIC,
+            "news_results": news_results,
+            "paper_results": paper_results,
+        })
 
+        _task_labels = [
+            "Source Critique",
+            "Novelty Curation",
+            "Science Curation",
+            "Impact Curation",
+            "Curation Arbiter (Final)",
+        ]
+        _curation_intermediates = {
+            label: t.raw for label, t in zip(_task_labels, curation_result.tasks_output)
+        }
+        for label, raw in _curation_intermediates.items():
+            sections[label] = raw
+        sections["Curation Brief (Arbiter)"] = curation_result.raw
+        print("  OK")
+
+        # Step 3: Write
+        write_time = datetime.now()
+        print("\n3. WRITING ARTICLE...")
+        article = crew.writing_crew().kickoff(inputs={"curation_brief": curation_result.raw})
+        sections["First Draft"] = article.raw
+        print("  OK")
+
+        # Step 4: Editorial critique
+        editorial_time = datetime.now()
+        print("\n4. EDITORIAL CRITIQUE...")
+        critique = crew.critique_writing_crew().kickoff(inputs={"article": article.raw})
+        sections["Editorial Score"] = critique.raw
+        print("  OK")
+
+        # Step 5: Fact check
+        factcheck_time = datetime.now()
+        print("\n5. FACT CHECK...")
+        fact_check = crew.fact_check_crew().kickoff(inputs={
+            "article": article.raw,
+            "curation_brief": curation_result.raw,
+        })
+        sections["Fact Check Status"] = fact_check.raw
+        print("  OK")
+
+        # Step 6: Revise
+        revise_time = datetime.now()
+        print("\n6. REVISING ARTICLE...")
+        revised_article = crew.revision_crew().kickoff(inputs={
+            "article": article.raw,
+            "editorial_critique": critique.raw,
+            "fact_check": fact_check.raw,
+        })
+        sections["Revised Article"] = revised_article.raw
+        print("  OK")
+
+        # Step 7: Illustrate (SOFT FAIL)
+        illustrate_time = datetime.now()
+        print("\n7. ILLUSTRATION...")
+        illustration = None
+        illustration_path = None
+        try:
+            illustration = crew.illustrate_crew().kickoff(
+                inputs={"revised_article": revised_article.raw}
+            )
+            sections["Illustration"] = illustration.raw
+
+            # Extract illustration path from output
+            try:
+                ill_data = json.loads(illustration.raw)
+                if isinstance(ill_data, dict) and "image_path" in ill_data:
+                    illustration_path = Path(ill_data["image_path"])
+            except (json.JSONDecodeError, KeyError, ValueError):
+                pass
+
+            print("  OK")
+        except Exception as e:
+            sections["Illustration"] = f"(SKIPPED) Illustration failed: {e}"
+            print(f"  WARNING: {e}")
+            print("  Continuing without illustration...")
+
+    except Exception as e:
+        print(f"\nPIPELINE FAILED: {e}")
+        _flush(f"FAILED: {e}")
+        raise
+
+    # Save final outputs
     news_count = len(news_data) if isinstance(news_data, list) else 0
     papers_count = len(paper_data) if isinstance(paper_data, list) else 0
+    sections["Sources Analyzed"] = f"- News articles: {news_count}\n- Papers: {papers_count}"
 
-    pipeline_content = f"""# Pipeline Report — {datetime.now().strftime('%Y-%m-%d')}
+    # Save article with illustration
+    save_article(article_file, revised_article.raw, illustration_path)
 
-## Topic
-{TOPIC}
-
-## Sources Analyzed
-- News articles: {news_count}
-- Papers: {papers_count}
-
-## Raw News Results
-{news_results}
-
-## Raw Paper Results
-{paper_results}
-
-## Source Critique
-{_curation_intermediates["Source Critique"]}
-
-## Novelty Curation
-{_curation_intermediates["Novelty Curation"]}
-
-## Science Curation
-{_curation_intermediates["Science Curation"]}
-
-## Impact Curation
-{_curation_intermediates["Impact Curation"]}
-
-## Curation Brief (Arbiter)
-{_curation_intermediates["Curation Arbiter (Final)"]}
-
-## First Draft
-{article.raw}
-
-## Editorial Score
-{critique.raw}
-
-## Fact Check Status
-{fact_check.raw}
-
-## Revised Article
-{revised_article.raw}
-
-## Illustration
-{illustration.raw}
-"""
-
-    with open(pipeline_file, "w") as f:
-        f.write(pipeline_content)
+    # Final report flush (overwrites incremental)
+    _flush("COMPLETE")
 
     end_time = datetime.now()
     duration = end_time - start_time
     print(f"\nPIPELINE COMPLETE!")
-    print(f"Started at: {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Critique and curation started at: {critique_time.strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Writing started at: {write_time.strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Editorial check started at: {editorial_time.strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Fact-check started at: {factcheck_time.strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Revision started at: {revise_time.strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Illustration started at: {illustrate_time.strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Ended at:   {end_time.strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Duration:   {duration}")
-    print(f"Article: {article_file}")
+    print(f"Started at:      {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Curation at:     {critique_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Writing at:      {write_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Editorial at:    {editorial_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Fact-check at:   {factcheck_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Revision at:     {revise_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Illustration at: {illustrate_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Ended at:        {end_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Duration:        {duration}")
+    print(f"Article:         {article_file}")
     print(f"Pipeline report: {pipeline_file}")
     return article_file, pipeline_file
 
