@@ -118,19 +118,33 @@ def run_pipeline():
         print("\n7. ILLUSTRATION...")
         illustration = None
         illustration_path = None
+        illustration_prompt = None
         try:
             illustration = crew.illustrate_crew().kickoff(
                 inputs={"revised_article": revised_article.raw}
             )
-            sections["Illustration"] = illustration.raw
 
-            # Extract illustration path from output
+            # Extract illustration path and prompt from output
             try:
                 ill_data = json.loads(illustration.raw)
-                if isinstance(ill_data, dict) and "image_path" in ill_data:
-                    illustration_path = Path(ill_data["image_path"])
+                if isinstance(ill_data, dict):
+                    if "image_path" in ill_data:
+                        illustration_path = Path(ill_data["image_path"])
+                    if "prompt" in ill_data:
+                        illustration_prompt = ill_data["prompt"]
             except (json.JSONDecodeError, KeyError, ValueError):
                 pass
+
+            # Build a nicely formatted Illustration section for the pipeline report
+            if illustration_prompt:
+                sections["Illustration"] = (
+                    "**Prompt used for image generation:**\n\n"
+                    f"> {illustration_prompt}\n\n"
+                    "**Generated Illustration:**\n\n"
+                    f"{illustration_path.name if illustration_path else '(unknown path)'}"
+                )
+            else:
+                sections["Illustration"] = illustration.raw
 
             print("  OK")
         except Exception as e:

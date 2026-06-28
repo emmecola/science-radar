@@ -40,7 +40,7 @@ def generate_illustration(prompt: str) -> str:
             image_data = base64.b64decode(response.data[0].b64_json)
             with open(image_path, "wb") as f:
                 f.write(image_data)
-            return json.dumps({"image_path": str(image_path)})
+            return json.dumps({"image_path": str(image_path), "prompt": prompt})
         return json.dumps({"error": "Image generation failed — no base64 data returned."})
     except Exception as e:
         return json.dumps({"error": f"Image generation error: {e}"})
