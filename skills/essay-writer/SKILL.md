@@ -58,10 +58,10 @@ The structure and tone guidelines from the writing section still apply — revis
 
 ## Hard Rules
 
-- The revised article must begin directly with the title — no preamble, no bullet-point notes, no search summaries, no meta-commentary of any kind
-- The title must be catchy and short
+- The revised article must begin directly with the headline — no preamble, no bullet-point notes, no search summaries, no meta-commentary of any kind
+- The headline must grab the attention of the reader (max 10 words)
 - Stay within 680–720 words
 - Core claims, findings, and data must come from the curation brief — background context and explanatory material may be supplemented via search
 - Do not editorialize in the implications section — implications must follow from the curation brief, not from your priors
 - Do not separate sections with `---` or any Markdown dividers.
-- Do not use subheadings
+- Never use headings in the text
