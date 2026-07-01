@@ -6,6 +6,7 @@ import httpx
 from crewai.llms.hooks.base import BaseInterceptor
 
 captured_impacts: list[dict] = []
+captured_costs: list[dict] = []
 current_step: str = ""
 
 
@@ -23,12 +24,16 @@ class MeliousEnvImpactInterceptor(BaseInterceptor[httpx.Request, httpx.Response]
             message.read()
             try:
                 data = json.loads(message.content)
-                if "environment_impact" in data:
-                    captured_impacts.append({
+                if "environment_impact" in data or "billing_cost" in data:
+                    entry = {
                         "timestamp": datetime.now().isoformat(),
                         "step": current_step,
-                        "value": data["environment_impact"],
-                    })
+                    }
+                    if "environment_impact" in data:
+                        entry["value"] = data["environment_impact"]
+                        captured_impacts.append(entry)
+                    if "billing_cost" in data:
+                        captured_costs.append({**entry, "value": data["billing_cost"]})
             except Exception:
                 pass
         return message

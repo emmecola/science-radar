@@ -98,3 +98,20 @@ def impact_markdown(impacts: list[dict]) -> str:
         f"{totals['water_liters']:.4f} L water"
     )
     return "\n".join(lines)
+
+
+def billing_markdown(costs: list[dict]) -> str:
+    cols = ["step", "timestamp", "credits"]
+    lines = ["| " + " | ".join(cols) + " |", "|" + "|".join("---" for _ in cols) + "|"]
+    for entry in costs:
+        v = entry["value"]
+        row = [
+            entry.get("step", ""),
+            entry["timestamp"],
+            str(v.get("credits", "")),
+        ]
+        lines.append("| " + " | ".join(row) + " |")
+    total_credits = sum(float(c["value"].get("credits", 0)) for c in costs)
+    lines.append("")
+    lines.append(f"**Total pipeline cost** — €{total_credits:.2f}")
+    return "\n".join(lines)

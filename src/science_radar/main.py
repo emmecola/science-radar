@@ -6,9 +6,9 @@ from pathlib import Path
 
 from science_radar.config import OUTPUT_DIR, TOPIC, TOPIC_NEWSAPI, TOPIC_SEMANTIC
 from science_radar.crew import ScienceRadar
-from science_radar.env_impact import captured_impacts, set_current_step
+from science_radar.env_impact import captured_costs, captured_impacts, set_current_step
 from science_radar.lib import search_news, search_papers
-from science_radar.report import flush_report, impact_markdown, impact_totals, save_article
+from science_radar.report import billing_markdown, flush_report, impact_markdown, impact_totals, save_article
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
@@ -198,16 +198,13 @@ def run_pipeline():
     if captured_impacts:
         sections["Environmental Impact"] = impact_markdown(captured_impacts)
         totals = impact_totals(captured_impacts)
-        print(
-            "Environmental impact: "
-            f"{len(captured_impacts)} LLM call(s) — "
-            f"{totals['energy_kwh']:.4f} kWh, "
-            f"{totals['carbon_g_co2']:.2f} g CO2, "
-            f"{totals['water_liters']:.4f} L water"
-        )
     else:
-        sections["Environmental Impact"] = "(no environment_impact reported by MeliousAI)"
-        print("Environmental impact: none reported")
+        sections["Environmental Impact"] = "(no environment_impact reported by the API)"
+
+    if captured_costs:
+        sections["API Cost"] = billing_markdown(captured_costs)
+    else:
+        sections["API Cost"] = "(no billing_cost reported by the API)"
 
     # Save article with illustration
     save_article(article_file, final_article.raw, illustration_path)
@@ -231,6 +228,23 @@ def run_pipeline():
     print(f"Duration:        {duration}")
     print(f"Article:         {article_file}")
     print(f"Pipeline report: {pipeline_file}")
+
+    if captured_impacts:
+        print(
+            f"Environmental impact: {len(captured_impacts)} LLM call(s) — "
+            f"{totals['energy_kwh']:.4f} kWh, "
+            f"{totals['carbon_g_co2']:.2f} g CO2, "
+            f"{totals['water_liters']:.4f} L water"
+        )
+    else:
+        print("Environmental impact: none reported")
+
+    if captured_costs:
+        total_credits = sum(float(c["value"].get("credits", 0)) for c in captured_costs)
+        print(f"Total pipeline cost: €{total_credits:.2f}")
+    else:
+        print("API cost: none reported")
+
     return article_file, pipeline_file
 
 
