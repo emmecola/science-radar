@@ -9,20 +9,22 @@ Science Radar is a multi-agent pipeline built with [CrewAI](https://crewai.com) 
 
 ## What it does
 
-Each run executes a fixed seven-step pipeline:
+Each run executes a fixed nine-step pipeline:
 
 1. **Scout** — fetches recent news (NewsAPI) and academic papers (Semantic Scholar) for the configured topic.
 2. **Critique & curate** — multiple agents score each source for novelty, scientific rigour, and societal impact. An arbiter selects the single best source and produces a curation brief.
 3. **Write** — a writer agent drafts a ~700-word essay aimed at an intelligent non-specialist reader.
 4. **Editorial critique** — an editorial agent reviews the draft for structure, clarity, engagement, and sourcing quality.
 5. **Fact-check** — a fact-checker verifies every claim against the curation brief and the web.
-6. **Revise** — the writer incorporates all editorial and fact-check feedback into a final draft.
-7. **Illustrate** — an illustrator agent writes an image prompt and generates a cover illustration via MeliousAI.
+6. **Revise** — the writer incorporates all editorial and fact-check feedback into a revised draft.
+7. **Verify** — the editorial critic and fact-checker re-review the revised article to catch any issues introduced during revision.
+8. **Second revision** — the writer produces a final draft incorporating the verify feedback.
+9. **Illustrate** — an illustrator agent writes an image prompt and generates a cover illustration via MeliousAI.
 
 Two files are saved to the `output/` directory:
 
 - `article_<timestamp>.md` — the final illustrated essay, ready to publish.
-- `pipeline_<timestamp>.md` — a full audit trail with scout data, curation results, first draft, critique, fact-check, revised article, and illustration prompt + URL.
+- `pipeline_<timestamp>.md` — a full audit trail with scout data, curation results, first draft, critique, fact-check, revised article, verify results, second revision, illustration prompt + URL, environmental impact, and API cost.
 
 ## Installation
 
