@@ -6,8 +6,9 @@ from pathlib import Path
 
 from science_radar.config import OUTPUT_DIR, TOPIC, TOPIC_NEWSAPI, TOPIC_SEMANTIC
 from science_radar.crew import ScienceRadar
+from science_radar.env_impact import captured_impacts, set_current_step
 from science_radar.lib import search_news, search_papers
-from science_radar.report import flush_report, save_article
+from science_radar.report import flush_report, impact_markdown, impact_totals, save_article
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
@@ -63,6 +64,7 @@ def run_pipeline():
         # Step 2: Critique + Curate
         critique_time = datetime.now()
         print("\n2. SOURCE CRITIQUE + CURATION...")
+        set_current_step("Critique + Curate")
         curation_result = crew.critique_crew().kickoff(inputs={
             "topic": TOPIC,
             "news_results": news_results,
@@ -81,6 +83,7 @@ def run_pipeline():
         # Step 3: Write
         write_time = datetime.now()
         print("\n3. WRITING ARTICLE...")
+        set_current_step("Write")
         article = crew.writing_crew().kickoff(inputs={"curation_brief": curation_result.raw})
         sections["First Draft"] = article.raw
         print("  OK")
@@ -88,6 +91,7 @@ def run_pipeline():
         # Step 4: Editorial critique
         editorial_time = datetime.now()
         print("\n4. EDITORIAL CRITIQUE...")
+        set_current_step("Editorial Critique")
         critique = crew.critique_writing_crew().kickoff(inputs={"article": article.raw})
         sections["Editorial Score"] = critique.raw
         print("  OK")
@@ -95,6 +99,7 @@ def run_pipeline():
         # Step 5: Fact check
         factcheck_time = datetime.now()
         print("\n5. FACT CHECK...")
+        set_current_step("Fact Check")
         fact_check = crew.fact_check_crew().kickoff(inputs={
             "article": article.raw,
             "curation_brief": curation_result.raw,
@@ -105,6 +110,7 @@ def run_pipeline():
         # Step 6: Revise
         revise_time = datetime.now()
         print("\n6. REVISING ARTICLE...")
+        set_current_step("Revise")
         revised_article = crew.revision_crew().kickoff(inputs={
             "article": article.raw,
             "editorial_critique": critique.raw,
@@ -120,6 +126,7 @@ def run_pipeline():
         illustration_path = None
         illustration_prompt = None
         try:
+            set_current_step("Illustrate")
             illustration = crew.illustrate_crew().kickoff(
                 inputs={"revised_article": revised_article.raw}
             )
@@ -161,6 +168,20 @@ def run_pipeline():
     news_count = len(news_data) if isinstance(news_data, list) else 0
     papers_count = len(paper_data) if isinstance(paper_data, list) else 0
     sections["Sources Analyzed"] = f"- News articles: {news_count}\n- Papers: {papers_count}"
+
+    if captured_impacts:
+        sections["Environmental Impact"] = impact_markdown(captured_impacts)
+        totals = impact_totals(captured_impacts)
+        print(
+            "Environmental impact: "
+            f"{len(captured_impacts)} LLM call(s) — "
+            f"{totals['energy_kwh']:.4f} kWh, "
+            f"{totals['carbon_g_co2']:.2f} g CO2, "
+            f"{totals['water_liters']:.4f} L water"
+        )
+    else:
+        sections["Environmental Impact"] = "(no environment_impact reported by MeliousAI)"
+        print("Environmental impact: none reported")
 
     # Save article with illustration
     save_article(article_file, revised_article.raw, illustration_path)

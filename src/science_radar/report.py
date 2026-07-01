@@ -63,3 +63,38 @@ def save_article(
         os.close(fd)
         os.unlink(tmp_path)
         raise
+
+
+def impact_totals(impacts: list[dict]) -> dict[str, float]:
+    return {
+        k: sum(i["value"].get(k, 0) for i in impacts)
+        for k in ("energy_kwh", "carbon_g_co2", "water_liters")
+    }
+
+
+def impact_markdown(impacts: list[dict]) -> str:
+    cols = ["step", "timestamp", "energy_kwh", "carbon_g_co2", "water_liters", "renewable_percent", "pue", "provider_id", "location"]
+    lines = ["| " + " | ".join(cols) + " |", "|" + "|".join("---" for _ in cols) + "|"]
+    for entry in impacts:
+        v = entry["value"]
+        row = [
+            entry.get("step", ""),
+            entry["timestamp"],
+            f"{v.get('energy_kwh', 0):.6f}",
+            f"{v.get('carbon_g_co2', 0):.4f}",
+            f"{v.get('water_liters', 0):.6f}",
+            f"{v.get('renewable_percent', 0)}",
+            f"{v.get('pue', 0)}",
+            str(v.get("provider_id", "")),
+            str(v.get("location", "")),
+        ]
+        lines.append("| " + " | ".join(row) + " |")
+    totals = impact_totals(impacts)
+    lines.append("")
+    lines.append(
+        f"**Totals** — {len(impacts)} calls · "
+        f"{totals['energy_kwh']:.4f} kWh · "
+        f"{totals['carbon_g_co2']:.2f} g CO2 · "
+        f"{totals['water_liters']:.4f} L water"
+    )
+    return "\n".join(lines)
