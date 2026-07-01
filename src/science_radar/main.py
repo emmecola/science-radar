@@ -231,7 +231,7 @@ def run_pipeline():
 
     if captured_impacts:
         print(
-            f"Environmental impact: {len(captured_impacts)} LLM call(s) — "
+            f"Total environmental impact: "
             f"{totals['energy_kwh']:.4f} kWh, "
             f"{totals['carbon_g_co2']:.2f} g CO2, "
             f"{totals['water_liters']:.4f} L water"

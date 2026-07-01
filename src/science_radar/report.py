@@ -92,7 +92,7 @@ def impact_markdown(impacts: list[dict]) -> str:
     totals = impact_totals(impacts)
     lines.append("")
     lines.append(
-        f"**Totals** — {len(impacts)} calls · "
+        f"**Total environmental impact:** "
         f"{totals['energy_kwh']:.4f} kWh · "
         f"{totals['carbon_g_co2']:.2f} g CO2 · "
         f"{totals['water_liters']:.4f} L water"
@@ -113,5 +113,5 @@ def billing_markdown(costs: list[dict]) -> str:
         lines.append("| " + " | ".join(row) + " |")
     total_credits = sum(float(c["value"].get("credits", 0)) for c in costs)
     lines.append("")
-    lines.append(f"**Total pipeline cost** — €{total_credits:.2f}")
+    lines.append(f"**Total pipeline cost:** €{total_credits:.2f}")
     return "\n".join(lines)
