@@ -119,16 +119,42 @@ def run_pipeline():
         sections["Revised Article"] = revised_article.raw
         print("  OK")
 
-        # Step 7: Illustrate (SOFT FAIL)
+        # Step 7: Verify revised article
+        verify_time = datetime.now()
+        print("\n7. VERIFYING REVISED ARTICLE...")
+        set_current_step("Verify (editorial)")
+        revise_critique = crew.critique_writing_crew().kickoff(inputs={"article": revised_article.raw})
+        sections["Revised Article Editorial"] = revise_critique.raw
+        set_current_step("Verify (fact-check)")
+        revise_fact_check = crew.fact_check_crew().kickoff(inputs={
+            "article": revised_article.raw,
+            "curation_brief": curation_result.raw,
+        })
+        sections["Revised Article Fact Check"] = revise_fact_check.raw
+        print("  OK")
+
+        # Step 8: Second revision
+        second_revise_time = datetime.now()
+        print("\n8. SECOND REVISION...")
+        set_current_step("Second Revision")
+        final_article = crew.revision_crew().kickoff(inputs={
+            "article": revised_article.raw,
+            "editorial_critique": revise_critique.raw,
+            "fact_check": revise_fact_check.raw,
+        })
+        sections["Second Revision"] = final_article.raw
+        print("  OK")
+
+        # Step 9: Illustrate (SOFT FAIL)
         illustrate_time = datetime.now()
-        print("\n7. ILLUSTRATION...")
+        print("\n9. ILLUSTRATION...")
         illustration = None
         illustration_path = None
         illustration_prompt = None
         try:
             set_current_step("Illustrate")
             illustration = crew.illustrate_crew().kickoff(
-                inputs={"revised_article": revised_article.raw}
+                inputs={"revised_article": final_article.raw}
             )
 
             # Extract illustration path and prompt from output
@@ -184,7 +210,7 @@ def run_pipeline():
         print("Environmental impact: none reported")
 
     # Save article with illustration
-    save_article(article_file, revised_article.raw, illustration_path)
+    save_article(article_file, final_article.raw, illustration_path)
 
     # Final report flush (overwrites incremental)
     _flush("COMPLETE")
@@ -198,6 +224,8 @@ def run_pipeline():
     print(f"Editorial at:    {editorial_time.strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"Fact-check at:   {factcheck_time.strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"Revision at:     {revise_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Verify at:       {verify_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"2nd revision at: {second_revise_time.strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"Illustration at: {illustrate_time.strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"Ended at:        {end_time.strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"Duration:        {duration}")
