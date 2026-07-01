@@ -89,7 +89,8 @@ task_write:
     Core claims must come from the curation brief. You may use web search only to clarify
     missing details or verify background context — not to add new findings.
     Output ONLY the article in markdown — no preamble, no meta-commentary, just the
-    article starting with the title.
+    article starting with the title. The headline (H1, max 10 words) must be catchy
+    and journalistic — spark curiosity, do not describe the topic.
 
     CURATION BRIEF:
     {curation_brief}
@@ -135,11 +136,15 @@ task_revise:
     Revise the article to address all issues raised by the editorial critic and fact
     checker. Fix every flagged or unverified claim, correct any wrong figures or
     attributions, and incorporate editorial feedback on clarity and sourcing.
+    Verify that the article contains NO headings in the body text — the only
+    markdown heading allowed is the H1 title at the top; remove any ##, ###, or
+    other section headings and convert them to plain flowing prose.
     Preserve the core structure and voice of the article — only change what is
     flagged or necessary to fix flagged issues. Output ONLY the final revised
     article in markdown. Do not include any preamble, reasoning, corrections
     summary, or meta-commentary — just the clean article text starting directly
-    with the title.
+    with the title. The headline (H1, max 10 words) must be catchy and
+    journalistic — spark curiosity, do not describe the topic.
 
     ARTICLE:
     {article}
