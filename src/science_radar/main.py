@@ -241,7 +241,7 @@ def run_pipeline():
 
     if captured_costs:
         total_credits = sum(float(c["value"].get("credits", 0)) for c in captured_costs)
-        print(f"Total pipeline cost: €{total_credits:.2f}")
+        print(f"Total API cost: €{total_credits:.2f}")
     else:
         print("API cost: none reported")
 

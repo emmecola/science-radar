@@ -113,5 +113,5 @@ def billing_markdown(costs: list[dict]) -> str:
         lines.append("| " + " | ".join(row) + " |")
     total_credits = sum(float(c["value"].get("credits", 0)) for c in costs)
     lines.append("")
-    lines.append(f"**Total pipeline cost:** €{total_credits:.2f}")
+    lines.append(f"**Total API cost:** €{total_credits:.2f}")
     return "\n".join(lines)
