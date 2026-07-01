@@ -1,4 +1,5 @@
 task_source_critique:
+  name: "Source Critique"
   description: >
     Review the news articles and papers provided below. For each item, determine
     whether it is directly about the following topic:
@@ -21,6 +22,7 @@ task_source_critique:
   expected_output: JSON array of approved sources with title, url, and approval reason.
 
 task_curate_novelty:
+  name: "Novelty Curation"
   description: >
     From the approved sources, select the 2-3 most novel and surprising items.
     Justify each pick.
@@ -32,6 +34,7 @@ task_curate_novelty:
     justification focused on why this item is novel or surprising.
 
 task_curate_science:
+  name: "Science Curation"
   description: >
     From the approved sources, select the 2-3 items with the strongest scientific
     merit and evidence quality. Justify each pick.
@@ -43,6 +46,7 @@ task_curate_science:
     justification focused on methodological rigour or evidence quality.
 
 task_curate_impact:
+  name: "Impact Curation"
   description: >
     From the approved sources, select the 2-3 items with the greatest potential
     societal, policy, or domain-specific impact. Justify each pick.
@@ -54,6 +58,7 @@ task_curate_impact:
     justification focused on real-world consequences or policy relevance.
 
 task_arbitrate:
+  name: "Curation Arbiter (Final)"
   description: >
     You have received three shortlists from curators focused on novelty, scientific
     relevance, and societal impact. Before deciding, use web_search when a summary 
@@ -76,6 +81,7 @@ task_arbitrate:
     facts, editorial angle, and caveats.
 
 task_write:
+  name: "Write"
   description: >
     Write a 680–720 word article with inline links based on the following curation brief.
     Follow this structure exactly: (1) Hook ~50w, (2) Context ~100w, (3) Core finding ~250w,
@@ -83,7 +89,8 @@ task_write:
     Core claims must come from the curation brief. You may use web search only to clarify
     missing details or verify background context — not to add new findings.
     Output ONLY the article in markdown — no preamble, no meta-commentary, just the
-    article starting with the title.
+    article starting with the title. The headline (H1, max 10 words) must be catchy
+    and journalistic — spark curiosity, do not describe the topic.
 
     CURATION BRIEF:
     {curation_brief}
@@ -93,6 +100,7 @@ task_write:
     meta-commentary.
 
 task_editorial_critique:
+  name: "Editorial Critique"
   description: >
     Score the following article on structure, clarity, engagement, and sources
     (1–10 each). Do not evaluate factual accuracy — that is handled separately
@@ -108,6 +116,7 @@ task_editorial_critique:
     notes referencing specific paragraphs or sentences.
 
 task_fact_check:
+  name: "Fact Check"
   description: >
     Verify all claims in the following article against the original source material
     and external evidence. Use web_search only when uncertainty is high or the stakes
@@ -122,15 +131,20 @@ task_fact_check:
   expected_output: JSON of verified/flagged claims.
 
 task_revise:
+  name: "Revise"
   description: >
     Revise the article to address all issues raised by the editorial critic and fact
     checker. Fix every flagged or unverified claim, correct any wrong figures or
     attributions, and incorporate editorial feedback on clarity and sourcing.
+    Verify that the article contains NO headings in the body text — the only
+    markdown heading allowed is the H1 title at the top; remove any ##, ###, or
+    other section headings and convert them to plain flowing prose.
     Preserve the core structure and voice of the article — only change what is
     flagged or necessary to fix flagged issues. Output ONLY the final revised
     article in markdown. Do not include any preamble, reasoning, corrections
     summary, or meta-commentary — just the clean article text starting directly
-    with the title.
+    with the title. The headline (H1, max 10 words) must be catchy and
+    journalistic — spark curiosity, do not describe the topic.
 
     ARTICLE:
     {article}
@@ -146,6 +160,7 @@ task_revise:
     meta-commentary — just the article text starting with the title.
 
 task_illustrate:
+  name: "Illustrate"
   description: >
     Write an image generation prompt for the following article, then generate
     the illustration and return the image URL.
@@ -165,4 +180,7 @@ task_illustrate:
     ARTICLE:
     {revised_article}
   agent: illustrator
-  expected_output: The prompt used for image generation, followed by the image URL.
+  expected_output: >
+    Return ONLY the JSON object returned by the generate_illustration tool,
+    with no extra commentary. The JSON contains an "image_path" key with the
+    local file path to the saved PNG image.

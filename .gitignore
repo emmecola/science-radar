@@ -6,4 +6,4 @@ __pycache__/
 dist/
 .DS_Store
 output/*
-!output/*_example.md
+!output/*_example*

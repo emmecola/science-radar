@@ -11,9 +11,12 @@ from crewai import Agent, Crew, LLM, Task
 from crewai.project import CrewBase, agent, task
 from crewai.agents.agent_builder.base_agent import BaseAgent
 
+from science_radar.env_impact import MeliousEnvImpactInterceptor
 from science_radar.tools import web_search, generate_illustration
 
 load_dotenv()
+
+_env_impact_interceptor = MeliousEnvImpactInterceptor()
 
 _skills_dir = Path(__file__).resolve().parent.parent.parent / "skills"
 
@@ -24,9 +27,9 @@ _required_vars = {
     "CURATOR_MODEL": os.getenv("CURATOR_MODEL"),
     "WRITER_MODEL": os.getenv("WRITER_MODEL"),
     "ILLUSTRATION_MODEL": os.getenv("ILLUSTRATION_MODEL"),
-    "FAL_MODEL": os.getenv("FAL_MODEL"),
-    "ANTHROPIC_API_KEY": os.getenv("ANTHROPIC_API_KEY"),
-    "FAL_KEY": os.getenv("FAL_KEY"),
+    "MELIOUS_IMAGE_MODEL": os.getenv("MELIOUS_IMAGE_MODEL"),
+    "MELIOUS_API_KEY": os.getenv("MELIOUS_API_KEY"),
+    "MELIOUS_BASE_URL": os.getenv("MELIOUS_BASE_URL"),
     "NEWSAPI_KEY": os.getenv("NEWSAPI_KEY"),
     "BRAVE_API_KEY": os.getenv("BRAVE_API_KEY"),
 }
@@ -37,11 +40,14 @@ if _missing_vars:
     print("Please set these in your .env file (see .env.example)", file=sys.stderr)
     sys.exit(1)
 
-_scout_llm   = LLM(model=_required_vars["SCOUT_MODEL"],   max_retries=5)
-_critic_llm  = LLM(model=_required_vars["CRITIC_MODEL"],  max_retries=5, max_tokens=8192)
-_curator_llm = LLM(model=_required_vars["CURATOR_MODEL"], max_retries=5)
-_writer_llm  = LLM(model=_required_vars["WRITER_MODEL"],  max_retries=5)
-_illustration_llm = LLM(model=_required_vars["ILLUSTRATION_MODEL"], max_retries=5)
+_melious_base_url = _required_vars["MELIOUS_BASE_URL"]
+_melious_api_key = _required_vars["MELIOUS_API_KEY"]
+
+_scout_llm   = LLM(model=_required_vars["SCOUT_MODEL"],   base_url=_melious_base_url, api_key=_melious_api_key, max_retries=5, interceptor=_env_impact_interceptor)
+_critic_llm  = LLM(model=_required_vars["CRITIC_MODEL"],  base_url=_melious_base_url, api_key=_melious_api_key, max_retries=5, max_tokens=8192, interceptor=_env_impact_interceptor)
+_curator_llm = LLM(model=_required_vars["CURATOR_MODEL"], base_url=_melious_base_url, api_key=_melious_api_key, max_retries=5, interceptor=_env_impact_interceptor)
+_writer_llm  = LLM(model=_required_vars["WRITER_MODEL"],  base_url=_melious_base_url, api_key=_melious_api_key, max_retries=5, interceptor=_env_impact_interceptor)
+_illustration_llm = LLM(model=_required_vars["ILLUSTRATION_MODEL"], base_url=_melious_base_url, api_key=_melious_api_key, max_retries=5, interceptor=_env_impact_interceptor)
 
 
 @CrewBase

@@ -1,3 +1,8 @@
+from pathlib import Path
+
+# Central output directory for all pipeline artifacts
+OUTPUT_DIR = Path(__file__).resolve().parent.parent.parent / "output"
+
 # Topic configuration - change TOPIC to switch topics
 TOPIC = "GMO and genome editing in agriculture or food sector"
 
@@ -8,4 +13,5 @@ TOPIC_SEMANTIC = '(GMO | biotech | NGT | "genome edited" | "genome-edited" | CRI
 # Search limits
 NEWS_LIMIT = 100
 PAPERS_LIMIT = 50
-DAYS_LIMIT = 7
+NEWS_DAYS_LIMIT = 7
+PAPERS_DAYS_LIMIT = 7

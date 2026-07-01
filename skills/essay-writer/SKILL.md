@@ -58,8 +58,12 @@ The structure and tone guidelines from the writing section still apply — revis
 
 ## Hard Rules
 
-- The revised article must begin directly with the title — no preamble, no bullet-point notes, no search summaries, no meta-commentary of any kind
+- The revised article must begin directly with the headline — no preamble, no bullet-point notes, no search summaries, no meta-commentary of any kind
+- The headline must be punchy and journalistic — spark curiosity, do not just describe the topic. Maximum 10 words. No academic-style titles.
+  - Bad: "Engineering Closed Flowers: How Prime Editing Could Lock Engineered Genes Inside Rice" (13 words, descriptive)
+  - Good: "The Rice That Won't Open" or "Locked Flowers, Engineered Genes" (short, curiosity-driven)
 - Stay within 680–720 words
 - Core claims, findings, and data must come from the curation brief — background context and explanatory material may be supplemented via search
 - Do not editorialize in the implications section — implications must follow from the curation brief, not from your priors
 - Do not separate sections with `---` or any Markdown dividers.
+- Never use headings in the text
