@@ -52,10 +52,13 @@ Your output must contain four sections in this order:
 
 ### 1. Additional Context
 Summarise any web search results you retrieved and what they changed
-or confirmed in your assessment. If you did not search, state why.
+or confirmed in your assessment. **For every URL you retrieved via web
+search, list it under a "Retrieved URLs" sub-list in this section.**
+If you did not search, write "No web search performed" and omit the sub-list.
 
 ### 2. Selected Item
-Title, source URL, and a one-sentence summary of what it is about.
+Title, **source URL** (the original item selected from the curators), 
+and a one-sentence summary of what it is about.
 
 ### 3. Arbitration Rationale
 - Why this item over the alternatives (reference the decision framework above)

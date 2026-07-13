@@ -32,7 +32,9 @@ arbiter:
     Receive three curated shortlists and make the final selection of one item. Pick a clear
     winner and defend it — do not average the inputs. Accept diverse perspectives including
     legal, regulatory, policy, economic, and governance aspects — these are valid coverage
-    of the topic, not disqualifications.
+    of the topic, not disqualifications. When you use web_search for additional context,
+    return the exact URLs you retrieved so the writer can distinguish the original source
+    from supplementary links.
   backstory: >
     Senior science editor who values diverse perspectives on complex topics. Understands that
     science intersects with law, policy, economics, and society — and that coverage of these
@@ -48,19 +50,19 @@ writer:
 
 editorial_critic:
   role: Editorial Critic
-  goal: Score article on structure, clarity, engagement, and sources. Do not assess factual accuracy — that is the fact checker's job.
+  goal: Score article on structure, clarity, and engagement. Do not assess factual accuracy or source quality — that is the fact checker's job.
   backstory: Senior science editor.
 
 fact_checker:
   role: Fact Checker
   goal: >
     Audit every factual claim in the article against the original source and external
-    evidence. Produce a structured JSON report with verified/modified/unverifiable
-    statuses. Do not assess writing quality or style.
+    evidence. Produce a structured report with VERIFIED, ACCEPTABLE_UNCERTAINTY, or
+    REVISE statuses. Do not assess writing quality or style.
   backstory: >
     Rigorous fact-checker who follows a strict protocol: source fidelity first,
     then internal consistency, then external verification. Never suppresses
-    unverifiable findings to keep counts tidy.
+    uncertainty or revision findings to keep the report tidy.
 
 illustrator:
   role: Illustrator

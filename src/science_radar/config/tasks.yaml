@@ -61,24 +61,29 @@ task_arbitrate:
   name: "Curation Arbiter (Final)"
   description: >
     You have received three shortlists from curators focused on novelty, scientific
-    relevance, and societal impact. Before deciding, use web_search when a summary 
-    is too thin to assess writability, or a curator claim needs verification. 
+    relevance, and societal impact. Before deciding, use web_search when a summary
+    is too thin to assess writability, or a curator claim needs verification.
     Then make the final selection of 1 item to feature.
-    Your output must include: (1) the additional context you retrieved, (2) your
-    final selection with title, source URL, and one-sentence summary, (3) a clear
-    defence of your choice — do not just average the inputs, and (4) a writing brief
-    for the writer including: the hook (most surprising aspect), key facts/numbers/mechanisms
-    to include, the editorial angle, and any caveats or limitations to acknowledge.
+    Your output must include: (1) the additional context you retrieved, with the
+    exact URLs you pulled via web search listed under "Retrieved URLs", (2)
+    your final selection with title, source URL, and one-sentence summary, (3) a
+    clear defence of your choice — do not just average the inputs, and (4) a
+    writing brief for the writer including: the hook (most surprising aspect),
+    key facts/numbers/mechanisms to include, the editorial angle, and any caveats
+    or limitations to acknowledge.
+    The "Source URL" in section 2 must be the original item from the curators —
+    not a Retrieved URL from section 1.
   agent: arbiter
   context:
     - task_curate_novelty
     - task_curate_science
     - task_curate_impact
   expected_output: >
-    Four sections: (1) Additional context retrieved from web search, (2) Selected
-    item with title, URL, and one-sentence summary, (3) Arbitration rationale
-    explaining why this item over alternatives, (4) Writing brief with hook, key
-    facts, editorial angle, and caveats.
+    Four sections: (1) Additional context retrieved from web search, with a
+    "Retrieved URLs" sub-list of every URL consulted, (2) Selected item with
+    title, URL (original source, not a Retrieved URL), and one-sentence summary,
+    (3) Arbitration rationale explaining why this item over alternatives, (4)
+    Writing brief with hook, key facts, editorial angle, and caveats.
 
 task_write:
   name: "Write"
@@ -88,6 +93,12 @@ task_write:
     (4) Implications ~200w, (5) Limits and caveats ~100w.
     Core claims must come from the curation brief. You may use web search only to clarify
     missing details or verify background context — not to add new findings.
+    The source URL you must use in the article is the one specified in the curation
+    brief under "Selected Item." You may web-search to verify that URL is accessible,
+    but you may NOT substitute a different URL — even if your search returns what
+    appears to be a related or improved source. If the URL in the brief is broken or
+    you cannot access it, surface this in the Limits and caveats section; do not
+    replace it. Source substitution is unfixable downstream.
     Output ONLY the article in markdown — no preamble, no meta-commentary, just the
     article starting with the title. The headline (H1, max 10 words) must be catchy
     and journalistic — spark curiosity, do not describe the topic.
@@ -102,25 +113,33 @@ task_write:
 task_editorial_critique:
   name: "Editorial Critique"
   description: >
-    Score the following article on structure, clarity, engagement, and sources
-    (1–10 each). Do not evaluate factual accuracy — that is handled separately
-    by the fact checker. Return a JSON verdict followed by specific, actionable
-    revision notes.
+    Score the following article on structure, clarity, and engagement (1–10 each).
+    Do not evaluate factual accuracy or source quality — that is handled separately
+    by the fact checker. Return one JSON object containing the three scores
+    and specific, actionable revision notes. Include revision notes for every
+    dimension scored below 7. Do not calculate an overall score or verdict.
 
     ARTICLE:
     {article}
   agent: editorial_critic
   expected_output: >
-    JSON object with scores for structure, clarity, engagement, sources, overall
-    average, and a verdict of APPROVE or REVISE. Followed by prioritised revision
-    notes referencing specific paragraphs or sentences.
+    One JSON object with integer structure, clarity, and engagement scores,
+    plus a revision_notes array. Each note contains location, issue, and
+    required_fix. No text outside the structured object.
 
 task_fact_check:
   name: "Fact Check"
   description: >
     Verify all claims in the following article against the original source material
     and external evidence. Use web_search only when uncertainty is high or the stakes
-    of an error are significant.
+    of an error are significant. Classify every claim as VERIFIED,
+    ACCEPTABLE_UNCERTAINTY, or REVISE. ACCEPTABLE_UNCERTAINTY means the claim cannot
+    be fully confirmed but the article already qualifies the uncertainty accurately
+    and responsibly. Use REVISE whenever the article must change. Include a
+    required_fix for every REVISE claim. For article-wide factual framing problems,
+    surface each one as an individual claim entry with status REVISE.
+    The claims array must contain at least one entry; do not return an empty audit.
+    Do not return a verdict or summary counts.
 
     ARTICLE:
     {article}
@@ -128,26 +147,48 @@ task_fact_check:
     CURATION BRIEF (original source material):
     {curation_brief}
   agent: fact_checker
-  expected_output: JSON of verified/flagged claims.
+  expected_output: >
+     One JSON object with a claims array. Each claim contains
+     claim, status, note, and optional required_fix. The claims array is non-empty.
+     No text outside the structured object.
 
 task_revise:
   name: "Revise"
   description: >
     Revise the article to address all issues raised by the editorial critic and fact
-    checker. Fix every flagged or unverified claim, correct any wrong figures or
+    checker. Apply every required factual fix, correct any wrong figures or
     attributions, and incorporate editorial feedback on clarity and sourcing.
     Verify that the article contains NO headings in the body text — the only
     markdown heading allowed is the H1 title at the top; remove any ##, ###, or
     other section headings and convert them to plain flowing prose.
     Preserve the core structure and voice of the article — only change what is
-    flagged or necessary to fix flagged issues. Output ONLY the final revised
+    required by the reviews or necessary to resolve those issues. Treat only fact-check claims with
+    status REVISE as mandatory factual changes; preserve
+    responsibly qualified ACCEPTABLE_UNCERTAINTY claims. Do not introduce new
+    factual claims while revising. If either review is marked as already approved,
+    do not make changes for that review. Output ONLY the final revised
     article in markdown. Do not include any preamble, reasoning, corrections
     summary, or meta-commentary — just the clean article text starting directly
     with the title. The headline (H1, max 10 words) must be catchy and
     journalistic — spark curiosity, do not describe the topic.
 
+    CRITICAL: The curation brief below is the authoritative source material. If a
+    reviewer asks for details not present in the curation brief, you must qualify
+    the claim as uncertain or remove it entirely — you must never invent specifics
+    that cannot be traced to this brief. When in doubt, search for background
+    clarification only, never to add unsupported findings.
+
+    The source URL must remain the one specified in the curation brief under
+    "Selected Item." A reviewer may suggest a "better" or related source — ignore
+    such suggestions and preserve the brief's URL. If you must replace the URL
+    because the original is broken or paywalled, surface this explicitly in the
+    Limits and caveats section rather than substituting silently.
+
     ARTICLE:
     {article}
+
+    CURATION BRIEF (authoritative source material):
+    {curation_brief}
 
     EDITORIAL CRITIQUE:
     {editorial_critique}

@@ -15,3 +15,6 @@ NEWS_LIMIT = 100
 PAPERS_LIMIT = 50
 NEWS_DAYS_LIMIT = 7
 PAPERS_DAYS_LIMIT = 7
+
+# Maximum number of writer revisions after the initial draft
+MAX_REVISION_LOOPS = 5
