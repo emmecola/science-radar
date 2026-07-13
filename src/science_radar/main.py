@@ -4,11 +4,18 @@ import warnings
 from datetime import datetime
 from pathlib import Path
 
-from science_radar.config import OUTPUT_DIR, TOPIC, TOPIC_NEWSAPI, TOPIC_SEMANTIC
+from science_radar.config import MAX_REVISION_LOOPS, OUTPUT_DIR, TOPIC, TOPIC_NEWSAPI, TOPIC_SEMANTIC
 from science_radar.crew import ScienceRadar
 from science_radar.env_impact import captured_costs, captured_impacts, set_current_step
 from science_radar.lib import search_news, search_papers
 from science_radar.report import billing_markdown, flush_report, impact_markdown, impact_totals, save_article
+from science_radar.reviews import (
+    EditorialReview,
+    FactCheckReport,
+    editorial_approved,
+    fact_check_approved,
+    parse_review,
+)
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
@@ -30,8 +37,6 @@ def run_pipeline():
     output_dir = OUTPUT_DIR
     output_dir.mkdir(exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-
-    article_file = output_dir / f"article_{timestamp}.md"
     pipeline_file = output_dir / f"pipeline_{timestamp}.md"
 
     # Incremental audit-trail accumulator
@@ -88,73 +93,89 @@ def run_pipeline():
         sections["First Draft"] = article.raw
         print("  OK")
 
-        # Step 4: Editorial critique
-        editorial_time = datetime.now()
-        print("\n4. EDITORIAL CRITIQUE...")
-        set_current_step("Editorial Critique")
-        critique = crew.critique_writing_crew().kickoff(inputs={"article": article.raw})
-        sections["Editorial Score"] = critique.raw
-        print("  OK")
+        # Step 4: Review and revise until both reviewers approve or the cap is reached
+        review_time = datetime.now()
+        current_article = article.raw
+        revision_count = 0
+        editorial_ok = False
+        facts_ok = False
+        stop_reason = "MAX_REVISIONS_REACHED"
 
-        # Step 5: Fact check
-        factcheck_time = datetime.now()
-        print("\n5. FACT CHECK...")
-        set_current_step("Fact Check")
-        fact_check = crew.fact_check_crew().kickoff(inputs={
-            "article": article.raw,
-            "curation_brief": curation_result.raw,
-        })
-        sections["Fact Check Status"] = fact_check.raw
-        print("  OK")
+        for review_cycle in range(MAX_REVISION_LOOPS + 1):
+            print(f"\n4. REVIEW CYCLE {review_cycle}...")
 
-        # Step 6: Revise
-        revise_time = datetime.now()
-        print("\n6. REVISING ARTICLE...")
-        set_current_step("Revise")
-        revised_article = crew.revision_crew().kickoff(inputs={
-            "article": article.raw,
-            "editorial_critique": critique.raw,
-            "fact_check": fact_check.raw,
-        })
-        sections["Revised Article"] = revised_article.raw
-        print("  OK")
+            set_current_step(f"Review {review_cycle} (editorial)")
+            critique = crew.critique_writing_crew().kickoff(inputs={"article": current_article})
+            editorial_review = parse_review(critique.raw, EditorialReview)
+            editorial_ok = editorial_approved(editorial_review)
+            sections[f"Review {review_cycle} - Editorial"] = editorial_review.model_dump_json(indent=2)
 
-        # Step 7: Verify revised article
-        verify_time = datetime.now()
-        print("\n7. VERIFYING REVISED ARTICLE...")
-        set_current_step("Verify (editorial)")
-        revise_critique = crew.critique_writing_crew().kickoff(inputs={"article": revised_article.raw})
-        sections["Revised Article Editorial"] = revise_critique.raw
-        set_current_step("Verify (fact-check)")
-        revise_fact_check = crew.fact_check_crew().kickoff(inputs={
-            "article": revised_article.raw,
-            "curation_brief": curation_result.raw,
-        })
-        sections["Revised Article Fact Check"] = revise_fact_check.raw
-        print("  OK")
+            set_current_step(f"Review {review_cycle} (fact-check)")
+            fact_check = crew.fact_check_crew().kickoff(inputs={
+                "article": current_article,
+                "curation_brief": curation_result.raw,
+            })
+            fact_report = parse_review(fact_check.raw, FactCheckReport)
+            facts_ok = fact_check_approved(fact_report)
+            sections[f"Review {review_cycle} - Fact Check"] = fact_report.model_dump_json(indent=2)
 
-        # Step 8: Second revision
-        second_revise_time = datetime.now()
-        print("\n8. SECOND REVISION...")
-        set_current_step("Second Revision")
-        final_article = crew.revision_crew().kickoff(inputs={
-            "article": revised_article.raw,
-            "editorial_critique": revise_critique.raw,
-            "fact_check": revise_fact_check.raw,
-        })
-        sections["Second Revision"] = final_article.raw
-        print("  OK")
+            print(
+                f"  Editorial: {'APPROVED' if editorial_ok else 'REVISE'}; "
+                f"Fact check: {'APPROVED' if facts_ok else 'REVISE'}"
+            )
 
-        # Step 9: Illustrate (SOFT FAIL)
+            if editorial_ok and facts_ok:
+                stop_reason = "APPROVED"
+                break
+
+            if revision_count >= MAX_REVISION_LOOPS:
+                break
+
+            revision_count += 1
+            print(f"\n  REVISION {revision_count}...")
+            set_current_step(f"Revision {revision_count}")
+            revision = crew.revision_crew().kickoff(inputs={
+                "article": current_article,
+                "curation_brief": curation_result.raw,
+                "editorial_critique": (
+                    "APPROVED: no editorial changes required."
+                    if editorial_ok
+                    else editorial_review.model_dump_json()
+                ),
+                "fact_check": (
+                    "APPROVED: no factual changes required."
+                    if facts_ok
+                    else fact_report.model_dump_json()
+                ),
+            })
+            current_article = revision.raw
+            sections[f"Revision {revision_count}"] = current_article
+            print("  OK")
+
+        converged = editorial_ok and facts_ok
+        if converged:
+            article_file = output_dir / f"article_{timestamp}.md"
+            status = "COMPLETE"
+        else:
+            article_file = output_dir / f"draft_{timestamp}.md"
+            status = "REVIEW_REQUIRED"
+
+        sections["Revision Outcome"] = (
+            f"- Revisions performed: {revision_count}\n"
+            f"- Stop reason: {stop_reason}\n"
+            f"- Output: {article_file.name}"
+        )
+
+        # Step 5: Illustrate (SOFT FAIL)
         illustrate_time = datetime.now()
-        print("\n9. ILLUSTRATION...")
+        print("\n5. ILLUSTRATION...")
         illustration = None
         illustration_path = None
         illustration_prompt = None
         try:
             set_current_step("Illustrate")
             illustration = crew.illustrate_crew().kickoff(
-                inputs={"revised_article": final_article.raw}
+                inputs={"revised_article": current_article}
             )
 
             # Extract illustration path and prompt from output
@@ -207,10 +228,10 @@ def run_pipeline():
         sections["API Cost"] = "(no billing_cost reported by the API)"
 
     # Save article with illustration
-    save_article(article_file, final_article.raw, illustration_path)
+    save_article(article_file, current_article, illustration_path)
 
     # Final report flush (overwrites incremental)
-    _flush("COMPLETE")
+    _flush(status)
 
     end_time = datetime.now()
     duration = end_time - start_time
@@ -218,11 +239,9 @@ def run_pipeline():
     print(f"Started at:      {start_time.strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"Curation at:     {critique_time.strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"Writing at:      {write_time.strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Editorial at:    {editorial_time.strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Fact-check at:   {factcheck_time.strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Revision at:     {revise_time.strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"Verify at:       {verify_time.strftime('%Y-%m-%d %H:%M:%S')}")
-    print(f"2nd revision at: {second_revise_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Review at:       {review_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Revisions:       {revision_count} ({stop_reason})")
+    print(f"Status:          {status}")
     print(f"Illustration at: {illustrate_time.strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"Ended at:        {end_time.strftime('%Y-%m-%d %H:%M:%S')}")
     print(f"Duration:        {duration}")

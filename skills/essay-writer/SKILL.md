@@ -40,7 +40,7 @@ Follow this structure exactly. Do not add sections or reorder them.
 Use available web search tools when:
 - The curation brief is an abstract or summary and a key detail (number, mechanism, date) is missing or unclear — search to clarify, not to replace
 - You need to confirm background context for the Context section (e.g. explaining a concept, institution, or prior event) — search to understand, then explain in your own words
-- You want to verify that a source URL is accessible and correctly attributed
+- You want to verify that the source URL specified in the curation brief is accessible. Never substitute it.
 
 Do not search to add new findings, statistics, or claims that are not supported by the curation brief. Search is for clarification and context, not enrichment.
 
@@ -48,11 +48,25 @@ Do not search to add new findings, statistics, or claims that are not supported 
 
 When revising an article based on editorial critique and fact-check feedback:
 
-1. **Fact-check fixes first**: Correct every flagged or unverified claim before anything else. These are non-negotiable — a factually wrong article cannot be approved.
+1. **Fact-check fixes first**: Apply every `REVISE` fix and resolve every structural
+   factual issue before anything else. Preserve `ACCEPTABLE_UNCERTAINTY` claims as
+   qualified unless another review explicitly requires a change.
 2. **Editorial fixes next**: Address clarity, structure, and sourcing issues from the editorial critique. Work through them in priority order.
-3. **Preserve voice and structure**: Only change what is flagged or necessary to fix flagged issues. Do not rewrite sections that weren't criticised. The goal is surgical revision, not a fresh draft.
+3. **Preserve voice and structure**: Only change what the reviews require or what is
+   necessary to resolve those issues. Do not rewrite sections that were not criticised.
+   The goal is surgical revision, not a fresh draft.
 4. **Resolve conflicts**: If the editorial critique and fact-check disagree (e.g. editor wants more detail but fact-check flags the claim), prioritise factual accuracy over editorial preference.
-5. **Output only the article**: Do not include explanations, corrections summaries, or meta-commentary. The output is the clean revised article text. If you used web search to verify claims, do not include the search results, verification notes, or any confirmation of what you found — those are internal steps, not part of the output.
+5. **Curation brief is authoritative**: The curation brief provided with the revision is
+   the definitive source pack. If a reviewer demands details not present in the brief,
+   you must qualify the claim as uncertain or remove it entirely — never invent specifics
+   (experimental conditions, molecular mechanisms, numerical results) that cannot be
+   traced to the brief. This rule overrides any editorial preference for greater detail.
+   This includes the source URL: when revising, you must preserve the URL from the
+   curation brief, even if a reviewer suggests a "better" or related source. Source
+   substitution is the most serious error possible — an article about the wrong paper
+   is unfixable downstream because the fact-checker cannot detect that the article
+   and brief are about different papers.
+6. **Output only the article**: Do not include explanations, corrections summaries, or meta-commentary. The output is the clean revised article text. If you used web search to verify claims, do not include the search results, verification notes, or any confirmation of what you found — those are internal steps, not part of the output.
 
 The structure and tone guidelines from the writing section still apply — revision should not change the five-section structure or the voice unless specifically flagged.
 
@@ -67,3 +81,5 @@ The structure and tone guidelines from the writing section still apply — revis
 - Do not editorialize in the implications section — implications must follow from the curation brief, not from your priors
 - Do not separate sections with `---` or any Markdown dividers.
 - Never use headings in the text
+- Never invent factual details not in the curation brief — if a reviewer demands specifics you cannot source, qualify as uncertain or remove the claim
+- The article must reference the exact source URL specified in the curation brief under "Selected Item." Do not substitute a different URL — even if your search returns what appears to be a related or improved source.

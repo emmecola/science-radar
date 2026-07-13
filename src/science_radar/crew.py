@@ -12,6 +12,7 @@ from crewai.project import CrewBase, agent, task
 from crewai.agents.agent_builder.base_agent import BaseAgent
 
 from science_radar.env_impact import MeliousEnvImpactInterceptor
+from science_radar.reviews import editorial_review_guardrail, fact_check_guardrail
 from science_radar.tools import web_search, generate_illustration
 
 load_dotenv()
@@ -45,6 +46,7 @@ _melious_api_key = _required_vars["MELIOUS_API_KEY"]
 
 _scout_llm   = LLM(model=_required_vars["SCOUT_MODEL"],   base_url=_melious_base_url, api_key=_melious_api_key, max_retries=5, interceptor=_env_impact_interceptor)
 _critic_llm  = LLM(model=_required_vars["CRITIC_MODEL"],  base_url=_melious_base_url, api_key=_melious_api_key, max_retries=5, max_tokens=8192, interceptor=_env_impact_interceptor)
+_review_llm = LLM(model=_required_vars["CRITIC_MODEL"], base_url=_melious_base_url, api_key=_melious_api_key, max_retries=5, max_tokens=8192, response_format={"type": "json_object"}, interceptor=_env_impact_interceptor)
 _curator_llm = LLM(model=_required_vars["CURATOR_MODEL"], base_url=_melious_base_url, api_key=_melious_api_key, max_retries=5, interceptor=_env_impact_interceptor)
 _writer_llm  = LLM(model=_required_vars["WRITER_MODEL"],  base_url=_melious_base_url, api_key=_melious_api_key, max_retries=5, interceptor=_env_impact_interceptor)
 _illustration_llm = LLM(model=_required_vars["ILLUSTRATION_MODEL"], base_url=_melious_base_url, api_key=_melious_api_key, max_retries=5, interceptor=_env_impact_interceptor)
@@ -85,11 +87,11 @@ class ScienceRadar():
 
     @agent
     def editorial_critic(self) -> Agent:
-        return Agent(config=self.agents_config['editorial_critic'], llm=_critic_llm, skills=[str(_skills_dir / "editorial-revision")], tools=[web_search], verbose=True)  # type: ignore[index]
+        return Agent(config=self.agents_config['editorial_critic'], llm=_review_llm, skills=[str(_skills_dir / "editorial-revision")], tools=[web_search], verbose=True)  # type: ignore[index]
 
     @agent
     def fact_checker(self) -> Agent:
-        return Agent(config=self.agents_config['fact_checker'], llm=_critic_llm, skills=[str(_skills_dir / "fact-checker")], tools=[web_search], verbose=True)  # type: ignore[index]
+        return Agent(config=self.agents_config['fact_checker'], llm=_review_llm, skills=[str(_skills_dir / "fact-checker")], tools=[web_search], verbose=True)  # type: ignore[index]
 
     @agent
     def illustrator(self) -> Agent:
@@ -123,11 +125,19 @@ class ScienceRadar():
 
     @task
     def task_editorial_critique(self) -> Task:
-        return Task(config=self.tasks_config['task_editorial_critique'])  # type: ignore[index]
+        return Task(
+            config=self.tasks_config['task_editorial_critique'],  # type: ignore[index]
+            guardrail=editorial_review_guardrail,
+            guardrail_max_retries=2,
+        )
 
     @task
     def task_fact_check(self) -> Task:
-        return Task(config=self.tasks_config['task_fact_check'])  # type: ignore[index]
+        return Task(
+            config=self.tasks_config['task_fact_check'],  # type: ignore[index]
+            guardrail=fact_check_guardrail,
+            guardrail_max_retries=2,
+        )
 
     @task
     def task_revise(self) -> Task:
