@@ -1,4 +1,4 @@
-![Illustration](illustration_20260713_145532.png)
+![Illustration](illustration_example.png)
 
 # When Cassava Rewired Itself: A Gene Edit That Paid Off Twice
 
