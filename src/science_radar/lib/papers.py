@@ -59,9 +59,10 @@ def search_papers(query: str = TOPIC_SEMANTIC, days: int = PAPERS_DAYS_LIMIT) ->
                     if (p.get('externalIds') or {}).get('DOI')
                     else p.get("url")
                 ),
-                "doi": (p.get("externalIds") or {}).get("DOI"),
+                "doi": (p.get('externalIds') or {}).get("DOI"),
             }
             for p in papers
+            if (p.get("abstract") or "").strip()
         ],
         indent=2,
     )
