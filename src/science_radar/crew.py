@@ -13,7 +13,7 @@ from crewai.agents.agent_builder.base_agent import BaseAgent
 
 from science_radar.env_impact import MeliousEnvImpactInterceptor
 from science_radar.reviews import editorial_review_guardrail, fact_check_guardrail
-from science_radar.tools import web_search, generate_illustration
+from science_radar.tools import web_search, generate_illustration, get_paper
 
 load_dotenv()
 
@@ -79,11 +79,11 @@ class ScienceRadar():
 
     @agent
     def arbiter(self) -> Agent:
-        return Agent(config=self.agents_config['arbiter'], llm=_critic_llm, skills=[str(_skills_dir / "editorial-arbitration")], tools=[web_search], verbose=True)  # type: ignore[index]
+        return Agent(config=self.agents_config['arbiter'], llm=_critic_llm, skills=[str(_skills_dir / "editorial-arbitration")], tools=[web_search, get_paper], verbose=True)  # type: ignore[index]
 
     @agent
     def writer(self) -> Agent:
-        return Agent(config=self.agents_config['writer'], llm=_writer_llm, skills=[str(_skills_dir / "essay-writer")], tools=[web_search], verbose=True)  # type: ignore[index]
+        return Agent(config=self.agents_config['writer'], llm=_writer_llm, skills=[str(_skills_dir / "essay-writer")], tools=[web_search, get_paper], verbose=True)  # type: ignore[index]
 
     @agent
     def editorial_critic(self) -> Agent:
@@ -91,7 +91,7 @@ class ScienceRadar():
 
     @agent
     def fact_checker(self) -> Agent:
-        return Agent(config=self.agents_config['fact_checker'], llm=_review_llm, skills=[str(_skills_dir / "fact-checker")], tools=[web_search], verbose=True)  # type: ignore[index]
+        return Agent(config=self.agents_config['fact_checker'], llm=_review_llm, skills=[str(_skills_dir / "fact-checker")], tools=[web_search, get_paper], verbose=True)  # type: ignore[index]
 
     @agent
     def illustrator(self) -> Agent:

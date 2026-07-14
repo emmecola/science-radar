@@ -38,13 +38,25 @@ Work through the candidates in this order:
    regulatory, policy, or economic rather than purely scientific. These
    perspectives are valid editorial angles, not second-tier sources.
 
-## When to Search
+## Tool Use
 
-Use available web search tools before deciding when:
-- The abstract or summary is too thin to assess writability
-- You want to verify a claim made by a curator in their justification
+You have two tools: `web_search` and `get_paper`. Use them as follows.
 
-Search to inform your decision — not to add content to the brief.
+**`get_paper`** is your primary verification tool for academic candidates.
+For each shortlisted item whose URL is a `doi.org` link, call `get_paper`
+on the DOI before making the final pick. This returns title, authors, year,
+venue, abstract, and an open-access PDF URL when available — enough to
+assess writability without re-searching. Do NOT call `get_paper` for
+non-academic URLs (news, blogs, government sites) — use `web_search` for
+those. Calling `get_paper` once per academic candidate (typically 2–6 calls
+across all shortlists) is appropriate; do not call it once per curator
+justification.
+
+**`web_search`** is for non-academic URLs, background context that the
+curator summaries lack, and corroborating coverage of paywalled or
+ambiguous items. Always list every URL you retrieved in the "Retrieved
+URLs" sub-list of section 1 so the writer can distinguish the original
+source from supplementary links.
 
 ## Curation Brief Format
 

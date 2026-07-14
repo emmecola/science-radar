@@ -6,8 +6,13 @@ description: Protocol for fact-checking an essay produced by the essay
 
 ## Purpose
 
-You receive the essay and the original source it was written from.
+You receive the essay and the curation brief it was written from.
 Your job is to verify factual accuracy, flag unsupported claims, and produce a structured audit. You are NOT rewriting — only auditing.
+
+The original source URL (or DOI) is identified in the curation brief under
+"Selected Item." This is the authoritative source for source-fidelity
+judgement; the brief itself is a downstream summary and may itself
+contain errors that have been propagated into the essay.
 
 ## What to Check
 
@@ -60,13 +65,28 @@ an empty audit; identify and assess every concrete factual assertion in the arti
 
 ## Tool Use
 
-Use available web search tools when:
-- A claim goes beyond the original source and cannot be verified from memory
-- You encounter a statistic, date, or named study that warrants confirmation
-- You are about to mark a claim as `ACCEPTABLE_UNCERTAINTY` or `REVISE` because it
-  cannot be verified — attempt a search first
+You have two tools: `get_paper` and `web_search`. Use them as follows.
 
-Do not search for every claim. Reserve tool use for claims where uncertainty is high or the stakes of an error are significant.
+**`get_paper` is your primary verification tool for academic sources.**
+Call it once per cited paper — passing the DOI (or `doi.org` URL) from
+the curation brief's "Selected Item" — and you will receive title,
+authors, year, venue, abstract, and an open-access PDF URL when
+available. Audit every claim sourced from that paper against that one
+returned abstract. This is the only way to catch curator-brief errors
+that have been propagated into the essay. Do NOT call `get_paper` once
+per claim — one call per paper, then compare all claims against the one
+abstract.
+
+If `get_paper` returns a "DOI not found" error, the paper is not indexed
+in Semantic Scholar. Treat this as a strong signal that the article
+must qualify any specific claims from that paper as uncertain, or
+surface it as a REVISE in the audit.
+
+**`web_search`** is for: non-academic URLs (news, blog posts, government
+sites), background context that goes beyond the cited source, finding
+corroborating coverage when the cited paper has no abstract in
+Semantic Scholar, and verifying paywalled claims via press releases or
+news write-ups.
 
 ## Conciseness
 
