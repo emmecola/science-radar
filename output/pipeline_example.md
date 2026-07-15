@@ -1,4 +1,4 @@
-# Pipeline Report — 2026-07-13 14:55:42
+# Pipeline Report — 2026-07-15 18:14:10
 
 ## Status
 COMPLETE
@@ -9,6 +9,450 @@ GMO and genome editing in agriculture or food sector
 ## Raw News Results
 
 [
+  {
+    "title": "Transgenic Animal Model Market - A Global and Regional Analysis: Focus on Technology, Animal Type, Application, End User, and Regional Analysis - Analysis and Forecast, 2025-2035",
+    "url": "https://www.globenewswire.com/news-release/2026/07/14/3327086/28124/en/Transgenic-Animal-Model-Market-A-Global-and-Regional-Analysis-Focus-on-Technology-Animal-Type-Application-End-User-and-Regional-Analysis-Analysis-and-Forecast-2025-2035.html",
+    "source": "GlobeNewswire",
+    "summary": "The global transgenic animal model market is projected to reach $6.79 billion by 2035, driven by CRISPR-Cas9, precision medicine, and demand for accurate preclinical testing. CRISPR-Cas9 led the technology segment with a 44.96% share in 2024, while rodents ac\u2026"
+  },
+  {
+    "title": "Global Carcinoid Syndrome Market Poised for Growth Through 2035 as Treatment Innovation and Diagnosis Rates Advance",
+    "url": "https://www.globenewswire.com/news-release/2026/07/14/3327077/28124/en/Global-Carcinoid-Syndrome-Market-Poised-for-Growth-Through-2035-as-Treatment-Innovation-and-Diagnosis-Rates-Advance.html",
+    "source": "GlobeNewswire",
+    "summary": "Opportunities include rising NET diagnoses, better awareness and early detection, and demand for innovative targeted therapies. Unmet needs in advanced cases and improved access to affordable treatments offer further growth potential. Opportunities include ri\u2026"
+  },
+  {
+    "title": "Characterization of plant growth-promoting bacteria from Vicia faba root nodules grown on oasis soils and their potential to enhance soil fertility and crop growth attributes in arid regions",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353365",
+    "source": "Plos.org",
+    "summary": "Soil degradation and nutrient depletion are major constraints in arid regions, particularly in fragile oasis ecosystems. Harnessing beneficial plant-bacteria interactions offers a sustainable approach to improving soil fertility and crop productivity. This st\u2026"
+  },
+  {
+    "title": "Sivelestat sodium alleviates sepsis-associated acute lung injury by inhibiting ferroptosis via the Nrf2/SLC7A11/GPX4 axis",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353525",
+    "source": "Plos.org",
+    "summary": "Objective This study was aimed to investigate the therapeutic efficacy and mechanism of Sivelestat sodium in sepsis-associated acute lung injury (SALI).   Methods A rat model of SALI was established using the cecal ligation and puncture (CLP) procedure. After\u2026"
+  },
+  {
+    "title": "Macrophage-mediated antibiotic evasion and competitive dominance of mcr-3-carrying Escherichia coli",
+    "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1014427",
+    "source": "Plos.org",
+    "summary": "Author summary Mobile colistin resistance genes reduce the effectiveness of polymyxins, which are often used as last-line antibiotics. Among them, mcr-3 has continued to increase globally even after colistin use declined. This trend suggests that mcr-3 may pr\u2026"
+  },
+  {
+    "title": "Preliminary molecular characterization of foot-and-mouth disease virus SAT-1 topotype III associated with recent cattle outbreaks in Syria",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353862",
+    "source": "Plos.org",
+    "summary": "Foot-and-mouth disease (FMD) is a highly contagious transboundary viral infection that poses a significant threat to the livestock industry globally. In Syria, despite ongoing vaccination programs, recent outbreaks (2025\u20132026) in cattle and sheep has raised c\u2026"
+  },
+  {
+    "title": "A mouse model of Zika virus sexual transmission reveals a limited transmission window shorter than viral RNA persistence in semen",
+    "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1014420",
+    "source": "Plos.org",
+    "summary": "Author summary Zika virus (ZIKV) is primarily transmitted by mosquitoes but can also spread sexually, especially from men to women. Although ZIKV RNA can persist in semen for months, the duration of actual sexual transmissibility remains unclear. Here, we est\u2026"
+  },
+  {
+    "title": "Biogen Presents Phase 2 CELIA Data at AAIC Demonstrating Meaningful Clinical Outcomes and Robust Tau Reduction with Diranersen in Early Alzheimer\u2019s Disease",
+    "url": "https://financialpost.com/globe-newswire/biogen-presents-phase-2-celia-data-at-aaic-demonstrating-meaningful-clinical-outcomes-and-robust-tau-reduction-with-diranersen-in-early-alzheimers-disease",
+    "source": "Financial Post",
+    "summary": "Clinical outcomes: Diranersen demonstrated efficacy across all studied doses at 18 months, with consistent results across multiple prespecified clinical endpoints; the 60 mg dose showed the strongest response with slowing of clinical decline on the cognitive \u2026"
+  },
+  {
+    "title": "Biogen Presents Phase 2 CELIA Data at AAIC Demonstrating Meaningful Clinical Outcomes and Robust Tau Reduction with Diranersen in Early Alzheimer\u2019s Disease",
+    "url": "https://www.globenewswire.com/news-release/2026/07/14/3326960/0/en/Biogen-Presents-Phase-2-CELIA-Data-at-AAIC-Demonstrating-Meaningful-Clinical-Outcomes-and-Robust-Tau-Reduction-with-Diranersen-in-Early-Alzheimer-s-Disease.html",
+    "source": "GlobeNewswire",
+    "summary": "CAMBRIDGE, Mass., July 14, 2026 (GLOBE NEWSWIRE) -- Biogen Inc. (Nasdaq: BIIB) today announced data from the Phase 2 CELIA study evaluating diranersen, an investigational antisense oligonucleotide (ASO) therapy targeting tau, in individuals with early Alzheim\u2026"
+  },
+  {
+    "title": "Humacyte Appoints Key Nephrologists as Advisors to Prepare for Planned Commercialization of the ATEV in Dialysis Access",
+    "url": "https://www.globenewswire.com/news-release/2026/07/14/3326757/0/en/Humacyte-Appoints-Key-Nephrologists-as-Advisors-to-Prepare-for-Planned-Commercialization-of-the-ATEV-in-Dialysis-Access.html",
+    "source": "GlobeNewswire",
+    "summary": "- Dr. Robert J. Kossmann has served as a prominent advocate for kidney disease patients in multiple roles including Executive Vice President and Chief Medical Officer for Fresenius Medical Care North America -"
+  },
+  {
+    "title": "Valion Bio Advances Integrated Biodefense and Immunology Platform Through Continued Government Engagement, Domestic Manufacturing and Oncology Expansion",
+    "url": "https://www.prnewswire.com/news-releases/valion-bio-advances-integrated-biodefense-and-immunology-platform-through-continued-government-engagement-domestic-manufacturing-and-oncology-expansion-302824523.html",
+    "source": "PRNewswire",
+    "summary": "Strategic execution across multiple initiatives positions the Entolimod platform to pursue opportunities in government preparedness, domestic biomanufacturing and oncology supportive care SAN ANTONIO, July 14, 2026 /PRNewswire/ -- Valion Bio, Inc. (Nasdaq: VB\u2026"
+  },
+  {
+    "title": "Hemab Therapeutics Presents Clinical and Preclinical Data from Sutacimig in Glanzmann Thrombasthenia and Factor VII Deficiency at the ISTH 2026 Congress",
+    "url": "https://www.globenewswire.com/news-release/2026/07/14/3326747/0/en/Hemab-Therapeutics-Presents-Clinical-and-Preclinical-Data-from-Sutacimig-in-Glanzmann-Thrombasthenia-and-Factor-VII-Deficiency-at-the-ISTH-2026-Congress.html",
+    "source": "GlobeNewswire",
+    "summary": "Sutacimig Phase 2 long-term extension (LTE) data show sustained bleed reduction and manageable safety and tolerability; Phase 3 initiation planned 2H 2026 ..."
+  },
+  {
+    "title": "Global Laboratory Centrifuges Market to Reach USD 1.86 Billion by 2030 as Automation and Advanced Rotor Technologies Drive Growth",
+    "url": "https://www.globenewswire.com/news-release/2026/07/14/3326727/28124/en/Global-Laboratory-Centrifuges-Market-to-Reach-USD-1-86-Billion-by-2030-as-Automation-and-Advanced-Rotor-Technologies-Drive-Growth.html",
+    "source": "GlobeNewswire",
+    "summary": "The global laboratory centrifuges market is projected to grow from USD 1.58 billion in 2025 to USD 1.86 billion by 2030, at a 2.8% CAGR. Growth is driven by rising R&D investment, infectious and chronic disease testing, OMICS and cell-based research, automati\u2026"
+  },
+  {
+    "title": "Axiom Biosciences Reports Positive Phase 1 Results for Investigational Stem Cell Therapy in Newborns with Severe Brain Injury",
+    "url": "https://www.globenewswire.com/news-release/2026/07/14/3326715/0/en/Axiom-Biosciences-Reports-Positive-Phase-1-Results-for-Investigational-Stem-Cell-Therapy-in-Newborns-with-Severe-Brain-Injury.html",
+    "source": "GlobeNewswire",
+    "summary": "SAN DIEGO, July 14, 2026 (GLOBE NEWSWIRE) -- Axiom Biosciences\r\n, a clinical-stage biotechnology company developing next-generation regenerative therapies and targeted biologics, today announced positive Phase 1 results for its investigational Wharton\u2019s Jelly\u2026"
+  },
+  {
+    "title": "Cibus (CBUS) Welcomes Landmark EU Crop Breeding Decision",
+    "url": "https://finance.yahoo.com/healthcare/articles/cibus-cbus-welcomes-landmark-eu-103305040.html",
+    "source": "Yahoo Entertainment",
+    "summary": "Cibus, Inc. (NASDAQ:CBUS) is one of the 10 Fastest Growing Tech Penny Stocks to Buy. On June 17, 2026, Cibus, Inc. (NASDAQ:CBUS) welcomed a landmark European..."
+  },
+  {
+    "title": "Gas Chromatography Market Size to Reach USD 6.03 Billion by 2035 | SNS Insider",
+    "url": "https://www.globenewswire.com/news-release/2026/07/14/3326669/0/en/Gas-Chromatography-Market-Size-to-Reach-USD-6-03-Billion-by-2035-SNS-Insider.html",
+    "source": "GlobeNewswire",
+    "summary": "The U.S. Gas Chromatography Market is projected to grow from USD 1.45 Billion in 2025 to USD 2.34 Billion by 2035, while Europe is expected to reach USD 1.61 Billion, driven by pharmaceutical quality control, environmental testing, and laboratory automation. \u2026"
+  },
+  {
+    "title": "NextCure and Avere Therapeutics Announce Merger to Advance Once-Weekly Oral IL-23 Therapy",
+    "url": "https://www.globenewswire.com/news-release/2026/07/14/3326655/0/en/NextCure-and-Avere-Therapeutics-Announce-Merger-to-Advance-Once-Weekly-Oral-IL-23-Therapy.html",
+    "source": "GlobeNewswire",
+    "summary": "Avere Therapeutics\u2019 lead program, AVR-001, is a differentiated oral peptide interleukin-23 (IL-23) receptor antagonist, with Phase 1b psoriasis data supporting its potential to be rapidly developed as a convenient, once-weekly oral therapy"
+  },
+  {
+    "title": "Dye-Free and Label-Free Packaging for PCR Optimization Market Insights Just Released \u2014 Breaks Down Market into Sustainable and Automated PCR Packaging Solutions",
+    "url": "https://www.globenewswire.com/news-release/2026/07/14/3326614/28124/en/Dye-Free-and-Label-Free-Packaging-for-PCR-Optimization-Market-Insights-Just-Released-Breaks-Down-Market-into-Sustainable-and-Automated-PCR-Packaging-Solutions.html",
+    "source": "GlobeNewswire",
+    "summary": "Key opportunities in the dye-free and label-free PCR packaging market include surging demand for precision genomic testing, sustainable materials, and automated workflows. Growth is driven by personalized medicine, life sciences R&D investment, and infectious\u2026"
+  },
+  {
+    "title": "Canada is making a bet on Saudi Arabia despite war and political risk",
+    "url": "https://www.cbc.ca/news/politics/carney-saudi-arabia-iran-yemen-mbs-9.7268649",
+    "source": "CBC News",
+    "summary": "Just three days after Prime Minister Mark Carney left Saudi Arabia, the Houthis of Yemen announced that their four-year-old ceasefire with the kingdom had ended. But even with Saudi Arabia potentially embroiled in two regional wars, it offers real opportuniti\u2026"
+  },
+  {
+    "title": "ProMIS Neurosciences Reports First Human Evidence of Amyloid-Beta Oligomer Target Engagement by PMN310 at AAIC 2026",
+    "url": "https://www.globenewswire.com/news-release/2026/07/14/3326583/0/en/ProMIS-Neurosciences-Reports-First-Human-Evidence-of-Amyloid-Beta-Oligomer-Target-Engagement-by-PMN310-at-AAIC-2026.html",
+    "source": "GlobeNewswire",
+    "summary": "PMN310 demonstrated dose-dependent reduction of amyloid-beta oligomers in human cerebrospinal fluid following a single dose in healthy volunteers    ..."
+  },
+  {
+    "title": "Spaceflight Seems to Damage Knee Cartilage, And Scientists May Have Found a Way to Protect It",
+    "url": "https://www.sciencealert.com/spaceflight-seems-to-damage-knee-cartilage-and-scientists-may-have-found-a-way-to-protect-it",
+    "source": "ScienceAlert",
+    "summary": "This could have wider implications.ScienceAlert stories are written, fact-checked, and edited by humans, never generated by AI. Don't miss a story, subscribe here."
+  },
+  {
+    "title": "Biotech news from around the world",
+    "url": "https://www.nature.com/articles/s41587-026-03232-y",
+    "source": "Nature.com",
+    "summary": "Nature Biotechnology - Biotech news from around the world"
+  },
+  {
+    "title": "Daily briefing: Can regrowing the thymus slow down ageing?",
+    "url": "https://www.nature.com/articles/d41586-026-02222-z",
+    "source": "Nature.com",
+    "summary": "Treatments to regrow the peculiar immune organ could also help to prevent cancer. Plus, a four-carbon sugar found in the stars and the name of an important Maya mathematician revealed."
+  },
+  {
+    "title": "ADDF Statement: FDA Approval of Subcutaneous Starting Dose for Leqembi Advances Alzheimer's Care Toward Combination Therapy Future",
+    "url": "https://www.prnewswire.com/news-releases/addf-statement-fda-approval-of-subcutaneous-starting-dose-for-leqembi-advances-alzheimers-care-toward-combination-therapy-future-302824323.html",
+    "source": "PRNewswire",
+    "summary": "Initiation of treatment with subcutaneous administration opens the door to fully at-home dosing, similar to injectable diabetes and GLP-1 weight loss therapies NEW YORK, July 13, 2026 /PRNewswire/ -- The U.S. Food and Drug Administration (FDA) today approved \u2026"
+  },
+  {
+    "title": "FDA Approves LEQEMBI IQLIK\u00ae (lecanemab-irmb) Subcutaneous Injection as an Initiation Dose for Early Alzheimer\u2019s Disease",
+    "url": "https://www.globenewswire.com/news-release/2026/07/13/3326503/0/en/FDA-Approves-LEQEMBI-IQLIK-lecanemab-irmb-Subcutaneous-Injection-as-an-Initiation-Dose-for-Early-Alzheimer-s-Disease.html",
+    "source": "GlobeNewswire",
+    "summary": "LEQEMBI IQLIK is a first-of-its-kind anti-amyloid treatment worldwide, offering at-home dosing\u00a0for initiation and maintenance (approved in the U.S.)  U.S...."
+  },
+  {
+    "title": "FDA Approves LEQEMBI IQLIK\u00ae (lecanemab-irmb) Subcutaneous Injection as an Initiation Dose for Early Alzheimer's Disease",
+    "url": "https://www.prnewswire.com/news-releases/fda-approves-leqembi-iqlik-lecanemab-irmb-subcutaneous-injection-as-an-initiation-dose-for-early-alzheimers-disease-302824254.html",
+    "source": "PRNewswire",
+    "summary": "LEQEMBI IQLIK is a first-of-its-kind anti-amyloid treatment worldwide, offering at-home dosing for initiation and maintenance (approved in the U.S.) U.S. launch of LEQEMBI IQLIK as an initiation dose planned for late August 2026 TOKYO and CAMBRIDGE, Mass., Ju\u2026"
+  },
+  {
+    "title": "MBX Biosciences Announces Executive Leadership Transition to Support the Company\u2019s Next Phase of Growth",
+    "url": "https://www.globenewswire.com/news-release/2026/07/13/3326463/0/en/MBX-Biosciences-Announces-Executive-Leadership-Transition-to-Support-the-Company-s-Next-Phase-of-Growth.html",
+    "source": "GlobeNewswire",
+    "summary": "CARMEL, Ind. and BURLINGTON, Mass., July 13, 2026 (GLOBE NEWSWIRE) -- MBX Biosciences, Inc. (Nasdaq: MBX), a clinical-stage biopharmaceutical company focused on the discovery, development and commercialization of novel precision peptide therapies for the trea\u2026"
+  },
+  {
+    "title": "The AI Revolution: Innovation, Cybersecurity, And Societal Prospects",
+    "url": "https://www.forbes.com/sites/chuckbrooks/2026/07/13/tracking-the-ai-revolution-innovation-and-cyber-risks/",
+    "source": "Forbes",
+    "summary": "Artificial intelligence is rapidly transforming global economies, governments, and daily life in an \"acceleration era.\" AI is also broadening the cyber risk landscape."
+  },
+  {
+    "title": "Pierre Gu\u00e9rin is building a new manufacturing facility in North Carolina",
+    "url": "https://www.prnewswire.com/news-releases/pierre-guerin-is-building-a-new-manufacturing-facility-in-north-carolina-302823935.html",
+    "source": "PRNewswire",
+    "summary": "Pierre Gu\u00e9rin, an entity of Equans Process Solutions, is a global provider specializing in the design, manufacture, and installation of vessels and automated process lines for the pharma & biotech, food & beverage and cosmetics industries. The company is furt\u2026"
+  },
+  {
+    "title": "Good News for Hundreds of Thousands of Permanently Blind People in Vietnam",
+    "url": "https://www.globenewswire.com/news-release/2026/07/13/3326338/0/en/Good-News-for-Hundreds-of-Thousands-of-Permanently-Blind-People-in-Vietnam.html",
+    "source": "GlobeNewswire",
+    "summary": "HO CHI MINH CITY, Vietnam, July 13, 2026 (GLOBE NEWSWIRE) -- Amid the severe shortage of donated corneas, a strategic partnership between the National Eye Hospital and Vietnam Gene & Cell Technology (VGCT) - a member of CT Group, a deep-tech conglomerate - un\u2026"
+  },
+  {
+    "title": "Two folds, many faces: The Magnaporthe oryzae MAX effector AVR-Pia targets novel rice HMA domain-containing proteins",
+    "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1014382",
+    "source": "Plos.org",
+    "summary": "Author summary Blast, caused by the fungal pathogen Magnaporthe oryzae, is one of the world\u2019s most devastating rice diseases. During infection, M. oryzae secretes a diverse set of molecules, known as effectors, that manipulate host factors to promote disease.\u2026"
+  },
+  {
+    "title": "Genomic surveillance of carbapenem-resistant Acinetobacter baumannii from bloodstream infections in Thailand reveals widespread dissemination of blaNDM\u2013harboring mobile genetic elements",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353488",
+    "source": "Plos.org",
+    "summary": "Carbapenem-resistant Acinetobacter baumannii (CRAB) is a major cause of hospital-acquired bloodstream infections in Thailand, with limited treatment options and a strong association with high morbidity and mortality. We performed nationwide genomic surveillan\u2026"
+  },
+  {
+    "title": "Genome-wide cline analysis identifies new locus contributing to a barrier to gene flow across an Antirrhinum hybrid zone",
+    "url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012173",
+    "source": "Plos.org",
+    "summary": "Author summary Understanding how new species form requires identifying the genetic differences that limit gene flow between populations. A common approach is to search genomes for regions showing strong genetic differentiation between pairs discrete samples, \u2026"
+  },
+  {
+    "title": "Cardiotoxin from Naja atra Activates the NLRP3/Caspase-1/GSDMD Pyroptosis Pathway to Induce Skin Tissue Injury",
+    "url": "https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0014495",
+    "source": "Plos.org",
+    "summary": "Author summary Chinese cobra (Naja atra) snakebite causes severe local tissue necrosis, often leading to permanent disability or amputation. The primary toxin responsible is cardiotoxin (CTX), but its mechanism of action has been unclear. Using transcriptomic\u2026"
+  },
+  {
+    "title": "U.S. Food and Drug Administration Accepts BioMarin's Supplemental New Drug Application for Full Approval of VOXZOGO\u00ae (vosoritide) for Children With Achondroplasia",
+    "url": "https://www.prnewswire.com/news-releases/us-food-and-drug-administration-accepts-biomarins-supplemental-new-drug-application-for-full-approval-of-voxzogo-vosoritide-for-children-with-achondroplasia-302823072.html",
+    "source": "PRNewswire",
+    "summary": "Application based on long-term safety and efficacy data from three ongoing studies, including adult height and additional clinical outcomes beyond linear growth, including body proportionality and arm span evaluated over long-term follow-up FDA PDUFA target a\u2026"
+  },
+  {
+    "title": "Buzz Bomb Is Boosting Energy (While Giving the Digestive System a Break)",
+    "url": "https://www.prnewswire.com/news-releases/buzz-bomb-is-boosting-energy-while-giving-the-digestive-system-a-break-302823171.html",
+    "source": "PRNewswire",
+    "summary": "The Innovative Energy Alternative Delivers a Fast Pick-Me-Up Without Upsetting the Stomach FORT LAUDERDALE, Fla., July 13, 2026 /PRNewswire/ -- Coffee is a popular option, but drunk in excessive quantities or on an empty stomach, it can have some negative eff\u2026"
+  },
+  {
+    "title": "You Can\u2019t Patent a Trench: The Real Biotechnology the Green Revolution Forgot",
+    "url": "https://www.globalresearch.ca/patent-trench-real-biotechnology-green-revolution-forgot/5933177",
+    "source": "Globalresearch.ca",
+    "summary": "In the summer of 2019, Chennai, capital of Tamil Nadu reached \u2018Day Zero\u2019. \nAs the city\u2019s reservoirs shrank to 0.1% of their capacity, the crisis exposed a brutal hierarchy. \nWhile millions queued for hours at street corners for government tankers, \u2026\nThe post \u2026"
+  },
+  {
+    "title": "Cue Biopharma Appoints Dominic Borie, M.D., Ph.D., as Chief Medical Officer and Head of Research & Development",
+    "url": "https://www.globenewswire.com/news-release/2026/07/13/3326185/0/en/Cue-Biopharma-Appoints-Dominic-Borie-M-D-Ph-D-as-Chief-Medical-Officer-and-Head-of-Research-Development.html",
+    "source": "GlobeNewswire",
+    "summary": "Physician-scientist and immunology leader joins Cue as the company advances key clinical programs in allergic and autoimmune diseases Physician-scientist and immunology leader joins Cue as the company advances key clinical programs in allergic and autoimmune \u2026"
+  },
+  {
+    "title": "MycoTechnology and Adorvia Biotechnology Announce Global Collaboration to Advance Natural Sweetener and Taste Modulation Solutions",
+    "url": "https://www.globenewswire.com/news-release/2026/07/13/3326167/0/en/MycoTechnology-and-Adorvia-Biotechnology-Announce-Global-Collaboration-to-Advance-Natural-Sweetener-and-Taste-Modulation-Solutions.html",
+    "source": "GlobeNewswire",
+    "summary": "MycoTechnology and Adorvia Biotechnology announce global collaboration, pairing Zukora\u2122 Honey Truffle Sweet Protein and Reb M stevia ingredients...."
+  },
+  {
+    "title": "Voyager Demonstrates Single IV Dose of VY1706 Well Tolerated, Reduced Tau in 6-Month GLP Toxicology Study; Initiation of Clinical Trial in Alzheimer\u2019s Disease Expected H2 2026",
+    "url": "https://www.globenewswire.com/news-release/2026/07/13/3326162/36461/en/Voyager-Demonstrates-Single-IV-Dose-of-VY1706-Well-Tolerated-Reduced-Tau-in-6-Month-GLP-Toxicology-Study-Initiation-of-Clinical-Trial-in-Alzheimer-s-Disease-Expected-H2-2026.html",
+    "source": "GlobeNewswire",
+    "summary": "- Data presented as Developing Topics poster at AAIC 2026 -  LEXINGTON, Mass., July  13, 2026  (GLOBE NEWSWIRE) -- Voyager Therapeutics, Inc. (Nasdaq:..."
+  },
+  {
+    "title": "How Did It Take Us This Long to Get Levi's for Farmers? (EXCLUSIVE)",
+    "url": "https://www.highsnobiety.com/p/sky-high-farm-goods-levis/",
+    "source": "Highsnobiety",
+    "summary": "Sky High Farm Goods, the for-profit offshoot label of artist Dan Colen's upstate farm, teamed with Levi's for an eight-piece capsule collection of workwear."
+  },
+  {
+    "title": "Immutep Provides Clinical Update in 1st line NSCLC: Positive Mature Overall Survival Data from INSIGHT-003 and Update from TACTI-004",
+    "url": "https://www.globenewswire.com/news-release/2026/07/13/3326130/0/en/Immutep-Provides-Clinical-Update-in-1st-line-NSCLC-Positive-Mature-Overall-Survival-Data-from-INSIGHT-003-and-Update-from-TACTI-004.html",
+    "source": "GlobeNewswire",
+    "summary": "SYDNEY, AUSTRALIA, July 13, 2026 (GLOBE NEWSWIRE) -- Immutep Limited (ASX: IMM; NASDAQ: IMMP) (\u201cImmutep\u201d or \u201cthe Company\u201d), a biotechnology company developing novel immunotherapies, today announced a significant positive update of the investigator-initiated I\u2026"
+  },
+  {
+    "title": "Sleep Water Enhancers Market Report Just Released, Profiles Unilever, PepsiCo, Suntory, and 17 Other Players",
+    "url": "https://www.globenewswire.com/news-release/2026/07/13/3326115/28124/en/Sleep-Water-Enhancers-Market-Report-Just-Released-Profiles-Unilever-PepsiCo-Suntory-and-17-Other-Players.html",
+    "source": "GlobeNewswire",
+    "summary": "Key market opportunities in the sleep water enhancers sector include the rising demand for non-pill sleep solutions and functional beverages, growth in clean-label and plant-based products, and increasing e-commerce penetration. North America leads, while Asi\u2026"
+  },
+  {
+    "title": "Longeveron Announces Presentation of Clinical Data at the 2026 Alzheimer\u2019s Association International Conference (AAIC) that Indicate Its Cellular Therapy Laromestrocel Reduced Neuroinflammation in Patients with Alzheimer\u2019s Disease",
+    "url": "https://www.globenewswire.com/news-release/2026/07/13/3326085/0/en/Longeveron-Announces-Presentation-of-Clinical-Data-at-the-2026-Alzheimer-s-Association-International-Conference-AAIC-that-Indicate-Its-Cellular-Therapy-Laromestrocel-Reduced-Neuroi.html",
+    "source": "GlobeNewswire",
+    "summary": "Longeveron reports new data analysis for its stem cell therapy laromestrocel in mild Alzheimer's disease at AAIC 2026...."
+  },
+  {
+    "title": "Armata Pharmaceuticals Receives Agreement from FDA on Initial Pediatric Study Plan for AP-SA02 for the Treatment of Complicated Staphylococcus aureus Bacteremia",
+    "url": "https://www.prnewswire.com/news-releases/armata-pharmaceuticals-receives-agreement-from-fda-on-initial-pediatric-study-plan-for-ap-sa02-for-the-treatment-of-complicated-staphylococcus-aureus-bacteremia-302823352.html",
+    "source": "PRNewswire",
+    "summary": "Fulfills important regulatory milestone for AP-SA02 on the path toward a future BLA and supports expansion into pediatric patients LOS ANGELES, July 13, 2026 /PRNewswire/ -- Armata Pharmaceuticals, Inc. (NYSE American: ARMP) (\"Armata\" or the \"Company\"), a lat\u2026"
+  },
+  {
+    "title": "Tonix Pharmaceuticals Announces Major Managed Medicare Payer Agreement for TONMYA\u00ae",
+    "url": "https://www.globenewswire.com/news-release/2026/07/13/3326064/28908/en/Tonix-Pharmaceuticals-Announces-Major-Managed-Medicare-Payer-Agreement-for-TONMYA.html",
+    "source": "GlobeNewswire",
+    "summary": "New agreement, effective January 1, 2027, to add approximately 9 million Medicare lives (16% of approximately 55 million Medicare lives in the U.S.)  On..."
+  },
+  {
+    "title": "ANI Pharmaceuticals Announces Positive Six-Month Topline Data from the Phase 4 Open-Label, Single-Arm SYNCHRONICITY Trial Evaluating Fluocinolone Acetonide Intravitreal Implant in Patients with Chronic Non-Infectious Uveitis",
+    "url": "https://www.globenewswire.com/news-release/2026/07/13/3326047/0/en/ANI-Pharmaceuticals-Announces-Positive-Six-Month-Topline-Data-from-the-Phase-4-Open-Label-Single-Arm-SYNCHRONICITY-Trial-Evaluating-Fluocinolone-Acetonide-Intravitreal-Implant-in-P.html",
+    "source": "GlobeNewswire",
+    "summary": "PRINCETON, N.J., July 13, 2026 (GLOBE NEWSWIRE) -- ANI Pharmaceuticals, Inc. (Nasdaq: ANIP) (ANI or the Company) today announced positive topline data from its Phase 4, open-label, single-arm SYNCHRONICITY clinical trial of Fluocinolone Acetonide Intravitreal\u2026"
+  },
+  {
+    "title": "Genetwister",
+    "url": "https://fontsinuse.com/uses/77750/genetwister",
+    "source": "Fontsinuse.com",
+    "summary": "Contributed by Maxime GauSource:\u00a0www.genetwister.nl\u00a0License: All Rights Reserved. Genetwister is a biotechnology company specializing in molecular breeding and bioinformatics for agricultural, horticultural, and ornamental plants.\n\nTheir identity, set in Spri\u2026"
+  },
+  {
+    "title": "Leads Biolabs Announces Multiple Studies Selected for ESMO 2026, Highlighting the Growing Global Competitiveness of Its Core Pipeline",
+    "url": "https://www.prnewswire.com/news-releases/leads-biolabs-announces-multiple-studies-selected-for-esmo-2026-highlighting-the-growing-global-competitiveness-of-its-core-pipeline-302823685.html",
+    "source": "PRNewswire",
+    "summary": "NANJING, China, July 13, 2026 /PRNewswire/ -- Nanjing Leads Biolabs Co., Ltd. (\"Leads Biolabs\" or the \"Company,\" Stock Code: 9887.HK) today announced that six of its latest research studies have been accepted for presentation at the 2026 European Society for \u2026"
+  },
+  {
+    "title": "Sowore unveils free education plan, pledges to scrap WAEC, NECO fees",
+    "url": "https://punchng.com/sowore-unveils-free-education-plan-pledges-to-scrap-waec-neco-fees/",
+    "source": "The Punch",
+    "summary": "Omoyele Sowore, AAC presidential candidate, unveils his free education plan for 2027, promising to scrap WAEC and NECO fees and reform Nigeria\u2019s education\n\nRead More: https://punchng.com/sowore-unveils-free-education-plan-pledges-to-scrap-waec-neco-fees/"
+  },
+  {
+    "title": "TSMC breaks ground on more advanced packaging fabs in Chiayi",
+    "url": "https://thenextweb.com/news/tsmc-chiayi-advanced-packaging-phase-two/",
+    "source": "The Next Web",
+    "summary": "TSMC will build additional advanced packaging fabs in the second phase of the Chiayi Science Park in southern Taiwan, National Science and Technology Council minister Wu Cheng-wen said at a groundbreaking ceremony on Sunday. Packaging is where the AI supply c\u2026"
+  },
+  {
+    "title": "Roughly 90% of hard cheese made in the United States is now set with an enzyme grown in a vat, not pulled from a calf\u2019s stomach",
+    "url": "https://spacedaily.com/sd-v-roughly-90-of-hard-cheese-made-in-the-united-states-is-now-set-with-an-enzyme-grown-in-a-vat-not-pulled-from-a-calfs-stomach/",
+    "source": "Space Daily",
+    "summary": "Since the FDA approved the first genetically engineered chymosin in 1990, fermentation-produced enzyme has quietly replaced calf-stomach rennet in the overwhelming majority of American hard cheese \u2014 one of the largest silent ingredient swaps in modern food hi\u2026"
+  },
+  {
+    "title": "SCENESSE\u00ae approved for EPP in Canada",
+    "url": "https://www.globenewswire.com/news-release/2026/07/13/3325896/0/en/SCENESSE-approved-for-EPP-in-Canada.html",
+    "source": "GlobeNewswire",
+    "summary": "Health Canada NOC enables treatment for porphyria, metabolic disorder Health Canada NOC enables treatment for porphyria, metabolic disorder"
+  },
+  {
+    "title": "Santhera Expands Biomedica Agreement to Extend AGAMREE\u00ae (Vamorolone) Distribution Across Central Asia and the Caucasus",
+    "url": "https://www.globenewswire.com/news-release/2026/07/13/3325894/0/en/Santhera-Expands-Biomedica-Agreement-to-Extend-AGAMREE-Vamorolone-Distribution-Across-Central-Asia-and-the-Caucasus.html",
+    "source": "GlobeNewswire",
+    "summary": "Pratteln, Switzerland, July 13, 2026 \u2013 Santhera Pharmaceuticals (SIX: SANN) today announces an expansion of its exclusive distribution agreement with Biomedica for AGAMREE\u00ae (vamorolone), extending the partnership to include Georgia, Kazakhstan, Belarus, Azerb\u2026"
+  },
+  {
+    "title": "What food is illegal in the US?",
+    "url": "https://www.lifesciencesworld.com/what-food-is-illegal-in-the-us/",
+    "source": "Lifesciencesworld.com",
+    "summary": "What Food is Illegal in the US? Certain foods are banned in the US due to health concerns, production practices, or regulatory restrictions; understanding which foods are illegal ensures food safety and consumer awareness. This article explores what food is i\u2026"
+  },
+  {
+    "title": "Deepening Collaboration in AI-Powered R&D Acceleration: Insilico Medicine and CMS announce additional collaborations in CNS diseases",
+    "url": "https://www.prnewswire.com/news-releases/deepening-collaboration-in-ai-powered-rd-acceleration-insilico-medicine-and-cms-announce-additional-collaborations-in-cns-diseases-302823160.html",
+    "source": "PRNewswire",
+    "summary": "SHANGHAI, July 12, 2026 /PRNewswire/ -- Insilico Medicine (\"Insilico\", 03696.HK), a clinical-stage biotechnology company driven by generative artificial intelligence (AI), and China Medical System Holdings Limited (\"CMS\", 867.HK/8A8.SG), an open-platform inno\u2026"
+  },
+  {
+    "title": "Epigenetic editing makes its mark",
+    "url": "https://www.nature.com/articles/d41586-026-02151-x",
+    "source": "Nature.com",
+    "summary": "Researchers are rewriting the chemical tags on DNA and chromatin to tune gene expression."
+  },
+  {
+    "title": "Daily briefing: The rise of evidence-based medicine",
+    "url": "https://www.nature.com/articles/d41586-026-02206-z",
+    "source": "Nature.com",
+    "summary": "How rigorous research has transformed health and social policy. Plus, a breakthrough for lab-grown sperm and the NSF plans to cut core science programmes to fund a White House initiative."
+  },
+  {
+    "title": "Omega-6 Linoleic Acid in Our Food System",
+    "url": "https://articles.mercola.com/sites/articles/archive/2026/07/13/omega-6-linoleic-acid-in-our-food-system.aspx",
+    "source": "Mercola.com",
+    "summary": "For years I've been warning about one of the most dangerous shifts in the modern food supply \u2014 one that nearly everyone is still overlooking. It's not sugar. It's not healthy carbs. It's a polyunsaturated fat called linoleic acid, or LA, that's hiding in near\u2026"
+  },
+  {
+    "title": "Supporting Science Is An Act Of Patriotism",
+    "url": "https://www.forbes.com/sites/briancastrucci/2026/07/12/supporting-science-is-an-act-of-patriotism/",
+    "source": "Forbes",
+    "summary": "As America turns 250, a look at why curiosity, evidence and discovery have always been at the heart of the American experiment."
+  },
+  {
+    "title": "A New Approach to Treating Brain Cancer: HDT Bio Launches Canadian Clinical Program at McGill University",
+    "url": "https://www.prnewswire.com/news-releases/a-new-approach-to-treating-brain-cancer-hdt-bio-launches-canadian-clinical-program-at-mcgill-university-302822942.html",
+    "source": "PRNewswire",
+    "summary": "HDT Bio Canada Inc. partners with McGill University and The Neuro to advance HDT-401, an investigational locally administered RNA immune activator, into Phase 1 clinical evaluation for glioblastoma in Canada MONTREAL and SEATTLE, July 12, 2026 /PRNewswire/ --\u2026"
+  },
+  {
+    "title": "LEQEMBI\u00ae Subcutaneous Autoinjector Clinical Data Supports Similar Efficacy and Safety to IV Formulation in Early Alzheimer's Disease Presented at the Alzheimer's Association International Conference\u00ae (AAIC\u00ae) 2026",
+    "url": "https://www.prnewswire.com/news-releases/leqembi-subcutaneous-autoinjector-clinical-data-supports-similar-efficacy-and-safety-to-iv-formulation-in-early-alzheimers-disease-presented-at-the-alzheimers-association-international-conference-aaic-2026-302823332.html",
+    "source": "PRNewswire",
+    "summary": "New clinical and real-world data support a subcutaneous treatment pathway from initiation through maintenance treatment, offering dosing convenience for patients and care partners TOKYO and CAMBRIDGE, Mass., July 12, 2026 /PRNewswire/ -- Eisai Co., Ltd. and B\u2026"
+  },
+  {
+    "title": "Does Better Health Require Fewer Freedoms?",
+    "url": "https://www.dailysignal.com/2026/07/12/health-and-freedom/",
+    "source": "Daily Signal",
+    "summary": "\u201cBe careful of the steps.\u201d \u201cGet out and walk for five minutes.\u201d \u201c1,354 calories.\u201d Such was life during my four days in London last week. Innumerable precautions, suggestions, and \u2018useful information\u2019 litter the streets, hotels, and menus across the pond, all \u2026"
+  },
+  {
+    "title": "7 American Cities Remote Workers Are Choosing In 2026",
+    "url": "https://www.forbes.com/sites/meggenharris/2026/07/12/7-american-cities-remote-workers-are-choosing-in-2026/",
+    "source": "Forbes",
+    "summary": "Remote workers are looking beyond America's biggest cities. Discover seven U.S. destinations offering affordability, outdoor access, and a better quality of life."
+  },
+  {
+    "title": "Jharkhand man beats 13-year-old daughter, cousin to death in Dumka; arrested",
+    "url": "https://timesofindia.indiatimes.com/city/ranchi/jharkhand-man-beats-13-year-old-daughter-cousin-to-death-in-dumka-arrested/articleshow/132346657.cms",
+    "source": "The Times of India",
+    "summary": "Dumka: Police arrested a father accused of beating his 13-year-old daughter to death and throwing her into a well; his cousin died intervening."
+  },
+  {
+    "title": "Woman hands over painkiller parcel ordered by son to police",
+    "url": "https://timesofindia.indiatimes.com/city/chennai/woman-hands-over-painkiller-parcel-ordered-by-son-to-police/articleshow/132346646.cms",
+    "source": "The Times of India",
+    "summary": "Chennai woman hands banned painkiller parcel ordered online by son to police; one arrested, two sought. In Perambur, Otteri police seize 26 ganja packets, arrest three."
+  },
+  {
+    "title": "Classical and folk arts showcase at Odisha Parba UK",
+    "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/classical-and-folk-arts-showcase-at-odisha-parba-uk/articleshow/132346583.cms",
+    "source": "The Times of India",
+    "summary": "Odisha Parba UK held at London\u2019s Nehru Centre showcased Odia classical and folk arts, including Bagha Nacha, Dhemsa and Odissi, led by UK diaspora organisers."
+  },
+  {
+    "title": "Delhi clears \u20b917.6-crore plan for smarter, greener roads",
+    "url": "https://timesofindia.indiatimes.com/city/delhi/delhi-clears-17-6-crore-plan-for-smarter-greener-roads/articleshow/132346581.cms",
+    "source": "The Times of India",
+    "summary": "Delhi govt approves \u20b917.6 crore to build a standard road paving and greening framework with digital asset management, better drainage, and green infrastructure."
+  },
+  {
+    "title": "PWD eyes tree transplantation for key infra upgrades",
+    "url": "https://timesofindia.indiatimes.com/city/delhi/pwd-eyes-tree-transplantation-for-key-infra-upgrades/articleshow/132346570.cms",
+    "source": "The Times of India",
+    "summary": "Delhi PWD to transplant trees for RTR and Madipur hospital expansions and Rouse Avenue Courts upgrade; contractors to relocate within 2 km and maintain for 36 months."
+  },
+  {
+    "title": "Showcase success stories to build trust in govt hospitals: Khader",
+    "url": "https://timesofindia.indiatimes.com/city/mangaluru/showcase-success-stories-to-build-trust-in-govt-hospitals-khader/articleshow/132346472.cms",
+    "source": "The Times of India",
+    "summary": "UT Khader urges govt hospitals in Udupi to publicize successful surgeries via regular press briefings, while reviewing facilities and planning infrastructure repairs."
+  },
+  {
+    "title": "Building an integrated halal economy through RI's D-8 chairmanship",
+    "url": "https://en.antaranews.com/news/422377/building-an-integrated-halal-economy-through-ris-d-8-chairmanship",
+    "source": "Antaranews.com",
+    "summary": "Global demand for halal products continues to grow as the Muslim consumer market expands, yet the global halal ecosystem remains fragmented.\r\n\r\nSupply chains ..."
+  },
+  {
+    "title": "Ranchi gears up for Rath Yatra with grand preparations",
+    "url": "https://timesofindia.indiatimes.com/city/ranchi/ranchi-gears-up-for-rath-yatra-with-grand-preparations/articleshow/132346235.cms",
+    "source": "The Times of India",
+    "summary": "Ranchi prepares for Jagannath Rath Yatra on Thursday, expecting 10 lakh devotees. Chariot work, rituals, and security measures like CCTV and routes underway."
+  },
+  {
+    "title": "TN govt schools to elect student-ministers to participate in administration",
+    "url": "https://timesofindia.indiatimes.com/city/chennai/tn-govt-schools-to-elect-student-ministers-to-participate-in-administration/articleshow/132346047.cms",
+    "source": "The Times of India",
+    "summary": "The initiative, integrated with the existing Magizh Mutram system (a house system), will see every school elect ministers from each of the 5 houses (Kurinji, Mullai, Neithal, Marutham and Paalai) for education; safety; information and communication; environme\u2026"
+  },
+  {
+    "title": "Maharashtra CET begins registration for agriculture, biotechnology admissions 2026; apply by July 25",
+    "url": "https://timesofindia.indiatimes.com/education/news/maharashtra-cet-begins-registration-for-agriculture-biotechnology-admissions-2026-apply-by-july-25/articleshow/132346080.cms",
+    "source": "The Times of India",
+    "summary": "Maharashtra CET Cell has begun registrations for 2026-27 agriculture and engineering programs. Eligible students can apply online until July 25, 2026, for various degree courses. Admissions will consider MHT CET, JEE, and NEET scores for different agriculture\u2026"
+  },
   {
     "title": "Psychology says people who prefer deep conversations often have these traits",
     "url": "https://timesofindia.indiatimes.com/relationships/psychology-says-people-who-prefer-deep-conversations-often-have-these-traits/articleshow/132342617.cms",
@@ -152,456 +596,6 @@ GMO and genome editing in agriculture or food sector
     "url": "https://economictimes.indiatimes.com/news/new-updates/gujarat-pgcet-2026-result-date-and-time-provisional-merit-list-out-today-at-acpc-gujarat-gov-in-direct-link-how-to-check-and-more/articleshow/132304388.cms",
     "source": "The Times of India",
     "summary": "The Admission Committee for Professional Courses will release the Gujarat PGCET 2026 provisional merit list today. Candidates can check their merit rankings on the official ACPC Gujarat admission portals. This provisional list will determine eligibility for t\u2026"
-  },
-  {
-    "title": "Study Finds Pesticide Residues in Infant Formula, Researchers Cite Health Risks",
-    "url": "https://www.naturalnews.com/2026-07-10-study-pesticide-residues-infant-formula-health-risks.html",
-    "source": "Naturalnews.com",
-    "summary": "A systematic review of scientific literature published by researchers at Sapienza University of Rome has documented the presence of multiple pesticide residues in infant formula, raising concerns about short- and long-term health effects on infants. The analy\u2026"
-  },
-  {
-    "title": "Photosystem I-independent oxygenic photosynthesis in cyanobacteria",
-    "url": "https://www.nature.com/articles/s41467-026-74903-2",
-    "source": "Nature.com",
-    "summary": "Ludwiczak et al. show that cyanobacteria can grow and fix carbon dioxide through oxygenic photosynthesis without Photosystem I. Adaptive mutations enable an alternative electron transport pathway that replaces this previously essential complex."
-  },
-  {
-    "title": "Daily briefing: Preprints are chock-full of authors\u2019 private info",
-    "url": "https://www.nature.com/articles/d41586-026-02198-w",
-    "source": "Nature.com",
-    "summary": "Passwords, to-do lists and even derogatory comments litter arXiv preprints. Plus, two huge planets that are lighter than candy floss and which \u2018AI scientist\u2019 might suit your lab."
-  },
-  {
-    "title": "Prix fixe fashion! Couture adjusts for inflation as high-end designers create dresses made of balloons, hay and ripped denim",
-    "url": "https://nypost.com/2026/07/09/lifestyle/high-end-designers-create-dresses-made-of-balloons-and-hay-amid-inflation/",
-    "source": "New York Post",
-    "summary": "Balloons on the catwalk? Welcome to the age of the cheap and the chic."
-  },
-  {
-    "title": "Oh!mino Survey Finds GLP-1 Muscle Loss Concerns Drive New Focus on Preserving Muscle While Dieting",
-    "url": "https://www.globenewswire.com/news-release/2026/07/09/3325229/0/en/Oh-mino-Survey-Finds-GLP-1-Muscle-Loss-Concerns-Drive-New-Focus-on-Preserving-Muscle-While-Dieting.html",
-    "source": "GlobeNewswire",
-    "summary": "Seal Beach, CA, July 09, 2026 (GLOBE NEWSWIRE) -- Oh!Nutrition, a California-based nutritional product development company, has released company survey findings from more than 500 Oh!mino users taking GLP-1 medications, with 88 percent reporting maintained st\u2026"
-  },
-  {
-    "title": "EDS, WDS, EBSD Micro-XRF Instruments Market Surges to USD 2.5 Billion by 2033, Propelled by 8.5% CAGR - Verified Market Reports\u00ae",
-    "url": "https://www.prnewswire.com/news-releases/eds-wds-ebsd-micro-xrf-instruments-market-surges-to-usd-2-5-billion-by-2033--propelled-by-8-5-cagr---verified-market-reports-302821859.html",
-    "source": "PRNewswire",
-    "summary": "The EDS, WDS, EBSD, and Micro-XRF instruments market is witnessing robust revenue expansion, propelled by escalating demand across semiconductor fabrication, materials characterization, and advanced metallurgical research sectors. Rising adoption of electron \u2026"
-  },
-  {
-    "title": "Hydrogels for Medical Application Market to Reach USD 2.93 Billion by 2033, Expanding at 9.2% CAGR Driven by Advanced Wound Care Demand, Controlled Drug Delivery Innovation, and Tissue Engineering Breakthroughs - Verified Market Research",
-    "url": "https://www.prnewswire.com/news-releases/hydrogels-for-medical-application-market-to-reach-usd-2-93-billion-by-2033--expanding-at-9-2-cagr-driven-by-advanced-wound-care-demand-controlled-drug-delivery-innovation-and-tissue-engineering-breakthroughs--verified-market-r-302821850.html",
-    "source": "PRNewswire",
-    "summary": "The global Hydrogels for Medical Application Market, valued at USD 1.50 billion in 2025, is entering a sustained scaling phase as clinical adoption of hydrogel-based platforms accelerates across hospitals, specialty clinics, and research institutions worldwid\u2026"
-  },
-  {
-    "title": "Two Drugmakers Own 90% of the Obesity Boom. One Fund Owns Both for 0.59%",
-    "url": "https://247wallst.com/investing/2026/07/09/two-drugmakers-own-90-of-the-obesity-boom-one-fund-owns-both-for-0-59/",
-    "source": "24/7 Wall St.",
-    "summary": "The Health Care Select Sector SPDR Fund (NYSEARCA:XLV) is the default healthcare allocation for millions of investors, and for good reason. XLV owns the enti..."
-  },
-  {
-    "title": "Farm groups saved Bayer in court over RoundUp cancer claims. Five days later, Bayer called for tariffs on the ingredient farmers rely on",
-    "url": "https://fortune.com/2026/07/09/farm-groups-bayer-roundup-tariffs-glyphosate/",
-    "source": "Fortune",
-    "summary": "A tariff petition on Chinese glyphosate, a key RoundUp ingredient, has turned Bayer's biggest legal allies into its loudest critics"
-  },
-  {
-    "title": "South Korea Centrifugation Market: Focus on Product, Model Type, Application, and End User - Analysis and Forecast, 2025-2035 Published; Maps Biopharm Manufacturing Demand",
-    "url": "https://www.globenewswire.com/news-release/2026/07/09/3325032/28124/en/South-Korea-Centrifugation-Market-Focus-on-Product-Model-Type-Application-and-End-User-Analysis-and-Forecast-2025-2035-Published-Maps-Biopharm-Manufacturing-Demand.html",
-    "source": "GlobeNewswire",
-    "summary": "South Korea's centrifugation market is poised for significant expansion, with projections hitting $92.7 million by 2035. This growth is fueled by the country's robust biopharmaceutical sector, advanced clinical research infrastructure, and strong government i\u2026"
-  },
-  {
-    "title": "Global Market for Genetically Modified (GM) Foods Just Released; Covers Major Regions Including North America and Asia-Pacific",
-    "url": "https://www.globenewswire.com/news-release/2026/07/09/3324978/28124/en/Global-Market-for-Genetically-Modified-GM-Foods-Just-Released-Covers-Major-Regions-Including-North-America-and-Asia-Pacific.html",
-    "source": "GlobeNewswire",
-    "summary": "The GM foods market presents opportunities in GM crop innovations for food security, climate resilience, and protein supply. Growth is fueled by global feed demand. Key areas include next-gen traits, genome editing, and sustainable systems. Challenges include\u2026"
-  },
-  {
-    "title": "Systemic Lupus Erythematosus Market at a Turning Point as 6 Late-Stage Emerging Therapies Set to Redefine Treatment Landscape | DelveInsight",
-    "url": "https://www.prnewswire.com/news-releases/systemic-lupus-erythematosus-market-at-a-turning-point-as-6-late-stage-emerging-therapies-set-to-redefine-treatment-landscape--delveinsight-302821555.html",
-    "source": "PRNewswire",
-    "summary": "Companies like Biogen and Royalty Pharma (Litifilimab), Biogen and UCB (Dapirolizumab pegol), Idorsia Pharmaceuticals and Viatris (Cenerimod), Novartis (Ianalumab, YTB3231), Kyowa Kirin (KK-4277), and others are advancing late, mid, and early-stage drugs, sho\u2026"
-  },
-  {
-    "title": "Beyond Agentic AI: The Emergence Of Cognitive AI Ecosystems",
-    "url": "https://www.forbes.com/sites/chuckbrooks/2026/07/09/beyond-agentic-ai-the-emergence-of-cognitive-ai-ecosystems/",
-    "source": "Forbes",
-    "summary": "The next decade will see AI evolve into dynamic intelligence fabrics, exhibiting contextual awareness, cooperative reasoning, and continuous learning across all sectors."
-  },
-  {
-    "title": "Glycoprotein G enables HSV-2 neuroinvasion and provides protection as a glycosylated vaccine antigen",
-    "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1014339",
-    "source": "Plos.org",
-    "summary": "Author summary Herpes simplex virus type 2 infects hundreds of millions of people worldwide and establishes a lifelong infection. Despite decades of research, there is still no approved vaccine against this virus. A better understanding of how it spreads in t\u2026"
-  },
-  {
-    "title": "Mind the gap: An embedding guide to safely travel in sequence space",
-    "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014433",
-    "source": "Plos.org",
-    "summary": "Author summary Enzymes are nature\u2019s catalysts: proteins that accelerate essential chemical reactions. Engineers often want to redesign them, but even a single amino acid change can destroy function by disrupting the precisely shaped active site where catalysi\u2026"
-  },
-  {
-    "title": "N-linked glycosylation of NS1 protein modulates progeny virion assembly in orthoflaviviruses",
-    "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1014408",
-    "source": "Plos.org",
-    "summary": "Author summary Tembusu virus (TMUV) is an avian orthoflavivirus and causing significant economic losses to poultry industry. The nonstructural protein 1 (NS1) of orthoflavivirus is multifunctional; however, the mechanism by which NS1 regulates flavivirus viri\u2026"
-  },
-  {
-    "title": "Socioeconomic and ecological drivers of contagious pig diseases in free-range systems: Evidence from Gwembe Valley, Zambia",
-    "url": "https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0014523",
-    "source": "Plos.org",
-    "summary": "Author summary Free-range pig farming is common in rural Zambia and helps many families earn income and improve food security. However, when pigs roam freely, they can easily come into contact with waste, other animals, and informal markets, which increases t\u2026"
-  },
-  {
-    "title": "Space station bioprinting experiment advances quest for lab-grown tissues, company says",
-    "url": "https://www.channelnewsasia.com/business/space-station-bioprinting-experiment-advances-quest-lab-grown-tissues-company-says-6243951",
-    "source": "CNA",
-    "summary": "July 9 : A biotechnology company says it has successfully used its 3D bioprinter aboard the International Space Station to manufacture structures containing human liver, kidney and cartilage cells, a step it believes could eventually aid production of transpl\u2026"
-  },
-  {
-    "title": "What Clinicians Ask About Cartilage Regeneration Supplements: Answering the Clinical Questions Around Cartigenix HP\u00ae",
-    "url": "https://www.globenewswire.com/news-release/2026/07/09/3324673/0/en/What-Clinicians-Ask-About-Cartilage-Regeneration-Supplements-Answering-the-Clinical-Questions-Around-Cartigenix-HP.html",
-    "source": "GlobeNewswire",
-    "summary": "Calroy Health Sciences addresses clinical questions on cartilage regeneration with data from three human studies covering 1,700-plus participants...."
-  },
-  {
-    "title": "The tiny cell that broke a big rule of biology",
-    "url": "https://grist.org/science/nitrogen-cycle-cell-discovery-nitroplast-science-fertilizer-algae-bacteria/",
-    "source": "Grist",
-    "summary": "It took two scientists decades to find a new nitrogen-fixing organelle. It could change the future of sustainable agriculture."
-  },
-  {
-    "title": "Polyvinylidene Fluoride Membrane Market - Global Market Reviewed in Latest Report",
-    "url": "https://www.globenewswire.com/news-release/2026/07/09/3324596/28124/en/Polyvinylidene-Fluoride-Membrane-Market-Global-Market-Reviewed-in-Latest-Report.html",
-    "source": "GlobeNewswire",
-    "summary": "PVDF membranes drive growth via advanced materials, tech integration, and regional sourcing, enhancing filtration across industries and adapting to regulatory and supply chain changes. PVDF membranes drive growth via advanced materials, tech integration, and \u2026"
-  },
-  {
-    "title": "Global PVDF Syringe Filters Market Set to Grow at 6.98% CAGR, Reaching USD 78.43 Million by 2032",
-    "url": "https://www.globenewswire.com/news-release/2026/07/09/3324595/28124/en/Global-PVDF-Syringe-Filters-Market-Set-to-Grow-at-6-98-CAGR-Reaching-USD-78-43-Million-by-2032.html",
-    "source": "GlobeNewswire",
-    "summary": "Key opportunities in the PVDF syringe filters market include adoption in biopharma, semiconductor, and environmental testing, driven by regulatory, technological, and sustainability advancements. Key opportunities in the PVDF syringe filters market include ad\u2026"
-  },
-  {
-    "title": "Microbiome Sequencing Services Market by Sample Type, Technology, Application, End User - Global Forecast 2026-2032",
-    "url": "https://www.globenewswire.com/news-release/2026/07/09/3324592/28124/en/Microbiome-Sequencing-Services-Market-by-Sample-Type-Technology-Application-End-User-Global-Forecast-2026-2032.html",
-    "source": "GlobeNewswire",
-    "summary": "Microbiome sequencing services present opportunities in precision health, pharma, food safety, agriculture, AI integration, and regional genomics initiatives, with demand for reproducible, secure workflows. Microbiome sequencing services present opportunities\u2026"
-  },
-  {
-    "title": "Dengue vaccine shows ability to address infectious diseases: BPOM",
-    "url": "https://en.antaranews.com/news/421997/dengue-vaccine-shows-ability-to-address-infectious-diseases-bpom",
-    "source": "Antaranews.com",
-    "summary": "The Food and Drug Monitoring Agency (BPOM) stated that the launch of an mRNA-based dengue vaccine prototype demonstrates Indonesia&#39;s ability to innovate ..."
-  },
-  {
-    "title": "The Pacific is no longer distant for India",
-    "url": "https://economictimes.indiatimes.com/opinion/et-commentary/the-pacific-is-no-longer-distant-for-india/articleshow/132276218.cms",
-    "source": "The Times of India",
-    "summary": "India's foreign policy is increasingly focused on the Indo-Pacific region, underscored by Prime Minister Modi's recent trips. His engagements with Australia demonstrate a rapid expansion of strategic and economic collaborations. Meanwhile, New Zealand present\u2026"
-  },
-  {
-    "title": "Nonye Soludo urges households to embrace home gardening for healthy living",
-    "url": "https://nijasun.com/nonye-soludo-urges-households-to-embrace-home-gardening-for-healthy-living/",
-    "source": "Nijasun.com",
-    "summary": "Pic: Mrs Soludo By Chinedum Treasure The wife of the Anambra State Governor, Dr. Nonye Soludo, has encouraged households to\u2026"
-  },
-  {
-    "title": "Terranean Herbs Strengthens Commitment to Authentic Mediterranean Foods and Community Impact Through Non-GMO Project Funding",
-    "url": "https://www.prnewswire.com/news-releases/terranean-herbs-strengthens-commitment-to-authentic-mediterranean-foods-and-community-impact-through-non-gmo-project-funding-302821461.html",
-    "source": "PRNewswire",
-    "summary": "Round 7 Equitable Transfer Program recipient supports immigrant women, authentic Levantine flavors, and transparent ingredient sourcing BELLINGHAM, Wash., July 8, 2026 /PRNewswire/ -- Terranean, a women-owned Lebanese American snack company based in Cleveland\u2026"
-  },
-  {
-    "title": "India\u2019s Vision 2047: Why Kiwi businesses should act now on new opportunities - Rahul Sen and Madan Mohan Sethi",
-    "url": "https://www.nzherald.co.nz/business/business-reports/india-business-report/indias-vision-2047-why-kiwi-businesses-should-act-now-on-new-opportunities-rahul-sen-and-madan-mohan-sethi/premium/E4VA6GH6JJCDLATLNECWDKG7L4/",
-    "source": "New Zealand Herald",
-    "summary": "OPINION: India\u2019s workforce will grow by 200m, creating demand for Kiwi education and tech."
-  },
-  {
-    "title": "Daily briefing: Mutation lets octopuses make proteins with precision",
-    "url": "https://www.nature.com/articles/d41586-026-02177-1",
-    "source": "Nature.com",
-    "summary": "A break in these octopuses\u2019 protein-making machinery boosts their accuracy. Plus, a Nobel-prizewinner has left the United States for China and the effects of microgravity on the brain."
-  },
-  {
-    "title": "Candel Therapeutics Announces Inducement Grant Under Nasdaq Listing Rule 5635(c)(4)",
-    "url": "https://www.globenewswire.com/news-release/2026/07/08/3324419/0/en/Candel-Therapeutics-Announces-Inducement-Grant-Under-Nasdaq-Listing-Rule-5635-c-4.html",
-    "source": "GlobeNewswire",
-    "summary": "NEEDHAM, Mass., July 08, 2026 (GLOBE NEWSWIRE) -- Candel Therapeutics, Inc. (Candel or the Company) (Nasdaq: CADL), a clinical-stage biopharmaceutical company focused on developing multimodal immunotherapies to improve disease outcomes for patients with cance\u2026"
-  },
-  {
-    "title": "Gene-edited babies are now closer to becoming a reality. The ethical debate is far from settled",
-    "url": "https://www.cnn.com/2026/07/08/science/human-embryo-gene-editing",
-    "source": "CNN",
-    "summary": "New research shows it\u2019s possible to edit the DNA of human embryos with more precision. But scientists warn it\u2019s still not safe."
-  },
-  {
-    "title": "Powering scientific discovery: BYOKG and GraphRAG for intelligent pharmaceutical research",
-    "url": "https://aws.amazon.com/blogs/machine-learning/powering-scientific-discovery-byokg-and-graphrag-for-intelligent-pharmaceutical-research/",
-    "source": "Amazon.com",
-    "summary": "In this post, we explore how Graph-based Retrieval Augmented Generation (GraphRAG) is transforming scientific research by combining graph databases with generative AI. With this approach, you can accelerate discovery processes without compromising scientific \u2026"
-  },
-  {
-    "title": "Is Ionis Pharmaceuticals, Inc. (IONS) Stock a Buy After Tryngolza\u2019s FDA Approval?",
-    "url": "https://finance.yahoo.com/healthcare/articles/ionis-pharmaceuticals-inc-ions-stock-145029688.html",
-    "source": "Yahoo Entertainment",
-    "summary": "We recently compiled a list of the 10 Best Innovative Healthcare Stocks to Buy Now. Ionis Pharmaceuticals, Inc. (NASDAQ:IONS) is one of the best healthcare s..."
-  },
-  {
-    "title": "Is Regeneron Pharmaceuticals, Inc. (REGN) Stock Still a Biotech Leader After Analyst Price Target Cut?",
-    "url": "https://finance.yahoo.com/healthcare/articles/regeneron-pharmaceuticals-inc-regn-stock-145006692.html",
-    "source": "Yahoo Entertainment",
-    "summary": "We recently compiled a list of the 10 Best Innovative Healthcare Stocks to Buy Now. Regeneron Pharmaceuticals, Inc. (NASDAQ:REGN) is one of the best healthca..."
-  },
-  {
-    "title": "Tsingke Highlights AI-Driven CLDN18.2 Antibody Discovery at AIS 2026",
-    "url": "https://www.prnewswire.com/news-releases/tsingke-highlights-ai-driven-cldn18-2-antibody-discovery-at-ais-2026--302820198.html",
-    "source": "PRNewswire",
-    "summary": "MONTPELLIER, France, July 8, 2026 /PRNewswire/ -- Tsingke, a provider of integrated life science research solutions, participated in the Antibody Industrial Symposium (AIS) 2026, one of Europe's leading conferences dedicated to therapeutic antibodies and biot\u2026"
-  },
-  {
-    "title": "Tsingke Highlights AI-Driven CLDN18.2 Antibody Discovery at AIS 2026",
-    "url": "https://www.prnewswire.co.uk/news-releases/tsingke-highlights-ai-driven-cldn18-2-antibody-discovery-at-ais-2026--302820235.html",
-    "source": "PR Newswire UK",
-    "summary": "MONTPELLIER, France, July 8, 2026 /PRNewswire/ -- Tsingke, a provider of integrated life science research solutions, participated in the Antibody Industrial Symposium (AIS) 2026, one of Europe's leading conferences dedicated to therapeutic antibodies and biot\u2026"
-  },
-  {
-    "title": "Tsingke Highlights AI-Driven CLDN18.2 Antibody Discovery at AIS 2026",
-    "url": "https://www.prnewswire.com/news-releases/tsingke-highlights-ai-driven-cldn18-2-antibody-discovery-at-ais-2026--302820235.html",
-    "source": "PRNewswire",
-    "summary": "MONTPELLIER, France, July 8, 2026 /PRNewswire/ -- Tsingke, a provider of integrated life science research solutions, participated in the Antibody Industrial Symposium (AIS) 2026, one of Europe's leading conferences dedicated to therapeutic antibodies and biot\u2026"
-  },
-  {
-    "title": "What will be the future of computational biology for macromolecules in the era of AI?",
-    "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014467",
-    "source": "Plos.org",
-    "summary": "We have seen more progress in computational biology for macromolecules in the last five years than we experienced in the five preceding decades. Thus, it is very challenging to forecast future progress. It is possible that we have reached a plateau, and we wi\u2026"
-  },
-  {
-    "title": "Dynamic changes in In vitro rumen fermentation, nutrient degradation, and microbial communities of fermentation inoculant-treated licorice stem and leaf silage under different dry matter contents",
-    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353206",
-    "source": "Plos.org",
-    "summary": "This study aimed to explore the effects of semi-dry licorice (Glycyrrhiza uralensis) stem and leaf silage on dynamic changes in dairy cow in vitro rumen fermentation parameters, nutrient degradation rates, and microbial community composition. Silage substrate\u2026"
-  },
-  {
-    "title": "Beta-Carotene Market by Product Type, Source, Solubility, Application, Distribution Channels - Global Forecast 2026-2032",
-    "url": "https://www.globenewswire.com/news-release/2026/07/08/3324188/28124/en/Beta-Carotene-Market-by-Product-Type-Source-Solubility-Application-Distribution-Channels-Global-Forecast-2026-2032.html",
-    "source": "GlobeNewswire",
-    "summary": "Opportunities in the beta-carotene market include nutrition-focused innovations, natural ingredient demand, AI-enhanced production, and expanding applications in Asia-Pacific and clean-label sectors. Opportunities in the beta-carotene market include nutrition\u2026"
-  },
-  {
-    "title": "NewcelX Appoints World-Renowned Diabetes Cure-Focused Pioneer, Dr. Camillo Ricordi, to Scientific Advisory Board",
-    "url": "https://www.globenewswire.com/news-release/2026/07/08/3324174/0/en/NewcelX-Appoints-World-Renowned-Diabetes-Cure-Focused-Pioneer-Dr-Camillo-Ricordi-to-Scientific-Advisory-Board.html",
-    "source": "GlobeNewswire",
-    "summary": "The appointment follows\u00a0NewcelX's recently announced successful FDA Type B Pre-IND meeting for NCEL-101, providing a clear regulatory pathway toward clinical trials"
-  },
-  {
-    "title": "Creating synthetic life in a lab? SpudCell falls short of the goal, but raises even more useful questions",
-    "url": "https://theconversation.com/creating-synthetic-life-in-a-lab-spudcell-falls-short-of-the-goal-but-raises-even-more-useful-questions-286762",
-    "source": "The Conversation Africa",
-    "summary": "The goal of creating synthetic cells is not to replace nature, but to learn more deeply about biology and reengineer it to help society."
-  },
-  {
-    "title": "This $1,200 Stock Could Be the Next Massive Stock Split Opportunity",
-    "url": "https://247wallst.com/investing/2026/07/08/this-1200-stock-could-be-the-next-massive-stock-split-opportunity/",
-    "source": "24/7 Wall St.",
-    "summary": "The Number $8.662 billion. That is what Mounjaro alone generated for Eli Lilly (NYSE:LLY) in the first quarter of 2026, a single product, a single quarter, u..."
-  },
-  {
-    "title": "Kalohexis confidentially files IPO to back obesity and cachexia portfolio",
-    "url": "https://www.pharmaceutical-technology.com/news/kalohexis-files-confidential-ipo-obesity-cachexia/",
-    "source": "Pharmaceutical Technology",
-    "summary": "The biotech\u2019s potential launch on the public markets would help fuel development of its clinical-stage, melanocortin-focused pipeline."
-  },
-  {
-    "title": "Natural Grocers\u00ae Opens Its Doors in Rapid City, South Dakota, With a Grand Opening Celebration on July 22, 2026",
-    "url": "https://www.prnewswire.com/news-releases/natural-grocers-opens-its-doors-in-rapid-city-south-dakota-with-a-grand-opening-celebration-on-july-22-2026-302820241.html",
-    "source": "PRNewswire",
-    "summary": "Customers will enjoy unbeatable savings, exciting giveaways, sweepstakes, samples and more LAKEWOOD, Colo., July 8, 2026 /PRNewswire/ -- Natural Grocers\u00ae, the leading family-operated organic and natural grocery retailer in the U.S., announces the opening of a\u2026"
-  },
-  {
-    "title": "Aura Biosciences Announces Appointment of Jeremy Bender, Ph.D., M.B.A., to Board of Directors",
-    "url": "https://www.globenewswire.com/news-release/2026/07/08/3323962/0/en/Aura-Biosciences-Announces-Appointment-of-Jeremy-Bender-Ph-D-M-B-A-to-Board-of-Directors.html",
-    "source": "GlobeNewswire",
-    "summary": "BOSTON, July 08, 2026 (GLOBE NEWSWIRE) -- Aura Biosciences, Inc.\r\n (NASDAQ: AURA), a clinical-stage biotechnology company developing precision therapies for solid tumors designed to preserve organ function, today announced the appointment of Jeremy Bender, Ph\u2026"
-  },
-  {
-    "title": "Global Pasta Market to Hit $100 Billion by 2030: Increasing Demand for Premium and Gluten-Free Options",
-    "url": "https://www.globenewswire.com/news-release/2026/07/08/3323854/28124/en/Global-Pasta-Market-to-Hit-100-Billion-by-2030-Increasing-Demand-for-Premium-and-Gluten-Free-Options.html",
-    "source": "GlobeNewswire",
-    "summary": "The pasta market is driven by increasing demand for convenience foods, plant-based, gluten-free, and premium pasta products. Innovation in rapid-cook ready-to-eat pasta, expansion of online grocery channels, and rising health consciousness create significant \u2026"
-  },
-  {
-    "title": "Western Blotting Market Surges with 9% CAGR, Driven by Automation and High-Sensitivity Protein Analysis",
-    "url": "https://www.globenewswire.com/news-release/2026/07/08/3323850/28124/en/Western-Blotting-Market-Surges-with-9-CAGR-Driven-by-Automation-and-High-Sensitivity-Protein-Analysis.html",
-    "source": "GlobeNewswire",
-    "summary": "The western blotting market is poised for growth due to rising biomarker-based diagnostics demand, expanding proteomics research, and increased automation of lab workflows. Key opportunities involve automated systems, high-sensitivity detection, ready-to-use \u2026"
-  },
-  {
-    "title": "Crinetics Shares Nearly Double to $83 After Vertex Agrees to $10 Billion All-Cash Acquisition Deal Today",
-    "url": "https://www.ibtimes.com.au/vertex-acquires-crinetics-10-billion-deal-1872008",
-    "source": "Ibtimes.com.au",
-    "summary": "Vertex Pharmaceuticals is set to acquire Crinetics Pharmaceuticals for $10 billion, enhancing its endocrinology portfolio with key assets like Palsonify and atumelnant, pending regulatory approvals."
-  },
-  {
-    "title": "AMSilk and Ajinomoto Foods Europe Expand Partnership to Enable Industrial-Scale Production of Silk Proteins",
-    "url": "https://www.globenewswire.com/news-release/2026/07/08/3323840/0/en/AMSilk-and-Ajinomoto-Foods-Europe-Expand-Partnership-to-Enable-Industrial-Scale-Production-of-Silk-Proteins.html",
-    "source": "GlobeNewswire",
-    "summary": "AMSilk and Ajinomoto Foods Europe Expand Partnership to Enable Industrial-Scale Production of Silk Proteins..."
-  },
-  {
-    "title": "Genespire and SR-TIGET Show Durable Preclinical Efficacy of Liver-Directed Gene Therapy for Methylmalonic Acidemia",
-    "url": "https://www.prnewswire.com/news-releases/genespire-and-sr-tiget-show-durable-preclinical-efficacy-of-liver-directed-gene-therapy-for-methylmalonic-acidemia-302819929.html",
-    "source": "PRNewswire",
-    "summary": "The study shows that ISLV-directed delivery of the MMUT gene produced durable therapeutic benefits in mouse models. Gene transfer efficiency exceeded 80% of the liver. Genespire is progressing its lead asset for MMA, GENE202, towards the clinic. MILAN, July 8\u2026"
-  },
-  {
-    "title": "Asia\u2019s super-aging societies are sparking a boom in high-end longevity clinics\u2014even if \u2018public enthusiasm\u2019 is outpacing the science",
-    "url": "https://fortune.com/2026/07/08/asia-longevity-aging-population-science/",
-    "source": "Fortune",
-    "summary": "A new kind of business\u2014blending hospitality, technology, and traditional practices\u2014is promising to extend not just lifespan, but also 'healthspan'."
-  },
-  {
-    "title": "On World Obesity Day, WONDERLAB Releases the Targeted Microbiota Weight Management White Paper",
-    "url": "https://www.globenewswire.com/news-release/2026/07/08/3323825/0/en/On-World-Obesity-Day-WONDERLAB-Releases-the-Targeted-Microbiota-Weight-Management-White-Paper.html",
-    "source": "GlobeNewswire",
-    "summary": "SHENZHEN, China, July 08, 2026 (GLOBE NEWSWIRE) -- WONDERLAB, a leading Chinese probiotics company ranked No.1 in probiotic sales in China,\u00b9 has published the Targeted Microbiota Weight Management White Paper, a strain-specific framework for microbiome-based \u2026"
-  },
-  {
-    "title": "Tart cherry juice and probiotics: A duo that supports restful sleep and optimal gut health",
-    "url": "https://www.naturalnews.com/2026-07-08-tart-cherry-juice-probiotics-sleep-gut-health.html",
-    "source": "Naturalnews.com",
-    "summary": "Tart cherry juice contains melatonin and serotonin, hormones that regulate your sleep-wake cycle. Studies show that drinking it can help you fall asleep faster, sleep longer, and improve overall sleep quality, making it a gentle alternative to sleep aids. Pro\u2026"
-  },
-  {
-    "title": "Are GloFish naturally neon?",
-    "url": "https://www.lifesciencesworld.com/are-glofish-naturally-neon/",
-    "source": "Lifesciencesworld.com",
-    "summary": "Are GloFish Naturally Neon?: Unveiling the Truth Behind the Vibrant Hue Are GloFish naturally neon? The answer is a resounding no: the vibrant colors of GloFish are the result of genetic modification, not a natural occurrence. Understanding GloFish: A Backgro\u2026"
-  },
-  {
-    "title": "30 years since Dolly the sheep was born, where is cloning technology at now?",
-    "url": "https://theconversation.com/30-years-since-dolly-the-sheep-was-born-where-is-cloning-technology-at-now-285886",
-    "source": "The Conversation Africa",
-    "summary": "Today, cloning is not a technology that can simply \u201ccopy and paste\u201d living things. But it\u2019s brought advances in several fields of science."
-  },
-  {
-    "title": "What do bacteria eat?",
-    "url": "https://www.lifesciencesworld.com/what-do-bacteria-eat/",
-    "source": "Lifesciencesworld.com",
-    "summary": "What do Bacteria Eat? A Comprehensive Guide Bacteria consume a remarkable diversity of substances, ranging from simple sugars to complex organic matter, even inorganic compounds like iron and sulfur, fueling their growth and reproduction. What bacteria eat is\u2026"
-  },
-  {
-    "title": "FORE Biotherapeutics Announces Closing of Upsized $67.4 Million Series D-2 Extension Financing and Highlights Recent Plixorafenib Achievements",
-    "url": "https://apnews.com/press-release/business-wire/press-release-84ef9274bc924185b371285ff989c611",
-    "source": "Associated Press",
-    "summary": "PHILADELPHIA--(BUSINESS WIRE)--Jul 7, 2026-- FORE Biotherapeutics, a registration stage company dedicated to developing targeted therapies to treat patients with cancer, today announced the closing of an upsized Series D-2 extension financing of $67.4 million\u2026"
-  },
-  {
-    "title": "An intrinsic cytoskeletal oscillator establishes neuronal polarity",
-    "url": "https://www.nature.com/articles/s41586-026-10755-6",
-    "source": "Nature.com",
-    "summary": "The ARP2/3 complex works together with actomyosin in an oscillatory program at the soma&nbsp;to govern neuronal polarization."
-  },
-  {
-    "title": "Daily briefing: Mountain bongos still roam the forest",
-    "url": "https://www.nature.com/articles/d41586-026-02146-8",
-    "source": "Nature.com",
-    "summary": "A breeding herd of critically endangered antelope offer hope for the species' future. Plus, the mysterious objects that washed up in Australia are \u2018space balls\u2019 and the role of native plants in our backyards."
-  },
-  {
-    "title": "TaiMed Biologics (4147) Receives TFDA Drug License Collection Notice for Trogarzo, Marking the Final Step Toward Commercial Launch in Taiwan",
-    "url": "https://www.globenewswire.com/news-release/2026/07/07/3323761/0/en/TaiMed-Biologics-4147-Receives-TFDA-Drug-License-Collection-Notice-for-Trogarzo-Marking-the-Final-Step-Toward-Commercial-Launch-in-Taiwan.html",
-    "source": "GlobeNewswire",
-    "summary": "TAIPEI, July 07, 2026 (GLOBE NEWSWIRE) -- TaiMed Biologics (TPEX: 4147) announced today that its HIV therapy Trogarzo (ibalizumab; English name: Trogarzo Injection; Chinese name: \u4f50\u52a0\u6d1b\u6ce8\u5c04\u5291) has officially received a Drug License Collection Notice from the Taiwan\u2026"
-  },
-  {
-    "title": "FDA approves Vera Therapeutics kidney disease treatment",
-    "url": "https://biztoc.com/x/0f7c3bb776d2a136",
-    "source": "Biztoc.com",
-    "summary": "The Food and Drug Administration on Tuesday approved a new medicine from the biotech company Vera Therapeutics for patients with a type of chronic autoimmune kidney disease.\nThe drug, called Trutakna, was cleared to treat IgA nephropathy, or IgAN, a disease c\u2026"
-  },
-  {
-    "title": "[Latest] Global Microfluidic Devices Market Size/Share Worth USD 182.98 Billion by 2035 at a 22.36% CAGR: Healthcare Foresights (Analysis, Outlook, Leaders, Report, Trends, Forecast, Segmentation, Growth Rate, Value, SWOT Analysis)",
-    "url": "https://www.globenewswire.com/news-release/2026/07/07/3323604/0/en/Latest-Global-Microfluidic-Devices-Market-Size-Share-Worth-USD-182-98-Billion-by-2035-at-a-22-36-CAGR-Healthcare-Foresights-Analysis-Outlook-Leaders-Report-Trends-Forecast-Segmenta.html",
-    "source": "GlobeNewswire",
-    "summary": "[220+ Pages Latest Report] According to a market research study published by Healthcare Foresights, the demand analysis of Global Microfluidic Devices Market size & share revenue was valued at approximately USD 24.32 Billion in 2025 and is expected to reach U\u2026"
-  },
-  {
-    "title": "Tracing evolution of vaccine for cancer, malaria",
-    "url": "https://news.harvard.edu/gazette/story/2026/07/tracing-evolution-of-vaccine-for-cancer-malaria/",
-    "source": "Harvard School of Engineering and Applied Sciences",
-    "summary": "Technology born out of Harvard labs shows the power of collaboration, and how the path to development seldom follows a straight line."
-  },
-  {
-    "title": "Vera Therapeutics Receives FDA Accelerated Approval for TRUTAKNA\u2122 for Adult Patients with Primary IgA Nephropathy",
-    "url": "https://www.globenewswire.com/news-release/2026/07/07/3323532/0/en/Vera-Therapeutics-Receives-FDA-Accelerated-Approval-for-TRUTAKNA-for-Adult-Patients-with-Primary-IgA-Nephropathy.html",
-    "source": "GlobeNewswire",
-    "summary": "Vera Therapeutics Receives FDA Accelerated Approval for TRUTAKNA\u2122 for Adult Patients with Primary IgA Nephropathy..."
-  },
-  {
-    "title": "In Vitro Fertilization Market Outlook 2026-2031: Rising Infertility Rates & Advancements in Assisted Reproductive Technologies Drive Global Market Growth, Says Mordor Intelligence",
-    "url": "https://www.prnewswire.com/news-releases/in-vitro-fertilization-market-outlook-2026-2031-rising-infertility-rates--advancements-in-assisted-reproductive-technologies-drive-global-market-growth-says-mordor-intelligence-302819746.html",
-    "source": "PRNewswire",
-    "summary": "HYDERABAD, India, July 7, 2026 /PRNewswire/ -- According to the latest report by Mordor Intelligence, the in vitro fertilization market size is projected to grow from USD 30.90 billion in 2026 to USD 45.90 billion by 2031, registering a CAGR of 8.28% during t\u2026"
-  },
-  {
-    "title": "Contemporary Romance and Fantasy",
-    "url": "https://smartbitchestrashybooks.com/2026/07/contemporary-romance-and-fantasy/",
-    "source": "Smartbitchestrashybooks.com",
-    "summary": "Smart Bitches, Trashy Books"
-  },
-  {
-    "title": "RNAi Technology Market Size to Reach USD 13.63 Billion by 2035 | SNS Insider",
-    "url": "https://www.globenewswire.com/news-release/2026/07/07/3323460/0/en/RNAi-Technology-Market-Size-to-Reach-USD-13-63-Billion-by-2035-SNS-Insider.html",
-    "source": "GlobeNewswire",
-    "summary": "The U.S. RNAi Technology Market is projected to grow from USD 1.24 Billion in 2025 to USD 4.77 Billion by 2035, while the Europe market is expected to expand from USD 0.93 Billion to USD 3.42 Billion, supported by increasing RNA-based therapeutic development \u2026"
-  },
-  {
-    "title": "Agios Pharmaceuticals Shares Jump 11% After FDA Grants Priority Review for Sickle Cell Drug Application",
-    "url": "https://www.ibtimes.com.au/agios-pharmaceuticals-fda-priority-review-sickle-cell-treatment-1871964",
-    "source": "Ibtimes.com.au",
-    "summary": "Agios Pharmaceuticals' stock surged after the FDA granted priority review to its drug mitapivat for sickle cell disease, potentially accelerating its market entry and expanding its commercial reach."
-  },
-  {
-    "title": "Shiga toxin delivery in extracellular vesicles induces high mortality and severe kidney injury in a Gb3-dependent manner",
-    "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1014421",
-    "source": "Plos.org",
-    "summary": "Author summary Hemolytic uremic syndrome (HUS) is a severe complication of gastrointestinal infection with enterohemorrhagic E. coli (EHEC) that produce Shiga toxin and is the most common cause of acute kidney injury in young children in the western world. Sh\u2026"
-  },
-  {
-    "title": "Chronic exposure to intestinal parasites and bacterial enteropathogens among children in rural Madagascar: Implications for asymptomatic carriage and co-infections",
-    "url": "https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0014519",
-    "source": "Plos.org",
-    "summary": "Author summary Children living in rural, low-resource settings are exposed to intestinal microbes from a very early age. Many of these infections do not cause obvious symptoms, yet they may still affect child health, growth, and development. In this study, we\u2026"
-  },
-  {
-    "title": "Subversion of the salicylic acid signaling pathway by the bipartite begomoviral protein BV1 promotes virus infection and vector preference to virus-infected plants",
-    "url": "https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1014354",
-    "source": "Plos.org",
-    "summary": "Author summary In the field, plant viruses can cause widespread disease epidemics only if they can readily infect and spread among their host plants. Hence, for vector-borne viruses whose spread relies on vectors, dissecting how they interact with their hosts\u2026"
-  },
-  {
-    "title": "Insilico Initiates Phase III Clinical Trial for Rentosertib, Its AI-Empowered TNIK Inhibitor for Idiopathic Pulmonary Fibrosis",
-    "url": "https://www.prnewswire.com/news-releases/insilico-initiates-phase-iii-clinical-trial-for-rentosertib-its-ai-empowered-tnik-inhibitor-for-idiopathic-pulmonary-fibrosis-302819553.html",
-    "source": "PRNewswire",
-    "summary": "Potentially first-in-class oral TNIK inhibitor advances into late-stage development after milestones marked by vital peer-reviewed papers: the discovery-to-clinic journey in Nature Biotechnology, and positive Phase IIa clinical results in Nature Medicine Rent\u2026"
-  },
-  {
-    "title": "A Pilot Project for Fashion Made in America\u2014But With AI and\u00a0Robotics",
-    "url": "http://wwd.com/sourcing-journal/trade/made-in-america-robotics-avalo-createme-laguna-fabrics-1239054525/",
-    "source": "WWD",
-    "summary": "Avalo, Laguna Fabrics, and CreateMe partner up for a 'Made in the U.S.A.' pilot project"
-  },
-  {
-    "title": "The Illusion of the Grand Bargain: Decoding Trump\u2019s 2026 Beijing Summit",
-    "url": "https://www.fairobserver.com/economics/the-illusion-of-the-grand-bargain-decoding-trumps-2026-beijing-summit/",
-    "source": "Fair Observer",
-    "summary": "In mid-May, the world witnessed a monumental diplomatic drama \u2014 US President Donald Trump set foot on Beijing\u2019s soil for the first time in nine years, embarking on his historic first visit to China of his second term. At this juncture, US\u2013China relations were\u2026"
   }
 ]
 
@@ -621,40 +615,10 @@ GMO and genome editing in agriculture or food sector
     "doi": "10.1016/j.biotechadv.2026.108890"
   },
   {
-    "title": "NtMBD1 regulates shoot branching regulation and evolutionary differentiation in tobacco (Nicotiana tabacum L.).",
-    "abstract": "",
-    "url": "https://doi.org/10.1016/j.plantsci.2026.113176",
-    "doi": "10.1016/j.plantsci.2026.113176"
-  },
-  {
-    "title": "Enhancing the performance of plant-based supercapacitors with CRISPR-Cas9 gene editing technology",
-    "abstract": "",
-    "url": "https://doi.org/10.1016/j.est.2026.122635",
-    "doi": "10.1016/j.est.2026.122635"
-  },
-  {
     "title": "CRISPR/Cas12a-mediated aggregation of unmodified AuNPs via microwave-assisted heating-dry for label-free detection of Escherichia coli O157:H7.",
     "abstract": "CRISPR/Cas12a has emerged as a powerful platform for developing next-generation biosensors, yet achieving rapid, instrument-free visual detection remains a challenging. Conventional CRISPR-AuNP assays rely on pre-functionalized, thiol-modified gold nanoparticles (AuNPs), which introduce steric hindrance that slows Cas12a kinetics and increases cost and complexity. Here, we developed a rapid, label-free colorimetric platform that integrates a mismatched catalytic hairpin assembly (MCHA) for low-background amplification with CRISPR/Cas12a trans-cleavage, coupled to a microwave-assisted dry-heating method for in-situ probe conjugation. Unlike conventional approaches where CRISPR acts on pre-conjugated probes, our method allows Cas12a to cleave free, non-thiolated ssDNA probes. Intact probes rapidly conjugate to unmodified AuNPs under microwave irradiation via their high-affinity domain, forming a protective corona that prevents salt-induced aggregation. Conversely, probes that have been c",
     "url": "https://doi.org/10.1016/j.bios.2026.118676",
     "doi": "10.1016/j.bios.2026.118676"
-  },
-  {
-    "title": "CRISPR/Cas9 mediated knockout of MeSSI enhances resistant starch content without compromising yield in cassava.",
-    "abstract": "",
-    "url": "https://doi.org/10.1016/j.carbpol.2026.125382",
-    "doi": "10.1016/j.carbpol.2026.125382"
-  },
-  {
-    "title": "Sugarcane viral diseases: Epidemiology, detection, and advanced breeding methods for resistance.",
-    "abstract": "",
-    "url": "https://doi.org/10.1016/j.virol.2026.110940",
-    "doi": "10.1016/j.virol.2026.110940"
-  },
-  {
-    "title": "Homozygous IbGBSS1 knockouts in hexaploid sweet potato enable amylose-free starch without a yield trade-off.",
-    "abstract": "",
-    "url": "https://doi.org/10.1016/j.plantsci.2026.113172",
-    "doi": "10.1016/j.plantsci.2026.113172"
   },
   {
     "title": "Diverse novel RNA polymerase III promoters and dual-activity promoters identified through motif and transcriptomic analyses across multiple plant species.",
@@ -669,10 +633,106 @@ GMO and genome editing in agriculture or food sector
     "doi": "10.30574/ijsra.2026.20.1.1435"
   },
   {
-    "title": "Adipose-derived mesenchymal stromal cells and their acellular derivatives in cutaneous wound healing and pathological scarring: a narrative review",
-    "abstract": "",
-    "url": "https://doi.org/10.1007/s10561-026-10238-y",
-    "doi": "10.1007/s10561-026-10238-y"
+    "title": "Functional characterization of Acyl-CoA Synthase 1 in tomato branch angle development.",
+    "abstract": "Branch angle is a crucial determinant of plant architecture, which is an important agronomic trait that contributes greatly to plant yield. In this study, we reported that SlACOS1 (Acyl-CoA synthase1) was related to regulate the branch angle in tomato (Solanum lycopersicum). Knockout of the SlACOS1 gene through CRISPR/Cas9 editing system resulted in a reduced lateral branch angle. Histological analysis revealed that editing SlACOS1 stimulated asymmetric growth of the branch base caused by the curve growth of vascular cylinder, parenchymatous tissue incrassation, cell elongation and expansion in abaxial side (AB) of the branch. Further analyses revealed that SlACOS1 responds to auxin and influenced its asymmetric distribution, leading to higher auxin concentration in the AB sides of the branch and subsequent differential growth of the two branch sides. In addition, SlACOS1 interacted with two lignin biosynthesis genes SlCCR5 and 6 to regulate lignin content in the branch. The Slacos1 mu",
+    "url": "https://doi.org/10.1186/s12870-026-09516-4",
+    "doi": "10.1186/s12870-026-09516-4"
+  },
+  {
+    "title": "Epigenome editing: a dimension of genome editing beyond DNA sequence",
+    "abstract": "Epigenome editing has emerged as a transformative extension of conventional genome engineering, offering precise and programmable control of gene expression without altering the underlying DNA sequence. In contrast to the genetic modifications that introduce permanent sequence changes, epigenome editing exploits reversible and potentially heritable epigenetic mechanisms such as DNA methylation, histone modifications, chromatin remodelling, and RNA-mediated gene silencing to regulate transcriptional states. Advances in next-generation sequencing technologies have enabled high-resolution mapping of epigenetic landscapes, revealing the dynamic and context-dependent nature of chromatin regulation across development and environmental conditions. The integration of programmable DNA-binding platforms, including zinc finger proteins, transcription activator-like effectors, and CRISPR/dCas9-based systems, with epigenetic effector domains has revolutionized locus specific manipulation of chromat",
+    "url": "https://doi.org/10.1007/s44522-026-00002-7",
+    "doi": "10.1007/s44522-026-00002-7"
+  },
+  {
+    "title": "Enhancing the Secretion Systems: Genetic Engineering of Super Bioagents for Effective Plant Disease Control.",
+    "abstract": "The escalating threat of plant diseases to global agriculture and food security necessitates innovative and sustainable control strategies. Conventional biological control agents (BCAs), while environmentally friendly, often suffer environmental challenges and secretion of limited/poor antimicrobial compounds. Advances in CRISPR/Cas genome editing, protease engineering, and synthetic biology have enabled precise modifications that improve pathogen targeting and secretion efficiency. Interest should now be shifted on development of \"Super Bioagents (SBs)\" with enhanced secretion systems (SSs) for plant disease suppression against changing environmental factors. This will create sustainable ecofriendly alternative to chemical pesticides. This review explores a detailed overview of molecular mechanisms of microbial SSs and the potentials of SBs as a frontier in plant disease management. While there are still challenges in mass deployment of BCAs in sustainable agriculture, this review is ",
+    "url": "https://doi.org/10.1002/bit.70303",
+    "doi": "10.1002/bit.70303"
+  },
+  {
+    "title": "Unraveling the complexity of the oilseed rape genome: from sequencing to gene discovery for trait improvement",
+    "abstract": "Oilseed rape (Brassica napus) serves as a cornerstone of global vegetable oil production, yet its genetic improvement has historically been impeded by a complex allopolyploid genome. This review synthesizes the transformative evolution of rapeseed genomics, traversing from initial fragmented references to the modern era of gap-free Telomere-to-Telomere (T2T) assemblies and graph-based pan-genomes. We highlight how these advanced resources resolve previously inaccessible repetitive regions and centromeres, revealing how structural variations (SVs) and homoeologous exchanges (HEs) drive key adaptive traits and morphotype diversification. Furthermore, we examine the integration of large-scale resequencing with sophisticated multi-omics pipelines to bridge the gap between statistical associations and biological causality. Through case studies, such as the characterization of BnRRF for seed weight and BnA09MYB47a for seed coloration, we illustrate the power of combining transcriptomics with",
+    "url": "https://doi.org/10.1007/s00122-026-05267-w",
+    "doi": "10.1007/s00122-026-05267-w"
+  },
+  {
+    "title": "A FtsH-Like Zinc Metalloprotease, OsFtsH1, Coordinates Chloroplast Development and Photosystem II Homeostasis in Rice.",
+    "abstract": "Chloroplast development is a fundamental process underlying photosynthesis and plant growth, yet its molecular regulatory mechanisms remain to be fully elucidated. In this study, we identified an albino rice mutant, which exhibits drastically reduced chlorophyll content and defective chloroplast ultrastructure. Through map-based cloning, coupled with CRISPR/Cas9-mediated gene editing and complementation assays, we verified that the target gene encodes a zinc metalloprotease of the FtsH protein family, OsFtsH1. The expression of OsFtsH1 is light-inducible, and its encoded protein localizes specifically to chloroplasts. RNA-sequencing (RNA-seq) analysis revealed broad differential expression of photosynthesis-related genes in osftsh1 mutants. qRT-PCR further demonstrated that plastid-encoded genes involved in chloroplast biogenesis are markedly downregulated at the transcriptional level. Functional assays indicated that OsFtsH1 sustains the homeostasis of D1, D2 and CP43, core proteins o",
+    "url": "https://doi.org/10.1186/s12284-026-00936-2",
+    "doi": "10.1186/s12284-026-00936-2"
+  },
+  {
+    "title": "Molecular Markers Associated with Genetic Diversity, Stress Tolerance, and Breeding Traits in Theobroma cacao: A Review",
+    "abstract": "Global chocolate production depends entirely on Theobroma cacao, a perennial tree crop severely bottlenecked\nby an extended juvenile phase, extreme heterozygosity, and accelerating climate and pathogen pressures. Because\nconventional phenotypic selection cannot keep pace with rapidly compounding ecological threats, molecular breeding has\ntransitioned from an exploratory tool to an absolute necessity for crop survival. This review critically evaluates the\nevolutionary trajectory, real-world deployment, and functional breakthroughs of diverse molecular marker systems\ndesigned to accelerate cacao genetic improvement. We trace the technological paradigm shift from legacy marker\nconfigurations (RAPD, RFLP, AFLP)\u2014which established foundational germplasm architecture among Criollo, Forastero,\nand Trinitario groups\u2014to ultra-precise, co-dominant platforms (SSR, SNP, cpSSR). Beyond mere identification, our\nsynthesis of major findings highlights how these advanced markers have successfully decoup",
+    "url": "https://doi.org/10.38124/ijisrt/26jun2012",
+    "doi": "10.38124/ijisrt/26jun2012"
+  },
+  {
+    "title": "T-DNA Analyzer: A Long-Read Sequencing Pipeline for Characterizing T-DNA Insertion Sites in Transgenic Crops",
+    "abstract": "Molecular characterization of the transferred DNA (T-DNA) insertion sites is required for the safety assessment of genetically modified (GM) crops, yet conventional PCR-based methods are labor-intensive and limited in their ability to resolve complex structural variations. We present T-DNA Analyzer, an integrated bioinformatics pipeline that transforms long-read sequencing data (PacBio HiFi or Oxford Nanopore) into a comprehensive insertion site report. The pipeline implements a host-derived read filter that subtracts host-homologous vector regions to eliminate false-positive chimeric read calls; a multi-segment fusion detection algorithm that resolves complex T-DNA integration architectures; and a deletion gap gene impact analysis that identifies genes affected by host genome deletions at the integration site. Validation on maize and cotton datasets demonstrated that the host-derived filter excluded 86.4% of false-positive reads while retaining all true chimeric reads, and the fusion ",
+    "url": "https://doi.org/10.3390/ijms27146201",
+    "doi": "10.3390/ijms27146201"
+  },
+  {
+    "title": "Conserved RGF1 peptide signaling regulates root meristem development through ROS in Arabidopsis and rice",
+    "abstract": "The root meristem is essential for stem cell maintenance and root development in plants. In Arabidopsis, Root meristem Growth Factor (RGF) peptides and their receptors regulate root meristem size through reactive oxygen species (ROS)-dependent signalling. RGF1-mediated ROS redistribution post-translationally stabilises the root meristem master regulator PLETHORA2 (PLT2). Although genomic studies suggest that RGF\u2013receptor modules are evolutionarily conserved across land plants, their functional characterisation has remained largely limited to Arabidopsis. Here, we show that Oryza sativa RGF1-1 (OsRGF1-1) functions as a rice homologue of Arabidopsis RGF1 (AtRGF1). CRISPR/Cas9-generated Osrgf1-1 mutants exhibited shorter seminal roots, reduced root meristem size, and decreased superoxide (O\u2082\u2022\u207b) accumulation. EdU staining further confirmed that cell proliferation activity was reduced in the Osrgf1-1 mutants. The Osrgf1-1 mutants were sensitive to low concentrations of chemically synthesise",
+    "url": "https://doi.org/10.64898/2026.07.06.736907",
+    "doi": "10.64898/2026.07.06.736907"
+  },
+  {
+    "title": "Overexpression of MnERF/ABR1 from Mulberry Enhances Resistance to Botrytis cinerea",
+    "abstract": "Ethylene response factors (ERFs) are transcription factors specific to plants that serve critical functions in various aspects of plant growth, development, and responses to environmental stressors. Despite the significance of these factors, the specific mechanisms by which mulberry ERFs interact with and respond to the pathogenic fungus Botrytis cinerea have not yet been fully elucidated. This study focuses on the isolation of a particular ERF transcription factor, known as MnERF/ABR1, which is localized in the cell nucleus and is derived from mulberry. Overexpression of MnERF/ABR1 in Arabidopsis or transient overexpression of MnERF/ABR1 in mulberry leaves can significantly enhance its resistance to B. cinerea. Our results suggest that empty vector control (CK) has higher levels of malondialdehyde (MDA), a marker of oxidative stress, compared to overexpression lines. In contrast, the catalase (CAT) activity of overexpression lines was higher than that of CK plants. Furthermore, staini",
+    "url": "https://doi.org/10.3390/horticulturae12070844",
+    "doi": "10.3390/horticulturae12070844"
+  },
+  {
+    "title": "GmMADS17, a MADS-box transcription factor, promotes flowering in soybean.",
+    "abstract": "BACKGROUND\nSoybean\u00a0is an\u00a0important\u00a0crop used for oil, grain and feed. Due to its strong photoperiod sensitivity, flowering is a critical developmental process regulated by multiple genes that determines reproductive success and yield of soybean. Therefore, identifying regulatory genes controlling flowering is of great importance for developing widely adapted and high-yielding soybean varieties.\n\n\nRESULTS\nIn this study, we identified a soybean MADS-box transcription factor gene GmMADS17 through transcriptome analysis of two extreme flowering phenotype families derived from a recombinant inbred line (RIL) population of Qihuang 34 and Jidou 17. Functional validation using both overexpression and CRISPR/Cas9-mediated mutagenesis demonstrated that\u00a0GmMADS17\u00a0promotes flowering in soybean. Yeast two-hybrid, bimolecular fluorescence complementation assays and Co-immunoprecipitation assay further revealed that GmMADS17 could interact with 3 GmAP1 proteins (GmAP1a, c and d). In addition, genetic ",
+    "url": "https://doi.org/10.1186/s12870-026-09476-9",
+    "doi": "10.1186/s12870-026-09476-9"
+  },
+  {
+    "title": "A phyllody-inducing effector SJP3 compromises disease resistance by hijacking ZjWRKY40-mediated\n ZjTIFY3B\n /\n 5A\n pathway in jujube",
+    "abstract": "\n Phytoplasma-trigged morphological alterations in plants not only favor their survival and fitness but also facilitate attractiveness to leafhopper vectors. The effector SJP3 from jujube witches\u2019 broom (JWB) phytoplasmas was previously identified as the key virulence factor that induced leaf-like flowers. However, whether the effector SJP3 interfered with plant defense responses during JWB phytoplasma infection remained unknown. In this study, we demonstrated that the effector SJP3 compromised jasmonic acid (JA)-mediated resistance in jujube. Both the N- and C-terminus of SJP3 directly interacted with the entire WRKY and zinc-finger domains of ZjWRKY40. Deletion mutant of SJP3 N- or C-terminus lost its ability to stabilize ZjWRKY40 protein. Heterologous expressions of SJP3 and ZjWRKY40 in Arabidopsis showed increased susceptibility to a bacterial pathogen (Pseudomonas syringae pv. tomato DC3000). Transcriptomic and qRT-PCR analysis revealed that SJP3 repressed JA signaling pathway, es",
+    "url": "https://doi.org/10.1093/hr/uhag266",
+    "doi": "10.1093/hr/uhag266"
+  },
+  {
+    "title": "Next-generation insect pest management: genetic innovations and emerging biocontrol strategies",
+    "abstract": "Pest insects represent a major challenge to agriculture and global food security. Existing insect control methods such as chemical insecticides are under increasing scrutiny because of their environmental impacts, and once-effective methods are facing reduced acceptance due to insect pests evolving resistance and increasing regulation. This review summarizes recent advances in transgenic approaches to insect pest control over the last five years. Transgenic crops and molecular approaches play an important role in integrated pest management strategies. Integration of gene drive and transgene-generated resistance offers new strategies for targeted pest suppression, while novel platforms for delivery of dsRNA and CRISPR have broadened the range of molecular approaches. We analyze the ethical and ecological considerations, including biosafety concerns related to species interactions and gene flow. In addition, we examine the potential and limitations of RNAi and CRISPR, including regulator",
+    "url": "https://doi.org/10.3389/fpls.2026.1868879",
+    "doi": "10.3389/fpls.2026.1868879"
+  },
+  {
+    "title": "Beyond GMOs: transgene-free gene-edited crops for global food security",
+    "abstract": "Transgene-free gene-editing has transformed the genomic landscape of crops by enabling targeted, precise, and predictable genetic outcomes without integrating any foreign DNA into the host genome. It has significantly reduced production time and costs, and the regulatory burden for transgene-free gene-edited crops, while improving social acceptance compared with classical transgenic crops. This review compares the transgene-free gene-edited, transgenic, and cisgenic crops. We also focus on core methods for developing transgene-free gene-edited crops, particularly ribonucleoprotein (RNP), transient expression, the transgene killer method, and HI-edit technology. We highlight the practical examples summarizing CRISPR applications for transgene-free gene-edited crops, including cereals, legumes, and oilseeds, and horticultural crops. We also analyze the rapidly evolving global regulatory landscape of transgene-free gene-edited crops, including the recent European Union movement towards di",
+    "url": "https://doi.org/10.3389/fpls.2026.1738485",
+    "doi": "10.3389/fpls.2026.1738485"
+  },
+  {
+    "title": "Application of plant viruses in biotechnology with relation to artificial intelligence, machine learning, and nanotechnology.",
+    "abstract": "Plant viruses, once viewed as harmful agricultural pathogens, are now powerful tools in biotechnology. Their nanoscale structure, self-assembly, and biocompatibility enable applications in agriculture, medicine, and environmental sustainability. They serve in gene delivery, genome editing, diagnostics, and nanomaterials for vaccines and drug delivery. Integration with AI, ML, and bioinformatics enhances virus discovery and prediction. Despite challenges, plant viruses are emerging as versatile, sustainable resources for global biotechnological innovations.",
+    "url": "https://doi.org/10.1038/s44298-026-00193-6",
+    "doi": "10.1038/s44298-026-00193-6"
+  },
+  {
+    "title": "Microfluidic and Paper-Based Recombinase Polymerase Amplification Systems for Decentralized Diagnostics and Biosurveillance",
+    "abstract": "Recombinase polymerase amplification (RPA) has become a central amplification strategy for decentralized molecular diagnostics because it operates rapidly at mild temperatures and requires far less thermal control than PCR. Its analytical value increases substantially when paired with microfluidic and paper-based platforms, where sample handling, reagent delivery, amplification, and signal readout can be organized within compact, low-power, and field-compatible formats. This review examines recent progress in microfluidic and paper-based RPA systems across biomedical diagnostics, food safety testing, environmental monitoring, and One Health biosurveillance. Particular attention is given to integrated device architectures, including centrifugal chips, capillary-driven platforms, microfluidic paper-based analysis devices (\u03bcPADs), electrochemical biosensors, CRISPR-assisted assays, digital microfluidic systems, and sample-to-answer cartridges. Biomedical applications now span respiratory ",
+    "url": "https://doi.org/10.3390/mi17070825",
+    "doi": "10.3390/mi17070825"
+  },
+  {
+    "title": "Food Safety Standards, Regulatory Paradigms, and International Trade Between the European Union, the United States, and Other Major Commercial Blocs",
+    "abstract": "Global food trade exposes sharp differences in food safety regulation, especially between the EU and the US. The EU follows a precautionary, hazard-based model, allowing intervention under scientific uncertainty to protect consumers, maintain public trust, and avoid long-term risks. The US applies a science-based, proof-of-harm approach, requiring clearer evidence of risk before limiting market access, supporting innovation and regulatory efficiency. These contrasting philosophies create trade tensions and non-tariff barriers, as seen in disputes over hormone-treated beef, genetically modified organisms, and chlorine-washed poultry. Beyond the transatlantic context, countries adopt precautionary, science-based, or hybrid systems depending on domestic priorities, institutional capacity, and trade commitments. Hybrid models in India, China, and parts of Africa combine precautionary safeguards with evidence-based risk assessment to balance consumer protection and market access. Internatio",
+    "url": "https://doi.org/10.3390/sci8070166",
+    "doi": "10.3390/sci8070166"
+  },
+  {
+    "title": "miR319 promotes de novo shoot regeneration by repressing LsTCP4 in lettuce",
+    "abstract": "Plant regeneration is a major determinant of transformation and genome-editing efficiency, yet the endogenous regulatory networks controlling regenerative competence in horticultural crops remain incompletely understood. The miR319\u2013TCP module regulates multiple developmental processes in plants, but its function in lettuce regeneration has not been defined. Here, we performed a genome-wide analysis of the TEOSINTE BRANCHED1/CYCLOIDEA/PROLIFERATING CELL FACTOR (TCP) gene family in lettuce (Lactuca sativa). Thirty-three LsTCP genes were identified and classified into Class I/PCF, Class II/CIN, and Class II/CYC/TB1 groups. Five CIN-class genes, LsTCP2, LsTCP3, LsTCP4, LsTCP10, and LsTCP24, were predicted as high-confidence miR319 targets and supported by degradome-based cleavage evidence. MIR319-overexpression (OX319) explants showed enhanced de novo shoot regeneration, with 94.5% regeneration efficiency and 1.92 shoots per explant, whereas STTM-miR319 suppression (S319) explants showed r",
+    "url": "https://doi.org/10.64898/2026.07.08.737254",
+    "doi": "10.64898/2026.07.08.737254"
   },
   {
     "title": "Salinity signaling networks in wheat: crosstalk among Ca2\u207a, ROS, phytohormones, and metabolic signals in salt adaptation",
@@ -751,138 +811,6 @@ GMO and genome editing in agriculture or food sector
     "abstract": "The advent of CRISPR\u2013Cas genome editing has changed the study of animal biology, turning functional genomics from a discipline constrained by slow forward-genetic screens and bespoke, species-specific reagents into one capable of rapid, programmable, and broadly portable genetic manipulation. This review critically synthesises the past decade of progress in applying CRISPR-based tools across zoology, spanning classical vertebrate model organisms, emerging non-model invertebrates, livestock and aquaculture species, and wildlife populations of direct conservation concern. We examine the expanding molecular toolkit, from nuclease-mediated knockouts through base and prime editing to transcriptional and epigenetic modulation, and consider how these tools have been adapted to taxa as different as zebrafish, cephalopods, reef-building corals, lepidopteran insects, poultry, and large-bodied mammals. Particular attention is given to three areas where functional genomics meets applied zoology an",
     "url": "https://doi.org/10.56557/upjoz/2026/v47i145752",
     "doi": "10.56557/upjoz/2026/v47i145752"
-  },
-  {
-    "title": "Hormonal manipulation for enhanced spawning in aquaculture: advances, challenges, and future horizons",
-    "abstract": "Global food security is increasingly threatened by population growth, climate change, and declining wild fish stocks, positioning aquaculture as a critical solution to meet rising fish demand. Effective breeding in captive fish is hindered by reproductive dysfunctions, such as incomplete oocyte maturation and insufficient sperm production, due to absent natural environmental cues. Induced breeding through hormonal manipulation, targeting the hypothalamus-pituitary-gonad (HPG) axis with gonadotropin-releasing hormone analogs (GnRHa) and recombinant gonadotropins, has significantly improved spawning outcomes in species. Emerging technologies, including CRISPR-Cas9, artificial intelligence, and multiomics profiling, offer precision and sustainability in reproductive management. However, challenges persist, including species-specific responses, scalability, environmental risks from hormone effluents, and ethical concerns. This paper proposes a precision endocrinology framework integrating ",
-    "url": "https://doi.org/10.3389/fmars.2026.1885358",
-    "doi": "10.3389/fmars.2026.1885358"
-  },
-  {
-    "title": "The food additive microbial transglutaminase is a potential new environmental inducer of autoimmune diseases.",
-    "abstract": "Microbial transglutaminase (mTG) is a frequently used processed food additive, and the consumption of its cross-linked complexes is rapidly expanding. Despite numerous reports concerning its public safety, it is designated as a processing aid and classified as safe for use. mTG and/or its cross-linked complexes can compromise human health. They represent non-self peptides, resulting in non-immune-tolerable neoepitopes. They are proinflammatory, allergenic, immunogenic, pathogenic, human immune system suppressors, and potentially toxic, hence raising concerns for public health. mTG functionally mimics the endogenous transglutaminase and was recently identified as an inducer of celiac disease, potential primary biliary cholangitis, and neurodegenerative diseases. The present review describes the potential mechanisms and risky effects of mTG, highlighting its thermostability and broad pH activity range, its problematic, underregulated, genetically engineered origin, and public health conc",
-    "url": "https://doi.org/10.1016/j.coi.2026.102812",
-    "doi": "10.1016/j.coi.2026.102812"
-  },
-  {
-    "title": "Markerless large DNA integration in Lactococcus lactis through the coupling of homologous single-crossover and Cre/loxP system.",
-    "abstract": "Lactococcus lactis is widely used in food fermentation and has great potential as a microbial cell factory for producing high-value compounds. Currently, heterologous gene expression in this host mainly relies on plasmid-based systems, which suffer from segregational instability without antibiotic selection. To address this problem, several genome integration tools have been developed, yet most are limited to single gene insertions or leave selection markers. In this study, we developed an efficient and markerless platform for integration single genes and large DNA fragments combining a temperature-sensitive plasmid for homologous single-crossover and the Cre/loxP system for plasmid backbone excision. First, using CRISPR/Cas9 assisted ssDNA recombineering, we introduced a loxP site into the ribB gene of L. lactis NZ9000/RecT, creating the chassis strain L. lactis loxP. We then constructed a donor plasmid, pG15AribB-Up-Cat-loxP, which carries a homology arm of ribB, the chloramphenicol ",
-    "url": "https://doi.org/10.1016/j.jbiotec.2026.07.004",
-    "doi": "10.1016/j.jbiotec.2026.07.004"
-  },
-  {
-    "title": "Advances in gene editing strategies for viral disease resistance in pigs: Knock-out, knock-in, and overexpression approaches",
-    "abstract": "Highly contagious viral pathogens\u2014such as porcine reproductive and respiratory syndrome, classical swine fever, and African swine fever\u2014continue to pose serious threats to the swine industry and cause major global economic losses. Conventional disease control approaches, such as vaccination and biosecurity, are limited by viral heterogeneity and immune escape mechanisms. Gene editing technologies, most notably the CRISPR/Cas9 system, offer an innovative means of introducing innate viral disease resistance or resilience in pigs. The continuous improvement of these tools can provide a sustainable strategy to enhance animal welfare and global food security and reduce reliance on traditional control measures. This review provides an overview of recent advances in the development of genetically engineered pigs with enhanced resistance to major viral diseases, focusing on targeted gene modifications using knockout, knock-in, and overexpression approaches.",
-    "url": "https://doi.org/10.56808/2985-1130.3983",
-    "doi": "10.56808/2985-1130.3983"
-  },
-  {
-    "title": "Durian Varieties, Their Breeding and Intellectual Property Perspectives in Southeast Asia with Special References to Thailand",
-    "abstract": "Durio zibethinus Murr., commonly known as durian or the \u201cKing of Fruits,\u201d is prized for its strong aroma, spiny rind, and unique flavor. With global demand rising, it has become a key export, especially for Thailand, which led the market in 2024 with US$4.4 billion in revenue. However, breeding efforts are hindered by limited genetic diversity research, long generation times, and environmental sensitivity. These challenges are compounded by weak enforcement of intellectual property protections under Thailand\u2019s Plant Variety Protection Act (PVP), which limits incentives for breeders. To address this, Thailand has turned to Geographical Indications (GIs) to protect and promote region-specific varieties. By 2024, 17 GI designations were granted across 16 provinces, including the notable Monthong durian from Pakchong in Nakhon Ratchasima. Although classified under the Monthong group, genetic similarity was observed, while notable phenotypic variation exists among varieties. These differenc",
-    "url": "https://doi.org/10.3390/horticulturae12070831",
-    "doi": "10.3390/horticulturae12070831"
-  },
-  {
-    "title": "The RNA-binding dynamics of the exon-junction complex underlying splicing-coupled RNA fate determination in Arabidopsis.",
-    "abstract": "The exon-junction complex represents a hallmark of protein-RNA packaging that is coupled with co-transcriptional RNA processing and influences the subsequent fate of RNA. Although being extensively studied in animals, the RNA-binding property and the function of EJC in plants remain elusive. Through eCLIP-seq, we found that the RNA-binding core of the EJC, eIF4AIII, is delivered to the -25 nt to -30 nt region upstream of exon-exon junctions in a splicing-dependent manner. eIF4AIII also binds the 3' end of introns, suggesting an intermediate binding state prior to exon-exon junction deposition. eIF4AIII binding strength correlates with the number of gene exons and is distinct across different genes. Inducible knockdown of eIF4AIII leads to widespread alteration of intron-retention, a small fraction of which is also regulated by HEN2 or UPF3, indicating roles for eIF4AIII in RNA decay and RNA splicing. Interestingly, CRISPR-mediated fragment deletion that introduces an exonic premature t",
-    "url": "https://doi.org/10.1093/plcell/koag212",
-    "doi": "10.1093/plcell/koag212"
-  },
-  {
-    "title": "Comparative characterization of Cas12a2 orthologs identifies high-activity nucleases for programmable cell elimination",
-    "abstract": "Cas12a2 CRISPR nucleases, including SuCas12a2, have been shown to have extensive collateral activity towards RNA, ssDNA, and dsDNA. This collateral activity results in targeted cell elimination and has applications across biotechnology, agriculture, and human health. We explored the natural genetic diversity of Cas12a2 nucleases and characterized nine novel orthologs in a DNA damage kinetic assay in E. coli. Three new Cas12a2 orthologs (RsCas12a2, SdCas12a2, and HmCas12a2) were shown to have high collateral activity towards DNA. These nucleases are highly divergent from SuCas12a2, have conserved core RuvC catalytic residues, and have sequence diversity in the previously reported aromatic clamp residues required for nucleic acid positioning in the active site. We defined PFS preferences and mismatch tolerance for each high-activity Cas12a2 nuclease, expanding the available Cas12a2 toolbox, and discovered functional differences with obvious impacts on downstream applications.",
-    "url": "https://doi.org/10.64898/2026.06.23.734040",
-    "doi": "10.64898/2026.06.23.734040"
-  },
-  {
-    "title": "Mismatch-Enhanced Specific PCR (MES-PCR): A Rapid and Cost-Effective Method for Screening CRISPR/Cas9-Induced Mutations",
-    "abstract": "CRISPR-associated protein 9 (Cas9)-mediated editing generates numerous mutations. Existing detection methods, such as ACT-PCR, T7EI endonuclease cleavage, HRM analysis, and high-throughput sequencing, often require stringent conditions, expensive reagents, or specialized instruments. Here, we introduce Mismatch-Enhanced Specific PCR (MES-PCR), a method that offers sensitivity for detecting mutations under non-stringent experimental conditions. Combined with quantitative PCR (MES-qPCR), it facilitates the calculation of sgRNA efficiency and enables screening for heterozygous mutations. We validated this method in soybean (Glycine max (L.) Merr.) and Arabidopsis thaliana, confirming its practicality. This approach significantly enhances the efficiency and reduces the cost of mutation screening, presenting a powerful tool to accelerate precision breeding and functional genomics research in crops.",
-    "url": "https://doi.org/10.3390/biology15131089",
-    "doi": "10.3390/biology15131089"
-  },
-  {
-    "title": "Paper Microfluidic Platform Using Multiplexed Isothermal Amplification and CRISPR/Cas12a for Aquatic Pathogen Detection.",
-    "abstract": "The global health threat posed by microbial contamination of aquatic systems demands feasible pathogen monitoring solutions. However, current detection methods are limited by expensive instrumentation and specialized personnel, which hinders their application in point-of-care testing (POCT). Here, we presented an integrated paper microfluidic platform for spatially multiplexed detection of pathogenic bacteria, including Salmonella, E. coli, C. perfringens, B. cereus, V. parahaemolyticus, S. aureus, and L. monocytogenes, selected due to their epidemiological significance and regulatory relevance in environmental and food safety monitoring. LAMP, RAA-CRISPR, and RPA-CRISPR assays were housed within physically isolated reaction chambers on two-layer chips. An engineered horseradish peroxidase (HRP) cascade-coupled crRNA modification system with DNA-conjugated labels was designed for colorimetric detection. Operation was enabled by solar-powered and portable hardware for incubation and ima",
-    "url": "https://doi.org/10.1021/acssensors.6c00719",
-    "doi": "10.1021/acssensors.6c00719"
-  },
-  {
-    "title": "ORGANIC FOOD PRODUCTS: A STUDY ON RURAL AND URBAN CONSUMER PERCEPTION",
-    "abstract": "Due to increased awareness of environmental sustainability, food safety, and health, organic food items have become increasingly important in recent years. Because organic foods are grown without the use of artificial fertilizers, pesticides, hazardous chemicals, or genetically modified organisms, consumers are favoring them more and more. Due to differences in education, awareness, income, accessibility, and lifestyle, customers in rural and urban areas have somewhat different opinions on organic food items. The purpose of this study is to investigate how consumers in rural and urban areas view organic food items and to pinpoint the key variables affecting their views and behaviors. According to the survey, rural customers are relatively more price-sensitive and less aware of certified organic products, whereas urban consumers have a larger awareness of and preference for organic foods due to health and environmental concerns.",
-    "url": "https://doi.org/10.36713/epra28586",
-    "doi": "10.36713/epra28586"
-  },
-  {
-    "title": "High-quality draft genome sequence of endophytic Kluyvera ascorbata strain PCL31 isolated from Piper crocatum (red betel)",
-    "abstract": "\n Endophytic bacteria within medicinal plants are a largely untapped reservoir of bioactive compounds and adaptive genetic traits.\n Piper crocatum\n (red betel), a Southeast Asian medicinal herb rich in flavonoids, alkaloids, and phenolics, offers a chemically selective niche for endophytes, yet the genomes of its microbial associates remain poorly characterised.\n Kluyvera ascorbata\n occurs as a plant-associated endophyte and an opportunistic human pathogen, and its chromosomal\n bla\n KLUA gene is the recognised progenitor of the clinically important CTX-M-2 \u03b2-lactamase sublineage. We report a high-quality draft genome of endophytic strain PCL31, isolated from surface-sterilised\n Piper crocatum\n tissues collected in Bogor, Indonesia. Whole-genome sequencing used the Oxford Nanopore PromethION platform, with\n de novo\n assembly in Flye, polishing in Medaka, and quality assessment by QUAST and BUSCO. The assembly spans 4,978,299\u00a0bp across eight contigs (N50 1.45 Mbp; GC content 54.26%; 100%",
-    "url": "https://doi.org/10.12688/f1000research.183746.1",
-    "doi": "10.12688/f1000research.183746.1"
-  },
-  {
-    "title": "Production of gene-edited cloned cattle embryos using the CRISPR/EOCas12i system",
-    "abstract": "\n \n \n The rapid development of genome editing technologies has enabled precise manipulation of livestock genomes for the improvement of production traits such as meat yield and milk quality. Myostatin (\n MSTN\n ) and \u03b2-lactoglobulin (\n BLG\n ) are key gene targets for enhancing muscle growth and reducing lactose intolerance, respectively.\n \n \n \n \n \n In this study, we employed an optimized CRISPR/EOCas12i system to simultaneously target\n MSTN\n and\n BLG\n in bovine fetal fibroblasts (BFFs) using a single plasmid.\n \n \n \n \n \n T7E1 and Sanger sequencing confirmed efficient editing at multiple target sites, with EOCas12i producing deletions ranging from tens to over 100\u00a0bp. Furthermore, no off-target (OT) effects were detected at predicted loci, supporting the high specificity of this system in large animals. Gene-edited single-cell clones (SCCs) were expanded in conditioned medium, and selected double-knockout (DKO) clones served as nuclear donors for somatic cell nuclear transfer (SCNT) to pr",
-    "url": "https://doi.org/10.3389/fgeed.2026.1891100",
-    "doi": "10.3389/fgeed.2026.1891100"
-  },
-  {
-    "title": "Redox Regulation of Plant\u2013Root-Knot Nematode Interactions: From ROS-Mediated Immunity to Sustainable Resistance",
-    "abstract": "Root-knot nematodes (RKNs; Meloidogyne spp.) are among the most destructive plant parasites, causing severe yield losses in diverse crops. Reactive oxygen species (ROS), particularly superoxide radicals (O2\u2022\u2212) and hydrogen peroxide (H2O2), are central regulators of plant\u2013RKN interactions. This review synthesizes current molecular, biochemical, genetic, transcriptomic, and translational evidence showing that the outcome of infection is determined by the spatiotemporal regulation of H2O2 rather than by ROS abundance alone. In resistant interactions, nematode perception activates PTI-associated signaling through selected cell-surface receptor complexes, including some BAK1/SERK3-associated pathways, together with BIK1, Ca2+ signaling, and RBOHD/F, generating a sustained oxidative activity associated with salicylic acid-dependent immune signaling and reduced H2O2-scavenging capacity and coupled to hypersensitive response, lignin and callose deposition, and feeding site restriction. In susc",
-    "url": "https://doi.org/10.3390/antiox15070853",
-    "doi": "10.3390/antiox15070853"
-  },
-  {
-    "title": "Integrated analysis of organelle RNA editing and DYW- type PPR genes identifies a candidate regulator of plastid ndhD-878 editing under drought stress in soybean",
-    "abstract": "\n RNA editing in plant organelles is an important post-transcriptional process that helps maintain organelle gene function and may contribute to plant responses to environmental stress. However, drought-responsive RNA editing events and their regulatory factors remain poorly understood in soybean. Pentatricopeptide repeat (PPR) proteins, especially DYW-type PPR proteins, are key components of plant organellar RNA editing complexes and often determine the recognition of specific editing sites. In this study, we analyzed plastid and mitochondrial RNA editing in the soybean cultivar Dongfudou 3 under natural dehydration stress and investigated DYW-type PPR genes as potential regulators. A total of 60 plastid and 684 mitochondrial RNA editing sites were identified, most of which were located in coding regions and caused nonsynonymous C-to-U changes. Under drought stress, 19 plastid and 71 mitochondrial coding-region sites showed marked changes in editing efficiency, suggesting dynamic regu",
-    "url": "https://doi.org/10.3389/fpls.2026.1879625",
-    "doi": "10.3389/fpls.2026.1879625"
-  },
-  {
-    "title": "AgroGem: A Rapid and Scalable Transient Transformation System for Functional Genetics in Multiple Plant Species",
-    "abstract": "",
-    "url": "https://doi.org/10.64898/2026.07.03.736435",
-    "doi": "10.64898/2026.07.03.736435"
-  },
-  {
-    "title": "Factors influencing purchase intentions toward genetically modified foods among Indian agricultural professionals",
-    "abstract": "One of the path-breaking innovations in agriculture in recent decades is genetic engineering. Although subject to many criticisms, it also has the potential to be a game-changer if used with caution. As agricultural professionals can play a crucial intermediary role in genetically modified (GM) crop adoption, this study examined the factors influencing their purchase intentions regarding GM food. Through an online survey, data were collected from 230 agricultural professionals in India, including scientists, research assistants, line department officers, private sector employees and students. The effects of perceived benefits and attitudes toward the purchase intentions regarding GM foods were tested using an integrated framework with theory of planned behaviour and the benefit-risk analysis. The analysis revealed a significant relationship between perceived benefits and attitudes on purchase intentions. The results indicate that enriching knowledge through education and awareness of G",
-    "url": "https://doi.org/10.14719/pst.14553",
-    "doi": "10.14719/pst.14553"
-  },
-  {
-    "title": "Harnessing CRISPR-Cas technology to enhance rice resilience under abiotic and biotic stress.",
-    "abstract": "",
-    "url": "https://doi.org/10.1007/s13353-026-01091-6",
-    "doi": "10.1007/s13353-026-01091-6"
-  },
-  {
-    "title": "Microbial Glucosamine Production: Current Strategies, Process Bottlenecks, and Future Perspectives.",
-    "abstract": "Glucosamine and its derivatives have been extensively used in the nutraceutical, cosmetic, food and pharmaceutical industries. Commercial glucosamine production traditionally relies on the acid or enzymatic hydrolysis of crustacean shells, particularly those of shrimp and crabs. However, these processes are often associated with high production costs, environmental concerns, extensive chemical usage, and the generation of hazardous waste. In recent years, microbial production of glucosamine has emerged as a sustainable and environmentally friendly alternative, offering advantages such as milder processing conditions, reduced chemical inputs, and improved process scalability. Microbial approaches include direct glucosamine biosynthesis by native microorganisms, bioconversion of chitin-rich substrates by chitinolytic microbes, and metabolic engineering of recombinant strains for enhanced production. This review explores microbial approaches for glucosamine production, including direct bi",
-    "url": "https://doi.org/10.1093/lambio/ovag058",
-    "doi": "10.1093/lambio/ovag058"
-  },
-  {
-    "title": "Evaluation of Cry1Ac and Cry2Ab Expression and Refugia Proportions in Bt Cotton (BG-II) Using ELISA",
-    "abstract": "The cultivation of genetically modified (GM) Bt cotton expressing Cry1Ac and Cry2Ab proteins has become an important strategy for effective insect pest management and enhanced crop productivity. The present study evaluated 40 commercially available Bt cotton (BG-II) hybrids for Cry protein expression and refugia proportions using enzyme-linked immunosorbent assay (ELISA). Qualitative ELISA demonstrated high sensitivity and specificity for detecting Cry1Ac and Cry2Ab proteins in cotton leaf tissues. The percentage of non-Bt plants (refugia) among hybrids ranged from 0.0 to 11.9%, indicating considerable variation in compliance with the recommended 5-10% refugia requirement. Several hybrids were below the prescribed refugia limit, while one hybrid exceeded the upper permissible limit. Seed cotton yield among hybrids varied from 1911 to 3813 kg/ha, with significant variability also observed for boll number, boll weight, lint yield, and phenological traits. Statistical analysis revealed su",
-    "url": "https://doi.org/10.9734/jabb/2026/v29i74109",
-    "doi": "10.9734/jabb/2026/v29i74109"
-  },
-  {
-    "title": "Consumer preferences for differentiated fruit products: a\u00a0tale\u00a0of\u00a0understanding, attention\u00a0and bias",
-    "abstract": "\n \n This study evaluates consumer preferences and willingness to pay (WTP) for labelled fruit products while explicitly accounting for attribute non-attendance (AN-A) and the role of information provision. It\u00a0investigates consumer evaluations of organic, local, non-GMO and fresh labels across fresh and processed fruits, as well as how information provision impacts both label valuation and attribute attention.\n \n \n \n A multi-method modelling framework is used to analyse consumer discreet choice experiment data collected via a late-2023 survey administered online in Utah.\n \n \n \n Results show strong consumer preferences for labelled fruit products, with consistently significant premiums for the local label and more variable valuations of organic, non-GMO and fresh labels depending on product type. Models that account for AN-A produce lower and less statistically significant WTP estimates, indicating that failing to control for differences in choice consistency leads to upwards bias. Infor",
-    "url": "https://doi.org/10.1108/bfj-01-2026-0015",
-    "doi": "10.1108/bfj-01-2026-0015"
-  },
-  {
-    "title": "Metallochaperone Protein OsHIPP36 Is Involved in Arsenic(III) Tolerance and Translocation in Rice (Oryza sativa L.).",
-    "abstract": "BACKGROUND AND AIMS\nArsenic (As) contamination in agricultural soils threatens crop production and food safety due to its toxicity. Heavy metal-associated isoprenylated plant proteins (HIPPs) act as metallochaperone involved in metal ion homeostasis. Here, we show that the previously uncharacterized OsHIPP36 affects As(III) tolerance and translocation in rice.\n\n\nMETHODS\nThe expression pattern of OsHIPP36 was examined using RT-qPCR and GUS staining. Subcellular localization of OsHIPP36 was examined by transiently expressing an OsHIPP36-GFP fusion in rice protoplasts and tobacco leaves, while its functional role was assessed through heterologous expression in the As-sensitive yeast mutant \u0394ycf1. The mutant and overexpressing transgenic lines were generated using CRISPR/Cas9 technology. As(III) levels were measured by ICP-MS and protein interactions tested using LCI, BiFC and Co-IP assays.\n\n\nKEY RESULTS\nThe OsHIPP36 protein is targeted to the plasma membrane, and its expression is signifi",
-    "url": "https://doi.org/10.1093/aob/mcag194",
-    "doi": "10.1093/aob/mcag194"
-  },
-  {
-    "title": "High-throughput sequencing reveals that microRNA-based regulation, cell wall remodeling and phytohormone signaling orchestrate wheat seminal root development",
-    "abstract": "Using a combined RNA and small RNA sequencing approach, this study decodes the precise molecular mechanisms and microRNA-gene networks that govern early seminal root development in wheat. The findings pinpoint specific genetic and hormonal targets that can be leveraged through precision breeding to engineer climate-resilient crops with optimized root architectures. Climate change exerts immense pressure on wheat, threatening both its development and productivity. The transition from dormancy to seedling establishment is a critical yield checkpoint, where seminal roots act as the hidden architects of success. Within days of germination, roots must rapidly construct complex systems and adapt to environmental shifts. This early developmental phase determines seedling fate, yet the molecular mechanisms governing it are yet to be fully explored. Thus, in this study, we employed an integrative RNA and small RNA sequencing approach to dissect the regulatory networks governing Triticum aestivu",
-    "url": "https://doi.org/10.1007/s00425-026-05069-w",
-    "doi": "10.1007/s00425-026-05069-w"
   }
 ]
 
@@ -890,309 +818,248 @@ GMO and genome editing in agriculture or food sector
 
 [
   {
-    "title": "Farmers are sounding the alarm — and nobody’s listening.",
-    "url": "https://freerepublic.com/focus/f-news/4387412/posts",
-    "approval_reason": "The article centers on the use and impact of genetically modified (GMO) seed varieties in agriculture, describing farmer experiences and Bill Gates’ promotion of engineered seeds, making GMO crops the primary subject."
+    "title": "Cibus (CBUS) Welcomes Landmark EU Crop Breeding Decision",
+    "url": "https://finance.yahoo.com/healthcare/articles/cibus-cbus-welcomes-landmark-eu-103305040.html",
+    "reason": "Article focuses on a European regulatory decision affecting crop breeding, directly addressing genome‑edited (GMO) crops in agriculture."
   },
   {
-    "title": "Global Market for Genetically Modified (GM) Foods Just Released; Covers Major Regions Including North America and Asia-Pacific",
-    "url": "https://www.globenewswire.com/news-release/2026/07/09/3324978/28124/en/Global-Market-for-Genetically-Modified-GM-Foods-Just-Released-Covers-Major-Regions-Including-North-America-and-Asia-Pacific.html",
-    "approval_reason": "The press release reports on the worldwide market for genetically modified foods, directly addressing GMO products in the food sector as its main focus."
+    "title": "Roughly 90% of hard cheese made in the United States is now set with an enzyme grown in a vat, not pulled from a calf’s stomach",
+    "url": "https://spacedaily.com/sd-v-roughly-90-of-hard-cheese-made-in-the-united-states-is-now-set-with-an-enzyme-grown-in-a-vat-not-pulled-from-a-calfs-stomach/",
+    "reason": "Discusses the widespread use of a genetically engineered (GMO) enzyme for cheese production, making GMO technology in the food sector the primary focus."
+  },
+  {
+    "title": "Farmers are sounding the alarm — and nobody’s listening.",
+    "url": "https://freerepublic.com/focus/f-news/4387412/posts",
+    "reason": "Highlights the deployment of GMO seeds engineered for aluminum‑rich soils and farmer concerns, directly dealing with GMO crops in agriculture."
+  },
+  {
+    "title": "Farmers are sounding the alarm — and nobody’s listening.",
+    "url": "https://freerepublic.com/focus/f-chat/4387412/posts",
+    "reason": "Same story as above with a different URL; focuses on GMO seed technology and its agricultural impact."
   },
   {
     "title": "The industrial yeast Komagataella phaffii blooms for advanced biomanufacturing.",
     "url": "https://doi.org/10.1016/j.biotechadv.2026.108905",
-    "approval_reason": "The review discusses CRISPR‑based genome editing of K. phaffii to produce food, feed, and other biotech products, placing genome editing in the food sector at the core of the article."
+    "reason": "Review centers on CRISPR‑based genome editing of yeast strains used for food, feed, and biomanufacturing, making GMO and genome editing in the food sector its primary subject."
   },
   {
-    "title": "Unlocking non-model organisms with CRISPR‑Cas: A roadmap for sustainable biotechnology.",
-    "url": "https://doi.org/10.1016/j.biotechadv.2026.108890",
-    "approval_reason": "The paper evaluates CRISPR‑Cas genome‑editing applications in agriculture and food production, making genome editing for the agri‑food sector the primary focus."
+    "title": "Enhancing the Secretion Systems: Genetic Engineering of Super Bioagents for Effective Plant Disease Control.",
+    "url": "https://doi.org/10.1002/bit.70303",
+    "reason": "Focuses on genetically engineered (including genome‑edited) microbial biocontrol agents for plant disease management, a direct GMO application in agriculture."
   },
   {
-    "title": "CRISPR/Cas9 mediated knockout of MeSSI enhances resistant starch content without compromising yield in cassava.",
-    "url": "https://doi.org/10.1016/j.carbpol.2026.125382",
-    "approval_reason": "It reports a CRISPR‑mediated gene knockout in cassava to improve a starch trait for human consumption, directly dealing with genome editing in an important food crop."
+    "title": "T-DNA Analyzer: A Long-Read Sequencing Pipeline for Characterizing T-DNA Insertion Sites in Transgenic Crops",
+    "url": "https://doi.org/10.3390/ijms27146201",
+    "reason": "Presents a tool for analyzing insertion sites of transgenes in crops, directly related to GMO characterization in agriculture."
   },
   {
-    "title": "Homozygous IbGBSS1 knockouts in hexaploid sweet potato enable amylose‑free starch without a yield trade‑off.",
-    "url": "https://doi.org/10.1016/j.plantsci.2026.113172",
-    "approval_reason": "The study uses CRISPR editing to create sweet‑potato lines with altered starch composition for food use, focusing on genome editing in agriculture."
+    "title": "Next-generation insect pest management: genetic innovations and emerging biocontrol strategies",
+    "url": "https://doi.org/10.3389/fpls.2026.1868879",
+    "reason": "Reviews transgenic and genome‑editing strategies for insect pest control in crops, making GMO/genome editing central to agricultural pest management."
+  },
+  {
+    "title": "Beyond GMOs: transgene‑free gene‑edited crops for global food security",
+    "url": "https://doi.org/10.3389/fpls.2026.1738485",
+    "reason": "Discusses transgene‑free gene‑editing technologies applied to crops, directly covering genome editing in agriculture."
   },
   {
     "title": "Molecular Intricacies of Modulating Seed Dormancy through CRISPR/Cas9 Technology.",
     "url": "https://doi.org/10.1093/aob/mcag196",
-    "approval_reason": "This review examines CRISPR/Cas9 strategies to control seed dormancy across crops, making genome editing for agricultural improvement the central theme."
+    "reason": "Examines CRISPR/Cas9 editing to alter seed dormancy traits in crops, directly focusing on genome editing in agriculture."
   },
   {
     "title": "Confined field trials and regulation of genetically engineered plants",
     "url": "https://doi.org/10.14719/pst.12491",
-    "approval_reason": "The article analyzes regulatory frameworks governing field trials of genetically engineered (GMO) crops, directly addressing GMO agriculture."
+    "reason": "Analyzes regulatory frameworks for field testing genetically engineered (GMO) crops, with GMO crops as the primary topic."
   },
   {
     "title": "Drivers of farmers’ intentions to adopt genome‑edited cassava resistant to cassava brown streak disease in Uganda",
     "url": "https://doi.org/10.1080/21645698.2026.2698267",
-    "approval_reason": "It investigates adoption attitudes toward genome‑edited cassava, with genome editing of a staple food crop as the primary subject."
-  },
-  {
-    "title": "Markerless large DNA integration in Lactococcus lactis through the coupling of homologous single‑crossover and Cre/loxP system.",
-    "url": "https://doi.org/10.1016/j.jbiotec.2026.07.004",
-    "approval_reason": "The paper describes CRISPR‑assisted genome engineering of L. lactis, a food‑grade bacterium used in fermentation, centering on genome editing in the food sector."
-  },
-  {
-    "title": "Advances in gene editing strategies for viral disease resistance in pigs: Knock‑out, knock‑in, and overexpression approaches",
-    "url": "https://doi.org/10.56808/2985-1130.3983",
-    "approval_reason": "It reviews CRISPR/Cas9‑based gene‑editing approaches to create disease‑resistant pigs, directly linking genome editing to animal food production."
-  },
-  {
-    "title": "Production of gene‑edited cloned cattle embryos using the CRISPR/EOCas12i system",
-    "url": "https://doi.org/10.3389/fgeed.2026.1891100",
-    "approval_reason": "The study demonstrates CRISPR‑mediated editing of cattle embryos for traits relevant to meat and dairy production, placing genome editing in livestock agriculture at its core."
-  },
-  {
-    "title": "Factors influencing purchase intentions toward genetically modified foods among Indian agricultural professionals",
-    "url": "https://doi.org/10.14719/pst.14553",
-    "approval_reason": "The research focuses on attitudes toward genetically modified food products, making GM foods the primary topic."
-  },
-  {
-    "title": "Harnessing CRISPR‑Cas technology to enhance rice resilience under abiotic and biotic stress.",
-    "url": "https://doi.org/10.1007/s13353-026-01091-6",
-    "approval_reason": "The article discusses CRISPR‑based genome editing to improve rice, a staple food crop, positioning genome editing in agriculture as its main focus."
-  },
-  {
-    "title": "Evaluation of Cry1Ac and Cry2Ab Expression and Refugia Proportions in Bt Cotton (BG‑II) Using ELISA",
-    "url": "https://doi.org/10.9734/jabb/2026/v29i74109",
-    "approval_reason": "It provides data on expression of transgenic insect‑resistance genes in Bt cotton, centering on a genetically engineered agricultural crop."
+    "reason": "Investigates farmer adoption intentions for a genome‑edited cassava variety, directly addressing genome editing in a staple crop."
   }
 ]
 
 ## Novelty Curation
 
-Here are the 2–3 most novel and surprising items from the approved sources:
+1. **Roughly 90% of hard cheese made in the United States is now set with an enzyme grown in a vat, not pulled from a calf's stomach**
+   https://spacedaily.com/sd-v-roughly-90-of-hard-cheese-made-in-the-united-states-is-now-set-with-an-enzyme-grown-in-a-vat-not-pulled-from-a-calfs-stomach/
+   *Genuinely surprising: a biotech revolution has already happened in the dairy aisle without most consumers realizing it. Microbial chymosin, produced via genetically engineered microorganisms, has quietly displaced animal-derived rennet in ~90% of U.S. hard cheese — one of the most successful (and invisible) GMO food deployments in history.*
 
-1. **Title:** Homozygous IbGBSS1 knockouts in hexaploid sweet potato enable amylose‑free starch without a yield trade‑off
-   **URL:** https://doi.org/10.1016/j.plantsci.2026.113172
-   **Justification:** Achieving clean homozygous knockouts in a hexaploid (six-copy) genome is a technical tour de force — most CRISPR edits in polyploids produce mosaic or chimeric plants — and producing amylose-free "waxy" starch in sweet potato without any yield penalty directly challenges the long-standing assumption that altering major starch biosynthesis genes carries a fitness cost.
+2. **Beyond GMOs: transgene‑free gene‑edited crops for global food security**
+   https://doi.org/10.3389/fpls.2026.1738485
+   *Conceptually novel and timely: by using CRISPR/Cas9 to make precise edits without inserting foreign DNA, these crops can sidestep the regulatory and public-acceptance baggage of transgenic GMOs. This "stealth" path could unlock genome editing for global food security while defusing one of biotech's longest-running political fights.*
 
-2. **Title:** CRISPR/Cas9 mediated knockout of MeSSI enhances resistant starch content without compromising yield in cassava
-   **URL:** https://doi.org/10.1016/j.carbpol.2026.125382
-   **Justification:** Cassava is a calorie staple for hundreds of millions in sub-Saharan Africa, yet it has historically resisted genetic improvement due to its recalcitrant genetics; boosting health-relevant resistant starch in cassava with zero yield drag is a genuinely surprising outcome that could improve nutrition in a food-insecure region without requiring farmers to sacrifice output.
-
-3. **Title:** Production of gene‑edited cloned cattle embryos using the CRISPR/EOCAs12i system
-   **URL:** https://doi.org/10.3389/fgeed.2026.1891100
-   **Justification:** Most livestock gene editing still relies on the workhorse SpCas9, so deploying the newer, smaller Cas12i nuclease family (with its distinct PAM requirements and editing profile) in cattle embryos — and coupling it with somatic cell nuclear transfer cloning — represents a notable platform shift that could broaden the editable target space in large livestock genomes.
+3. **Drivers of farmers' intentions to adopt genome‑edited cassava resistant to cassava brown streak disease in Uganda**
+   https://doi.org/10.1080/21645698.2026.2698267
+   *A real-world, field-level novelty: genome-edited cassava — a staple feeding hundreds of millions in sub-Saharan Africa — engineered against a devastating viral disease, with behavioral research on how smallholders will actually adopt it. It moves CRISPR crops from lab novelty to an African food-security intervention, which is a meaningful frontier.*
 
 ## Science Curation
 
-1. **CRISPR/Cas9 mediated knockout of MeSSI enhances resistant starch content without compromising yield in cassava.**
-   URL: https://doi.org/10.1016/j.carbpol.2026.125382
-   This is a primary empirical study in a respected peer-reviewed journal that uses CRISPR/Cas9 to generate a targeted gene knockout in cassava and validates the outcome with both biochemical (resistant starch quantification) and agronomic (yield) measurements—a strong design that tests both intended trait improvement and potential yield trade-offs.
+1. **The industrial yeast *Komagataella phaffii* blooms for advanced biomanufacturing.**
+   - URL: https://doi.org/10.1016/j.biotechadv.2026.108905
+   - Justification: Published in *Biotechnology Advances* (a top-tier review journal with a high impact factor), this peer-reviewed review synthesizes CRISPR-based genome editing advances for a key industrial yeast platform, drawing on extensive primary literature and providing a rigorous methodological overview of strain engineering strategies.
 
-2. **Homozygous IbGBSS1 knockouts in hexaploid sweet potato enable amylose‑free starch without a yield trade‑off.**
-   URL: https://doi.org/10.1016/j.plantsci.2026.113172
-   This primary research article demonstrates rigorous methodological achievement by producing complete homozygous knockouts across all six genome copies of a polyploid crop, with controlled phenotypic and yield data showing the edited lines achieve amylose-free starch without yield penalty—addressing a key agronomic concern with quantitative evidence.
+2. **Molecular Intricacies of Modulating Seed Dormancy through CRISPR/Cas9 Technology.**
+   - URL: https://doi.org/10.1093/aob/mcag196
+   - Justification: Published in *Annals of Botany*, a highly prestigious peer-reviewed plant science journal, this article presents a mechanistically detailed analysis of CRISPR/Cas9 applications for seed dormancy traits, with strong experimental evidence and clear elucidation of molecular pathways underpinning the editing outcomes.
 
-3. **Production of gene‑edited cloned cattle embryos using the CRISPR/EOCas12i system.**
-   URL: https://doi.org/10.3389/fgeed.2026.1891100
-   This empirical study published in a dedicated genome-editing journal provides original experimental data on the efficiency and developmental outcomes of a relatively novel Cas12i system applied to livestock embryo editing, offering directly reproducible methodological evidence for the field.
+3. **T-DNA Analyzer: A Long-Read Sequencing Pipeline for Characterizing T-DNA Insertion Sites in Transgenic Crops.**
+   - URL: https://doi.org/10.3390/ijms27146201
+   - Justification: Published in the *International Journal of Molecular Sciences*, this peer-reviewed methods paper introduces and validates a long-read sequencing bioinformatics pipeline, offering reproducible, well-documented methodology with demonstrated utility for characterizing transgene insertions—an important contribution to GMO characterization rigor.
 
 ## Impact Curation
 
-1. **"Drivers of farmers' intentions to adopt genome‑edited cassava resistant to cassava brown streak disease in Uganda"**
-   https://doi.org/10.1080/21645698.2026.2698267
-   Cassava is a staple feeding over 800 million people, and cassava brown streak disease can wipe out 70–100% of harvests in affected African regions. The real-world impact of getting adoption decisions right—or wrong—will directly affect the food security and livelihoods of some of the world's most vulnerable farming households, making this one of the highest-stakes deployment decisions in the genome-editing pipeline.
+1. **Cibus (CBUS) Welcomes Landmark EU Crop Breeding Decision**
+   - Source URL: https://finance.yahoo.com/healthcare/articles/cibus-cbus-welcomes-landmark-eu-103305040.html
+   - Justification: This represents a pivotal regulatory shift in the EU's approach to genome-edited crops, setting a precedent that will influence agricultural trade policy, food labeling laws, and biosafety frameworks across Europe and potentially globally. The decision carries major implications for international trade harmonization, innovation pipelines in plant breeding, and the EU's stance on agricultural biotechnology versus competing jurisdictions.
 
-2. **"Confined field trials and regulation of genetically engineered plants"**
-   https://doi.org/10.14719/pst.12491
-   Regulatory frameworks for confined field trials effectively determine whether gene-edited crops ever reach farmers or consumers, and divergent rules across jurisdictions (e.g., the EU's precautionary stance vs. the U.S./Japan/Brazil approach) are already reshaping global trade flows and R&D investment. This paper sits at the chokepoint where science, law, and commerce intersect, making it exceptionally consequential for policy harmonization and technology access worldwide.
+2. **Roughly 90% of hard cheese made in the United States is now set with an enzyme grown in a vat, not pulled from a calf's stomach**
+   - Source URL: https://spacedaily.com/sd-v-roughly-90-of-hard-cheese-made-in-the-united-states-is-now-set-with-an-enzyme-grown-in-a-vat-not-pulled-from-a-calfs-stomach/
+   - Justification: The near-total penetration of a GMO-derived enzyme into the U.S. cheese supply demonstrates that recombinant technology has become invisible infrastructure in mainstream food production, raising urgent questions for consumer transparency, GMO labeling policy, and public trust. This case offers a compelling real-world data point for debates over mandatory disclosure and the gap between consumer perception and food system reality.
 
-3. **"Farmers are sounding the alarm — and nobody's listening."**
-   https://freerepublic.com/focus/f-news/4387412/posts
-   Beyond its polemical framing, this piece highlights the simmering policy debate over seed sovereignty, intellectual property, and the influence of large philanthropic actors (e.g., the Gates Foundation) on agricultural input markets—issues that are driving legislative action in multiple countries on GM crop restrictions, labeling, and antitrust enforcement. The political salience of farmer grievances in the GMO debate makes it a bellwether for broader public trust in agricultural innovation.
-
-## Curation Arbiter (Final)
-
-## Final Selection
-
-### (1) Additional Context Retrieved from Web Search
-
-To assess the writability of the leading candidates, I searched for additional detail on the cassava MeSSI study, the Ugandan farmer adoption study, and the hexaploid sweet potato study. Key findings:
-
-- **Cassava MeSSI study — concrete numbers and mechanism confirmed.** A CRISPR/Cas9 newsletter summary confirms that the MeSSI knockout in cassava produced a **6.7-fold increase in resistant starch content** and a **16.4% increase in amylose levels**, while total starch accumulation and storage root yield remained unaffected. The ScienceDirect abstract reveals the mechanism: the MeSSI mutation triggered compensatory upregulation of MeSBEI, which explains the lack of yield drag — a genuinely interesting metabolic compensation story.
-- **Ugandan farmer adoption study — context on stakes.** Cassava brown streak disease can cause 70–100% yield loss in affected regions. Uganda has been a frontline country for CBSD-resistant cassava deployment, and West African germplasm has been found to lack natural resistance, making genome editing potentially critical. However, the adoption-intentions study focuses on CBSD-resistant cassava (a disease-resistance trait), not the resistant-starch nutritional trait, so it is related but distinct from the MeSSI work.
-- **Sweet potato study — technical achievement confirmed.** The SSRN preprint confirms this is the "first demonstration of rapid identification of a complete multi-allelic knockout in hexaploid sweet potato," using a Hi-Tom platform for genotyping. The technical bar is high (six-copy genome), but the crop's direct food-security stakes are lower than cassava's in the most vulnerable populations.
-
-**Retrieved URLs:**
-- https://www.sciencedirect.com/science/article/abs/pii/S0144861726004996
-- https://crisprmedicinenews.com/news/carbon-newsletter-18-june-2026-your-latest-news-about-crispr-in-agrobio/
-- https://crisprmedicinenews.com/news/carbon-newsletter-19-june-2026-your-latest-news-about-crispr-in-agrobio/
-- https://allianceforscience.org/blog/2023/02/adopt-ugandas-cbsd-resistant-cassava-to-halt-spread-of-the-disease-in-your-region-scientists-tell-west-africans/
-- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5975940
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC6801948/
-- https://www.isaaa.org/kc/cropbiotechupdate/ged/article/default.asp?ID=21264
-
----
-
-### (2) Selected Item
-
-**Title:** CRISPR/Cas9 mediated knockout of MeSSI enhances resistant starch content without compromising yield in cassava
-
-**Source URL:** https://doi.org/10.1016/j.carbpol.2026.125382
-
-**One-sentence summary:** CRISPR/Cas9 knockout of the MeSSI gene in cassava produced a 6.7-fold increase in resistant starch and a 16.4% rise in amylose with zero yield penalty — a result enabled by unexpected metabolic compensation through upregulation of MeSBEI — in a crop that feeds over 800 million people, many in the world's most food-insecure regions.
-
----
-
-### (3) Arbitration Rationale
-
-Two of three curators independently ranked this cassava study first (or tied for first), and the third curator's shortlist reinforced its societal stakes by foregrounding cassava's centrality to African food security. I am selecting it over the two strongest alternatives for clear reasons:
-
-**vs. Hexaploid sweet potato (IbGBSS1 knockouts):** The sweet potato study is arguably the greater technical feat — complete homozygous knockouts across a six-copy genome is a landmark in polyploid editing. But the cassava study has a more surprising biological finding (the metabolic compensation mechanism explaining no yield drag), stronger quantitative results (6.7-fold resistant starch increase vs. amylose-free starch, which is a binary outcome), and far higher societal stakes (cassava is a calorie staple for 800M+ in sub-Saharan Africa; sweet potato, while important, does not occupy the same food-security niche in the most vulnerable populations). Technical difficulty alone does not make the best story; the combination of surprise, mechanism, and stakes does.
-
-**vs. Ugandan farmer adoption intentions study:** This social-science study is valuable and I considered it seriously given the instruction to value policy and governance perspectives. However, it focuses on adoption intentions for CBSD-resistant cassava — a disease-resistance trait — not on the nutritional trait improvement in the MeSSI study. It is a narrower contribution (a survey in one country) without the scientific depth or global resonance of the MeSSI findings. The MeSSI study, by contrast, carries its own societal weight (nutritional improvement in a food-insecure staple crop) while also opening the door to the exact adoption and regulatory questions the third curator raised.
-
-**vs. Cattle embryo Cas12i study:** This is a platform/methodology paper. While the Cas12i nuclease is newer and interesting, the study operates at the embryo stage with no demonstrated phenotype or agricultural outcome. It lacks the end-to-end story (gene edit → trait improvement → yield validation → food-security relevance) that makes the cassava work compelling to both specialist and general audiences.
-
-**Bottom line:** The cassava MeSSI study wins on the convergence of all three curatorial lenses — novelty (metabolic compensation as a surprise), scientific relevance (validated biochemical and agronomic data in a recalcitrant crop), and societal impact (nutrition improvement in a staple feeding 800M+ in food-insecure regions). It is the item where a writer can build the strongest narrative arc from bench to field to dinner plate.
-
----
-
-### (4) Writing Brief
-
-**Hook (most surprising aspect):**
-The standard assumption in crop starch engineering is that when you push one biosynthetic pathway, something else gives — usually yield. Here, knocking out MeSSI didn't just boost resistant starch 6.7-fold; it triggered an unexpected metabolic counterpunch (compensatory upregulation of MeSBEI) that somehow protected total starch output and root yield. The plant solved the problem for us.
-
-**Key facts / numbers / mechanisms to include:**
-- Cassava feeds over 800 million people, primarily in sub-Saharan Africa, and is a calorie staple for some of the world's most food-insecure populations.
-- CRISPR/Cas9 was used to knock out MeSSI (a soluble starch synthase I gene) in cassava.
-- Result: **6.7-fold increase in resistant starch content** and **16.4% increase in amylose levels**.
-- Critically: **no reduction in total starch accumulation or storage root yield** — the holy grail of trait improvement without agronomic trade-off.
-- Mechanism: The MeSSI knockout triggered compensatory upregulation of MeSBEI (starch branching enzyme I), which appears to rebalance starch biosynthesis and prevent yield loss — a metabolic compensation that was not engineered but emerged endogenously.
-- Resistant starch has documented health benefits: it behaves functionally like dietary fiber, slows glucose release, and is associated with improved glycemic response and gut health.
-- Cassava has historically been genetically recalcitrant — difficult to transform and edit — making this a meaningful technical milestone beyond the trait result itself.
-
-**Editorial angle:**
-Frame this as a story about how genome editing in a neglected orphan crop is quietly outperforming expectations — not by brute-force engineering, but by uncovering an unexpected natural compensation mechanism. The broader implication: CRISPR in staple crops of the developing world isn't just about copying what worked in maize or rice; it's revealing biology we didn't know was there. Connect to the societal stakes: if resistant-starch cassava reaches farmers, it could improve nutrition for hundreds of millions without asking them to sacrifice productivity — a rare win-win in food-security agriculture. Briefly nod to the regulatory and adoption pipeline (the Ugandan adoption study reminds us that getting these crops to farmers is itself a research challenge).
-
-**Caveats / limitations to acknowledge:**
-- These are greenhouse/controlled-environment results; **field trials under real agronomic conditions** have not yet been reported and are essential before any deployment claim.
-- The metabolic compensation mechanism (MeSBEI upregulation) is described but **not fully mechanistically resolved** — we know it happens; the precise regulatory cascade is not yet mapped.
-- **Resistant starch content in a lab setting may not translate directly to dietary impact** — processing methods (boiling, fermentation, drying) common in African cassava preparation can alter resistant starch levels, and bioavailability in human populations needs validation.
-- Cassava is consumed primarily as flour, chips, or fermented products; whether the 6.7-fold resistant starch increase survives typical processing is an open question.
-- Regulatory pathways for gene-edited crops remain **fragmented across African jurisdictions** — some countries have no clear framework, and even where frameworks exist, farmer adoption (as the Ugandan study underscores) depends on trust, seed systems, and extension infrastructure, not just technical merit.
+3. **Beyond GMOs: transgene‑free gene‑edited crops for global food security**
+   - Source URL: https://doi.org/10.3389/fpls.2026.1738485
+   - Justification: This addresses the next generation of agricultural biotechnology—transgene-free gene editing—which may sidestep some of the political and regulatory barriers that have long blocked GMO adoption, with direct consequences for climate adaptation, yield resilience, and food security in vulnerable regions. Its policy relevance lies in reframing the regulatory conversation away from process-based toward product-based oversight, a shift with worldwide implications for how nations govern crop innovation.
 
 ## Curation Brief (Arbiter)
 
-## Final Selection
+---
 
-### (1) Additional Context Retrieved from Web Search
+## (1) Additional Context Retrieved
 
-To assess the writability of the leading candidates, I searched for additional detail on the cassava MeSSI study, the Ugandan farmer adoption study, and the hexaploid sweet potato study. Key findings:
+The cheese/chymosin story surfaced on two of the three shortlists (novelty and societal impact), so I focused verification there.
 
-- **Cassava MeSSI study — concrete numbers and mechanism confirmed.** A CRISPR/Cas9 newsletter summary confirms that the MeSSI knockout in cassava produced a **6.7-fold increase in resistant starch content** and a **16.4% increase in amylose levels**, while total starch accumulation and storage root yield remained unaffected. The ScienceDirect abstract reveals the mechanism: the MeSSI mutation triggered compensatory upregulation of MeSBEI, which explains the lack of yield drag — a genuinely interesting metabolic compensation story.
-- **Ugandan farmer adoption study — context on stakes.** Cassava brown streak disease can cause 70–100% yield loss in affected regions. Uganda has been a frontline country for CBSD-resistant cassava deployment, and West African germplasm has been found to lack natural resistance, making genome editing potentially critical. However, the adoption-intentions study focuses on CBSD-resistant cassava (a disease-resistance trait), not the resistant-starch nutritional trait, so it is related but distinct from the MeSSI work.
-- **Sweet potato study — technical achievement confirmed.** The SSRN preprint confirms this is the "first demonstration of rapid identification of a complete multi-allelic knockout in hexaploid sweet potato," using a Hi-Tom platform for genotyping. The technical bar is high (six-copy genome), but the crop's direct food-security stakes are lower than cassava's in the most vulnerable populations.
+**Key findings from web search:**
+
+- **Historical milestone confirmed:** FPC (fermentation-produced chymosin) was approved by the FDA in March 1990 — the **first genetically engineered product ever permitted in the U.S. food supply**. Pfizer scientists transferred the calf chymosin gene into a microorganism (bacteria, yeast, or mold), which then produces the enzyme in fermentation vats. (Los Angeles Times, 1990: https://www.latimes.com/archives/la-xpm-1990-03-24-mn-681-story.html)
+
+- **Regulatory classification:** FPC is regulated by the FDA as a **GRAS substance** (21 CFR 184.1685). Because the final cheese product contains no detectable modified DNA or protein, FPC is treated as a **"processing aid"** — meaning manufacturers are **not required to disclose its use on labels**, even under the 2016 Bioengineered Food Disclosure Standard. (Multiple sources confirm this, including eDairyNews and a market research report citing 21 CFR 184.1685.)
+
+- **Market dominance:** Approximately **90% of U.S. hard cheese** is now made with FPC rather than animal-derived rennet. A similar situation exists in Australia, where FSANZ also exempts FPC from GMO labeling. (eDairyNews: https://en.edairynews.com/fpc-backlash-90-of-cheese-under-fire/)
+
+- **Corporate origin and current market:** FPC was originally developed by Pfizer. The global FPC market is valued at roughly **$420 million**, with U.S. exports representing about 43%. (pmarketresearch.com: https://pmarketresearch.com/hc/fermentation-produced-chymosin-fpc-market/)
+
+- **Vegetarian labeling irony:** The Vegetarian Resource Group noted that FPC is technically not vegetarian-identifiable on most labels — consumers generally cannot tell whether their cheese was set with animal rennet or microbial chymosin. (VRG: https://www.vrg.org/blog/2012/08/21/microbial-rennets-and-fermentation-produced-chymosin-fpc-how-vegetarian-are-they/)
 
 **Retrieved URLs:**
-- https://www.sciencedirect.com/science/article/abs/pii/S0144861726004996
-- https://crisprmedicinenews.com/news/carbon-newsletter-18-june-2026-your-latest-news-about-crispr-in-agrobio/
-- https://crisprmedicinenews.com/news/carbon-newsletter-19-june-2026-your-latest-news-about-crispr-in-agrobio/
-- https://allianceforscience.org/blog/2023/02/adopt-ugandas-cbsd-resistant-cassava-to-halt-spread-of-the-disease-in-your-region-scientists-tell-west-africans/
-- https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5975940
-- https://pmc.ncbi.nlm.nih.gov/articles/PMC6801948/
-- https://www.isaaa.org/kc/cropbiotechupdate/ged/article/default.asp?ID=21264
+- https://www.latimes.com/archives/la-xpm-1990-03-24-mn-681-story.html
+- https://en.edairynews.com/fpc-backlash-90-of-cheese-under-fire/
+- https://pmarketresearch.com/hc/fermentation-produced-chymosin-fpc-market/
+- https://www.vrg.org/blog/2012/08/21/microbial-rennets-and-fermentation-produced-chymosin-fpc-how-vegetarian-are-they/
+- https://tallow.app/blog/pfizer-enzyme-90-percent-cheese
+- https://nourishfoodclub.com/blogs/news/genetically-modified-ingredients-in-most-us-cheeses
+- https://biochecked.com/industry-news/90-of-u-s-cheese-contains-gmo-made-by-pfizer/
+- https://cheesescientist.com/science/microbial-rennet/
+- https://scienceinsights.org/what-is-non-animal-rennet-and-why-is-it-in-cheese/
+- https://finance.yahoo.com/healthcare/articles/cibus-cbus-welcomes-landmark-eu-103305040.html
+- https://investor.cibus.com/news-releases/news-release-details/europe-recognizes-nature-based-plant-improvement-opening-new
+- https://pmc.ncbi.nlm.nih.gov/articles/PMC6335076/
+- https://www.dailymail.com/sciencetech/article-15439443/cheese-Pfizers-ingredient-dairy-products.html
+- https://medium.com/@media_93416/fpc-rennet-the-invisible-ingredient-shaping-your-cheese-74190802c6b6
 
 ---
 
-### (2) Selected Item
+## (2) Selected Item
 
-**Title:** CRISPR/Cas9 mediated knockout of MeSSI enhances resistant starch content without compromising yield in cassava
+**Title:** Roughly 90% of hard cheese made in the United States is now set with an enzyme grown in a vat, not pulled from a calf's stomach
 
-**Source URL:** https://doi.org/10.1016/j.carbpol.2026.125382
+**Source URL:** https://spacedaily.com/sd-v-roughly-90-of-hard-cheese-made-in-the-united-states-is-now-set-with-an-enzyme-grown-in-a-vat-not-pulled-from-a-calfs-stomach/
 
-**One-sentence summary:** CRISPR/Cas9 knockout of the MeSSI gene in cassava produced a 6.7-fold increase in resistant starch and a 16.4% rise in amylose with zero yield penalty — a result enabled by unexpected metabolic compensation through upregulation of MeSBEI — in a crop that feeds over 800 million people, many in the world's most food-insecure regions.
-
----
-
-### (3) Arbitration Rationale
-
-Two of three curators independently ranked this cassava study first (or tied for first), and the third curator's shortlist reinforced its societal stakes by foregrounding cassava's centrality to African food security. I am selecting it over the two strongest alternatives for clear reasons:
-
-**vs. Hexaploid sweet potato (IbGBSS1 knockouts):** The sweet potato study is arguably the greater technical feat — complete homozygous knockouts across a six-copy genome is a landmark in polyploid editing. But the cassava study has a more surprising biological finding (the metabolic compensation mechanism explaining no yield drag), stronger quantitative results (6.7-fold resistant starch increase vs. amylose-free starch, which is a binary outcome), and far higher societal stakes (cassava is a calorie staple for 800M+ in sub-Saharan Africa; sweet potato, while important, does not occupy the same food-security niche in the most vulnerable populations). Technical difficulty alone does not make the best story; the combination of surprise, mechanism, and stakes does.
-
-**vs. Ugandan farmer adoption intentions study:** This social-science study is valuable and I considered it seriously given the instruction to value policy and governance perspectives. However, it focuses on adoption intentions for CBSD-resistant cassava — a disease-resistance trait — not on the nutritional trait improvement in the MeSSI study. It is a narrower contribution (a survey in one country) without the scientific depth or global resonance of the MeSSI findings. The MeSSI study, by contrast, carries its own societal weight (nutritional improvement in a food-insecure staple crop) while also opening the door to the exact adoption and regulatory questions the third curator raised.
-
-**vs. Cattle embryo Cas12i study:** This is a platform/methodology paper. While the Cas12i nuclease is newer and interesting, the study operates at the embryo stage with no demonstrated phenotype or agricultural outcome. It lacks the end-to-end story (gene edit → trait improvement → yield validation → food-security relevance) that makes the cassava work compelling to both specialist and general audiences.
-
-**Bottom line:** The cassava MeSSI study wins on the convergence of all three curatorial lenses — novelty (metabolic compensation as a surprise), scientific relevance (validated biochemical and agronomic data in a recalcitrant crop), and societal impact (nutrition improvement in a staple feeding 800M+ in food-insecure regions). It is the item where a writer can build the strongest narrative arc from bench to field to dinner plate.
+**One-sentence summary:** The most successful — and most invisible — GMO deployment in food history has already happened: since 1990, a genetically engineered enzyme called fermentation-produced chymosin (FPC), originally developed by Pfizer, has quietly displaced animal rennet in ~90% of U.S. hard cheese, classified as a "processing aid" that requires no GMO labeling on the package.
 
 ---
 
-### (4) Writing Brief
+## (3) Arbitration Rationale
 
-**Hook (most surprising aspect):**
-The standard assumption in crop starch engineering is that when you push one biosynthetic pathway, something else gives — usually yield. Here, knocking out MeSSI didn't just boost resistant starch 6.7-fold; it triggered an unexpected metabolic counterpunch (compensatory upregulation of MeSBEI) that somehow protected total starch output and root yield. The plant solved the problem for us.
+This item appears on two of three shortlists (novelty and societal impact curators), and for good reason — it outperforms every alternative on a matrix of writability, surprise, policy stakes, and narrative accessibility.
 
-**Key facts / numbers / mechanisms to include:**
-- Cassava feeds over 800 million people, primarily in sub-Saharan Africa, and is a calorie staple for some of the world's most food-insecure populations.
-- CRISPR/Cas9 was used to knock out MeSSI (a soluble starch synthase I gene) in cassava.
-- Result: **6.7-fold increase in resistant starch content** and **16.4% increase in amylose levels**.
-- Critically: **no reduction in total starch accumulation or storage root yield** — the holy grail of trait improvement without agronomic trade-off.
-- Mechanism: The MeSSI knockout triggered compensatory upregulation of MeSBEI (starch branching enzyme I), which appears to rebalance starch biosynthesis and prevent yield loss — a metabolic compensation that was not engineered but emerged endogenously.
-- Resistant starch has documented health benefits: it behaves functionally like dietary fiber, slows glucose release, and is associated with improved glycemic response and gut health.
-- Cassava has historically been genetically recalcitrant — difficult to transform and edit — making this a meaningful technical milestone beyond the trait result itself.
+**Why not the EU/Cibus decision?** The EU regulatory shift is genuinely important, but the primary source is a corporate press release from Cibus (a gene-editing company with an obvious commercial stake). The story as surfaced is thin on the actual regulatory text and heavy on corporate celebration. It would require substantial additional reporting to separate substance from PR.
 
-**Editorial angle:**
-Frame this as a story about how genome editing in a neglected orphan crop is quietly outperforming expectations — not by brute-force engineering, but by uncovering an unexpected natural compensation mechanism. The broader implication: CRISPR in staple crops of the developing world isn't just about copying what worked in maize or rice; it's revealing biology we didn't know was there. Connect to the societal stakes: if resistant-starch cassava reaches farmers, it could improve nutrition for hundreds of millions without asking them to sacrifice productivity — a rare win-win in food-security agriculture. Briefly nod to the regulatory and adoption pipeline (the Ugandan adoption study reminds us that getting these crops to farmers is itself a research challenge).
+**Why not the transgene-free gene-edited crops review (Frontiers in Plant Science)?** It is a solid review paper, but it is a forward-looking synthesis — arguing what *could* happen — rather than a story about something that *has already happened*. The cheese story is the proof of concept for the very thing that paper envisions: a biotech product that entered the food supply, achieved near-total market penetration, and did so almost entirely outside public awareness.
 
-**Caveats / limitations to acknowledge:**
-- These are greenhouse/controlled-environment results; **field trials under real agronomic conditions** have not yet been reported and are essential before any deployment claim.
-- The metabolic compensation mechanism (MeSBEI upregulation) is described but **not fully mechanistically resolved** — we know it happens; the precise regulatory cascade is not yet mapped.
-- **Resistant starch content in a lab setting may not translate directly to dietary impact** — processing methods (boiling, fermentation, drying) common in African cassava preparation can alter resistant starch levels, and bioavailability in human populations needs validation.
-- Cassava is consumed primarily as flour, chips, or fermented products; whether the 6.7-fold resistant starch increase survives typical processing is an open question.
-- Regulatory pathways for gene-edited crops remain **fragmented across African jurisdictions** — some countries have no clear framework, and even where frameworks exist, farmer adoption (as the Ugandan study underscores) depends on trust, seed systems, and extension infrastructure, not just technical merit.
+**Why not the cassava adoption study?** The cassava work is scientifically important and has genuine food-security stakes in sub-Saharan Africa. But the specific DOI points to a behavioral/social-science study about farmer intentions — not about the CRISPR science itself or a field deployment milestone. It is one step removed from a breakthrough story, and its narrow geographic and disciplinary scope limits the editorial angle for a general audience.
+
+**Why not the specialist journal papers (Biotechnology Advances, Annals of Botany, IJMS)?** These are rigorous contributions to their subfields, but they are methodological or review papers with limited broader narrative pull. They lack the "you'll never look at your fridge the same way" quality that makes a science story land.
+
+**The cheese/FPC story wins decisively because:**
+
+1. **It is a completed revolution, not a promise.** Unlike most biotech-in-agriculture stories that live in the future tense ("could transform," "may unlock"), this one is past tense. The revolution already happened — in 1990 — and reached 90% market share, and almost no one noticed.
+
+2. **It touches every editorial register at once:**
+   - *Science:* The genetic engineering of a microorganism to produce an enzyme identical to one found in calf stomachs.
+   - *History:* The first genetically engineered food product approved by the FDA.
+   - *Law/Regulation:* The "processing aid" classification that exempts it from GMO labeling — a regulatory choice with ongoing consequences for transparency policy.
+   - *Economics:* Pfizer's role, the $420M global market, and the cost/consistency advantages that drove adoption.
+   - *Society/Ethics:* Vegetarians, animal welfare advocates, and GMO-wary consumers are all affected — and almost none of them know.
+
+3. **It is instantly relatable.** Every reader has eaten cheese. The hook requires zero technical preamble.
+
+4. **It reframes the GMO debate.** The dominant GMO narrative is about contested adoption — consumers pushing back, regulators hesitating. This story inverts that: a GMO product achieved total market dominance specifically *because* it was invisible. That raises uncomfortable questions about whether public acceptance is a prerequisite for biotech success, or merely an obstacle that regulatory classifications can route around.
+
+---
+
+## (4) Writing Brief
+
+### Hook
+The most successful genetically modified food product in history isn't a salmon or a potato — it's the enzyme in 90% of American hard cheese, and it's been there since 1990. Almost no one knows because it doesn't appear on the label.
+
+### Key Facts / Numbers / Mechanisms
+
+- **What FPC is:** Fermentation-produced chymosin — the key milk-clotting enzyme in calf rennet, produced by genetically engineered microorganisms (bacteria, yeast, or mold) in fermentation vats rather than extracted from calf stomachs.
+- **FDA approval date:** March 1990 — the **first genetically engineered product approved for the U.S. food supply**, approved by the FDA on the basis that FPC is chemically identical to calf-derived chymosin.
+- **Corporate origin:** Developed by Pfizer. (Note: FPC is now produced by multiple enzyme manufacturers; Pfizer's role is historical.)
+- **Market penetration:** ~90% of U.S. hard cheese uses FPC. The global FPC market is valued at approximately $420 million.
+- **Regulatory mechanism of invisibility:** FPC is classified as a **GRAS substance** (21 CFR 184.1685). Because the final cheese contains no detectable modified DNA or protein, FPC is treated as a **"processing aid"** and is exempt from GMO labeling, including under the 2016 **Bioengineered Food Disclosure Standard**. Manufacturers are not required to indicate whether they used animal rennet, microbial rennet, or FPC.
+- **International parallel:** Australia's FSANZ applies the same logic — no GMO labeling required when no modified DNA or protein is detectable in the final product.
+- **Why industry adopted it:** Cheaper, more consistent, higher yield, unlimited supply (no dependence on calf slaughter), and better quality control than variable animal rennet.
+
+### Editorial Angle
+Frame this as a **case study in how regulatory classification — not public debate — determines whether biotechnology becomes visible to consumers.** The GMO labeling wars are usually framed as a fight over transparency vs. fear-mongering. This story shows that the war was arguably already lost (or won, depending on your perspective) in 1990, when the FDA decided that a processing aid's invisibility in the final product mattered more than its genetically engineered origin. The piece should explore the tension between scientific equivalence (FPC is chemically identical to calf chymosin) and informational equity (consumers cannot make informed choices about something they are never told about). It should also note the irony: the same consumers who check labels for "non-GMO" certifications are very likely eating cheese set with a product born of genetic engineering — and the labeling system is designed so they can't find out which.
+
+### Caveats / Limitations
+
+- **"GMO" is a contested label for FPC.** The enzyme itself is not genetically modified — it is produced *by* genetically modified organisms but is chemically identical to its animal-derived counterpart. Whether this counts as "a GMO in your cheese" depends on whether you define GMO by the production process or the final product's composition. The article should be precise about this distinction and not collapse it for dramatic effect.
+- **The 90% figure** is widely cited but originates from industry estimates, not a rigorous peer-reviewed survey. It is broadly accepted but should be attributed as an industry estimate rather than presented as a hard census number.
+- **Pfizer's role is historical.** Pfizer developed the original FPC, but the enzyme is now produced by multiple biotech companies. The article should not imply Pfizer currently controls the market.
+- **The source article** (SpaceDaily) is a secondary/popular science outlet. The writer should verify specific claims against the primary regulatory documents (21 CFR 184.1685) and the 1990 FDA approval, and cite those directly.
+- **Consumer safety is not in serious dispute.** FPC has been used for 35+ years with no identified health concerns. The story's interest is in transparency and classification, not in implying a hidden danger. The piece should avoid fear-mongering framing (some secondary sources lean this way) and instead maintain an editorial tone focused on the policy and informational questions.
 
 ## First Draft
 
-# When Cassava Rewired Itself: A Gene Edit That Paid Off Twice
+# The Most Successful GMO You've Never Heard Of
 
-In crop engineering, there is a stubborn rule: push one trait, and another gives way. Boost nutrition, lose yield. So when scientists used CRISPR to knock out a starch gene in cassava, they expected a trade-off. Instead, the plant solved the problem on its own.
+The most successful genetically modified food product in history isn't a salmon or a potato. It's the enzyme that sets roughly 90% of American hard cheese — and it has been quietly at work since 1990. Almost no one knows because, by law, it doesn't appear on the label.
 
-Cassava is a survival crop. Over [800 million people](https://doi.org/10.1016/j.carbpol.2026.125382) — most in sub-Saharan Africa — depend on its starchy roots as a daily calorie source. For some of the world's most food-insecure populations, cassava is not optional; it is the difference between eating and not. Yet cassava's starch is almost entirely the rapidly digestible kind, which spikes blood sugar and offers little in the way of dietary fiber. Improving its nutritional profile has long been a goal, but cassava is notoriously genetically recalcitrant — difficult to transform and even harder to edit. It has not been a willing subject for the genome-editing revolution that has already reshaped maize, rice, and wheat.
+For thousands of years, cheesemakers relied on rennet — an enzyme scraped from the fourth stomach of slaughtered calves — to curdle milk into curds. It worked, but it was expensive, variable, and limited by the supply of young animals. In the late 1980s, scientists at Pfizer solved the bottleneck with a neat trick of genetic engineering: they copied the gene that codes for chymosin, the key milk-clotting protein in calf rennet, and pasted it into a microorganism. Bacteria, yeast, or mold could then churn out the enzyme by the vat-full. The result was fermentation-produced chymosin, or FPC.
 
-That is what makes the new study, [published in *Carbohydrate Polymers*](https://doi.org/10.1016/j.carbpol.2026.125382), so striking. Researchers used CRISPR/Cas9 to knock out *MeSSI*, a gene encoding soluble starch synthase I — an enzyme central to building amylopectin, the branched, easily digested component of starch. The logic was straightforward: disable the enzyme that makes "fast" starch, and the plant should shift toward amylose, the linear, harder-to-digest form. That shift is what produces resistant starch, which behaves functionally like dietary fiber — slowing glucose release, feeding beneficial gut bacteria, and improving glycemic response.
+In March 1990, the FDA approved FPC — making it the [first genetically engineered product ever permitted in the U.S. food supply](https://www.latimes.com/archives/la-xpm-1990-03-24-mn-681-story.html). The agency's reasoning was elegant in its simplicity: because the chymosin molecule produced by genetically modified microbes is chemically identical to the one pulled from a calf stomach, there was no scientific basis for treating it differently. The [Federal Register notice](https://archives.federalregister.gov/issue_slice/1990/3/23/10930-10936.pdf), filed in response to a petition from Pfizer Central Research, affirmed FPC as GRAS — Generally Recognized as Safe — extending to the bioengineered enzyme the same status long held by traditional calf rennet.
 
-The results exceeded expectations. The edited cassava lines showed a **6.7-fold increase in resistant starch content** and a **16.4% rise in amylose levels** compared to unmodified plants. Those numbers alone would be notable. But the real surprise was what did *not* happen: total starch accumulation stayed the same, and storage root yield was unaffected. No penalty. No drag.
+That decision set in motion one of the largest silent ingredient swaps in modern food history. Today, [roughly 90% of hard cheese made in the United States](https://spacedaily.com/sd-v-roughly-90-of-hard-cheese-made-in-the-united-states-is-now-set-with-an-enzyme-grown-in-a-vat-not-pulled-from-a-calfs-stomach/) is set with FPC rather than animal rennet. The global FPC market is valued at around $420 million, with American producers supplying a large share of international demand.
 
-The reason appears to be an unexpected act of metabolic self-correction. When *MeSSI* was knocked out, the plant triggered compensatory changes in its starch biosynthesis network — including upregulation of *MeSBEI*, a starch branching enzyme that seems to have rebalanced the system, redirecting carbon flux to prevent the collapse in total starch output. This compensation was not engineered. It emerged endogenously, a hidden layer of metabolic flexibility that nobody knew was there until the gene was removed. Think of it as knocking out a load-bearing wall in a house, only to discover the structure redistributes the weight through pathways you never mapped.
+What kept it invisible was a regulatory classification, not a public relations campaign. The microorganisms themselves — the genetically modified bacteria, yeast, or mold — are filtered out during processing. What remains is pure chymosin, indistinguishable by any chemical test from its calf-derived twin. Because the final cheese contains no detectable modified DNA or protein, FPC is treated as a "processing aid" rather than an ingredient. Under [21 CFR 184.1685](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1685), manufacturers are not required to disclose its use on packaging — not even under the 2016 Bioengineered Food Disclosure Standard, which was specifically designed to give consumers GMO transparency. Australia's food standards authority applies the same logic: no modified DNA detectable in the final product means no label required.
 
-This matters beyond cassava. It suggests that genome editing in so-called orphan crops — neglected by decades of breeding investment — may not just replicate what worked in major cereals. It may reveal biology that was always there, waiting to be uncovered. For the hundreds of millions who rely on cassava, the stakes are concrete: a variety that delivers more resistant starch without sacrificing productivity would be a rare nutritional win-win. Farmers would not be asked to choose between feeding their families and nourishing them.
+This is the case study in how regulatory classification — not public debate — determines whether biotechnology becomes visible to consumers. The GMO labeling wars are usually framed as a fight between transparency and fear-mongering. But the FPC story suggests that war was effectively settled in 1990, when the FDA decided that a processing aid's invisibility in the final product mattered more than its genetically engineered origin.
 
-The findings also arrive at a moment when the [regulatory landscape for gene-edited crops in Africa](https://allianceforscience.org/blog/2023/02/adopt-ugandas-cbsd-resistant-cassava-to-halt-spread-of-the-disease-in-your-region-scientists-tell-west-africans/) is still taking shape. Some countries have no clear framework. Even where rules exist, farmer adoption depends on trust, seed systems, and extension infrastructure — not technical merit alone. The science is necessary but not sufficient.
+The irony is sharp. Consumers who diligently check labels for "non-GMO" certifications are very likely eating cheese set with a product born of genetic engineering — and the labeling system is designed so they cannot find out which. The [Vegetarian Resource Group](https://www.vrg.org/blog/2012/08/21/microbial-rennets-and-fermentation-produced-chymosin-fpc-how-vegetarian-are-they/) has noted that FPC is technically not identifiable on most labels, leaving even conscientious vegetarians unable to tell whether their cheese was set with animal rennet or microbial chymosin. Industry adopted FPC for compelling reasons: it is cheaper, more consistent, higher-yielding, and free from dependence on calf slaughter. The science is sound, and the safety record after 35 years is unblemished. The question isn't whether FPC works. It's whether a democracy can have an informed conversation about a technology its regulatory system was built to hide.
 
-Important caveats remain. These results come from controlled greenhouse conditions; field trials under real agronomic stress have not yet been reported. The metabolic compensation mechanism is described but not fully mapped — we know *MeSBEI* upregulation occurs, but the precise regulatory cascade is unresolved. And cassava is rarely eaten raw: traditional processing methods like boiling, fermentation, and drying can alter resistant starch levels, meaning the 6.7-fold increase measured in the lab may not translate directly to the dinner plate. Whether this nutritional gain survives African kitchens is an open empirical question.
+A few clarifications matter. Calling FPC "a GMO in your cheese" is imprecise: the enzyme itself is not genetically modified — it is produced *by* genetically modified organisms but is chemically identical to its animal-derived counterpart. The 90% figure is widely cited but originates from industry estimates, not a rigorous peer-reviewed census. Pfizer developed the original FPC but no longer controls the market; multiple enzyme manufacturers now produce it. And consumer safety is not in serious dispute — the story's interest lies in transparency and classification, not in any hidden danger.
 
 ## Review 0 - Editorial
 
 {
-  "structure": 7,
+  "structure": 6,
   "clarity": 8,
-  "engagement": 6,
+  "engagement": 7,
   "revision_notes": [
     {
-      "location": "Paragraphs 5–6 (metabolic compensation through broader implications)",
-      "issue": "The technical explanation of the compensation mechanism loses narrative momentum. Phrases like 'redirecting carbon flux' and 'starch biosynthesis network' read like a methods section, and the load-bearing-wall analogy, while effective, arrives too late to carry the reader through the dense exposition. There are no researcher quotes or human voices to break up the technical prose and sustain emotional engagement.",
-      "required_fix": "Introduce at least one researcher quote or perspective to humanize the discovery. Deploy the load-bearing-wall analogy earlier, before the technical terms, so it frames the explanation rather than following it. Break the dense compensation paragraph into shorter, more digestible steps with a clear cause-and-effect throughline."
+      "location": "Final paragraph ('A few clarifications matter...')",
+      "issue": "This section reads as an editorial post-script appended after the natural conclusion. It breaks the narrative arc — the article already has a powerful, thought-provoking ending in the preceding paragraph ('The question isn't whether FPC works. It's whether a democracy can have an informed conversation about a technology its regulatory system was built to hide.'). The clarifications that follow deflate that climactic finish with a list of caveats that feel like a fact-checker's margin notes rather than organic article content.",
+      "required_fix": "Integrate the key clarifications earlier in the article where they are contextually relevant. For example, the distinction between the enzyme and the GMO organism can be woven into the paragraph explaining why FPC is invisible (the 'processing aid' section). The 90% figure provenance can be noted parenthetically when the statistic is first introduced. The note about Pfizer no longer controlling the market fits naturally in the paragraph about global market scale. Allow the democracy question to stand as the final line."
     },
     {
-      "location": "Paragraph 8 (regulatory landscape)",
-      "issue": "The regulatory paragraph is a momentum-killer. After the excitement of the metabolic-compensation discovery and the broader-implications framing, the reader is pulled into a dry policy discussion about regulatory frameworks, seed systems, and extension infrastructure. The shift in register is jarring and disconnects the reader from the narrative's emotional core.",
-      "required_fix": "Condense this paragraph to one or two sentences and weave it into either the broader-implications paragraph (paragraph 7) or a new concluding paragraph after the caveats. If the regulatory context must remain standalone, frame it around the human stakes already established — e.g., what these regulatory gaps mean for the farmers introduced earlier — rather than reverting to policy-brief language."
-    },
-    {
-      "location": "Final paragraph (caveats) through end of article",
-      "issue": "The article ends on a purely deflationary note. After building genuine excitement through the discovery narrative, the caveats — while important and well-articulated — leave the reader with no forward momentum. The final line about 'African kitchens' is compelling but functions as a dead end rather than a springboard.",
-      "required_fix": "Add a brief concluding paragraph after the caveats that acknowledges the open questions while pointing toward concrete next steps — field trials, processing studies, or regulatory developments. Give the reader a reason to care about what comes next rather than ending on uncertainty alone."
+      "location": "Paragraph beginning 'This is the case study in how regulatory classification...'",
+      "issue": "This paragraph functions as a thesis statement but arrives late — after six paragraphs of exposition. The reader doesn't get a clear sense of the article's analytical frame until two-thirds through, which weakens the sense of structural purpose in the earlier sections.",
+      "required_fix": "Consider foreshadowing the central theme — that regulatory classification, not public debate, determined GMO visibility — earlier, perhaps as early as the second paragraph. This gives the reader a conceptual through-line to follow rather than absorbing the narrative as pure exposition until the thesis arrives."
     }
   ]
 }
@@ -1202,105 +1069,129 @@ Important caveats remain. These results come from controlled greenhouse conditio
 {
   "claims": [
     {
-      "claim": "Over 800 million people — most in sub-Saharan Africa — depend on cassava's starchy roots as a daily calorie source.",
+      "claim": "FPC is the enzyme that sets roughly 90% of American hard cheese, and has been quietly at work since 1990.",
+      "status": "VERIFIED",
+      "note": "Multiple sources, including the LA Times (1990) and eDairyNews, confirm FDA approval in March 1990 and the ~90% market penetration figure. The article itself acknowledges the 90% figure originates from industry estimates rather than a peer-reviewed census.",
+      "required_fix": null
+    },
+    {
+      "claim": "Almost no one knows because, by law, it doesn't appear on the label.",
+      "status": "VERIFIED",
+      "note": "FPC is classified as a processing aid under 21 CFR 184.1685 and is not required to be disclosed on labels, including under the 2016 Bioengineered Food Disclosure Standard. The regulatory basis for non-disclosure is confirmed by multiple sources.",
+      "required_fix": null
+    },
+    {
+      "claim": "For thousands of years, cheesemakers relied on rennet — an enzyme scraped from the fourth stomach of slaughtered calves — to curdle milk into curds.",
+      "status": "VERIFIED",
+      "note": "Rennet from the fourth stomach (abomasum) of calves is a well-documented historical cheese-making practice going back thousands of years. The description is accurate.",
+      "required_fix": null
+    },
+    {
+      "claim": "In the late 1980s, scientists at Pfizer solved the bottleneck with genetic engineering: they copied the gene that codes for chymosin and pasted it into a microorganism.",
+      "status": "VERIFIED",
+      "note": "The LA Times (1990) and multiple other sources confirm that Pfizer scientists developed FPC by transferring the calf chymosin gene into microorganisms. The timeframe (late 1980s development, 1990 approval) is consistent.",
+      "required_fix": null
+    },
+    {
+      "claim": "In March 1990, the FDA approved FPC — making it the first genetically engineered product ever permitted in the U.S. food supply.",
+      "status": "VERIFIED",
+      "note": "The LA Times article from March 24, 1990, and the Federal Register notice (March 23, 1990) confirm both the approval date and the characterization as the first genetically engineered product permitted in the U.S. food supply.",
+      "required_fix": null
+    },
+    {
+      "claim": "The Federal Register notice, filed in response to a petition from Pfizer Central Research, affirmed FPC as GRAS — Generally Recognized as Safe.",
+      "status": "VERIFIED",
+      "note": "The Federal Register notice (archived at archives.federalregister.gov) from March 23, 1990, confirms the GRAS affirmation in response to a petition from Pfizer Central Research.",
+      "required_fix": null
+    },
+    {
+      "claim": "The FDA's reasoning was that the chymosin molecule produced by genetically modified microbes is chemically identical to the one pulled from a calf stomach, so there was no scientific basis for treating it differently.",
+      "status": "VERIFIED",
+      "note": "Multiple sources confirm that the FDA's GRAS determination was based on the chemical identity of FPC with calf-derived chymosin. This reasoning is reflected in the Federal Register notice.",
+      "required_fix": null
+    },
+    {
+      "claim": "Roughly 90% of hard cheese made in the United States is set with FPC rather than animal rennet.",
       "status": "ACCEPTABLE_UNCERTAINTY",
-      "note": "The curation brief and the linked DOI both cite 800 million+ people. This is a widely cited figure in cassava literature (commonly attributed to FAO). The 'daily calorie source' phrasing is a slight intensification of 'calorie staple,' but the brief itself uses similar language. The figure is broadly consistent with FAO estimates. Cannot fully confirm the exact number from the primary source, but the article's framing is reasonable and the uncertainty is low-stakes.",
+      "note": "The 90% figure is widely cited across multiple sources (eDairyNews, SpaceDaily, and others) but originates from industry estimates rather than a rigorous peer-reviewed census. The article itself acknowledges this limitation in its clarifications section, stating the figure 'is widely cited but originates from industry estimates, not a rigorous peer-reviewed census.' This responsible qualification makes the claim acceptable despite the underlying uncertainty.",
       "required_fix": null
     },
     {
-      "claim": "The study was published in Carbohydrate Polymers.",
-      "status": "VERIFIED",
-      "note": "The DOI https://doi.org/10.1016/j.carbpol.2026.125382 resolves to a Carbohydrate Polymers article. The ScienceDirect URL in the curation brief (S0144861726004996) is consistent with this journal's identifier scheme. Both the brief and the article agree.",
-      "required_fix": null
-    },
-    {
-      "claim": "Researchers used CRISPR/Cas9 to knock out MeSSI, a gene encoding soluble starch synthase I — an enzyme central to building amylopectin.",
-      "status": "VERIFIED",
-      "note": "Directly confirmed by the curation brief: 'CRISPR/Cas9 was used to knock out MeSSI (a soluble starch synthase I gene) in cassava.' The description of SSI's role in amylopectin biosynthesis is standard biochemistry and consistent with the study's logic.",
-      "required_fix": null
-    },
-    {
-      "claim": "The edited cassava lines showed a 6.7-fold increase in resistant starch content.",
-      "status": "VERIFIED",
-      "note": "Confirmed by both the curation brief and the CRISPR medicine newsletter summary: '6.7-fold increase in resistant starch content.'",
-      "required_fix": null
-    },
-    {
-      "claim": "The edited cassava lines showed a 16.4% rise in amylose levels compared to unmodified plants.",
-      "status": "VERIFIED",
-      "note": "Confirmed by both the curation brief and the CRISPR medicine newsletter summary: '16.4% increase in amylose levels.'",
-      "required_fix": null
-    },
-    {
-      "claim": "Total starch accumulation stayed the same, and storage root yield was unaffected.",
-      "status": "VERIFIED",
-      "note": "Confirmed by the curation brief: 'no reduction in total starch accumulation or storage root yield.' The newsletter summary also confirms this.",
-      "required_fix": null
-    },
-    {
-      "claim": "When MeSSI was knocked out, the plant triggered compensatory changes in its starch biosynthesis network — including upregulation of MeSBEI, a starch branching enzyme.",
-      "status": "VERIFIED",
-      "note": "The curation brief confirms: 'the MeSSI mutation triggered compensatory upregulation of MeSBEI.' The ScienceDirect abstract is cited as the source for this mechanism. MeSBEI as a starch branching enzyme I is standard nomenclature.",
-      "required_fix": null
-    },
-    {
-      "claim": "This compensation was not engineered. It emerged endogenously, a hidden layer of metabolic flexibility that nobody knew was there until the gene was removed.",
+      "claim": "The global FPC market is valued at around $420 million, with American producers supplying a large share of international demand.",
       "status": "ACCEPTABLE_UNCERTAINTY",
-      "note": "The brief confirms the compensation was not engineered and emerged endogenously. The phrasing 'nobody knew was there' is a narrative flourish — while no prior literature is cited describing this specific compensation in cassava, the claim that it was wholly unknown is difficult to verify absolutely. However, the article's framing is consistent with the study's presentation of the finding as unexpected.",
+      "note": "The $420 million figure comes from pmarketresearch.com, a market research firm, which also notes U.S. exports represent about 43% of the market. The article's phrasing 'a large share' is consistent with ~43%. However, the source is a single market research report, and market sizing data from such firms can vary. The claim is plausible but not independently corroborated by a second source.",
       "required_fix": null
     },
     {
-      "claim": "The regulatory landscape for gene-edited crops in Africa is still taking shape. Some countries have no clear framework.",
+      "claim": "The microorganisms themselves — the genetically modified bacteria, yeast, or mold — are filtered out during processing. What remains is pure chymosin, indistinguishable by any chemical test from its calf-derived twin.",
       "status": "VERIFIED",
-      "note": "The curation brief confirms: 'Regulatory pathways for gene-edited crops remain fragmented across African jurisdictions — some countries have no clear framework.' This is also well-established in the broader literature on gene-editing regulation in Africa.",
+      "note": "Multiple sources confirm that the microorganisms are removed during processing and that the resulting chymosin is chemically identical to calf-derived chymosin. This is the basis for the FDA's GRAS classification and the processing aid designation.",
       "required_fix": null
     },
     {
-      "claim": "The link to the Alliance for Science blog post is presented as supporting the regulatory landscape claim for gene-edited crops in Africa.",
-      "status": "REVISE",
-      "note": "The linked Alliance for Science article is about CBSD-resistant cassava deployment in West Africa and a call to adopt Ugandan varieties. It is about disease-resistant cassava deployment, not about the regulatory landscape for gene-edited crops. The curation brief itself notes this distinction: the Ugandan adoption study 'focuses on CBSD-resistant cassava (a disease-resistance trait), not the resistant-starch nutritional trait.' The article uses this link as if it directly supports the regulatory framing, which is misleading.",
-      "required_fix": "Either replace the Alliance for Science link with a source that actually addresses the regulatory landscape for gene-edited crops in Africa, or reframe the link's context to accurately describe it as being about CBSD-resistant cassava deployment rather than gene-editing regulation."
-    },
-    {
-      "claim": "These results come from controlled greenhouse conditions; field trials under real agronomic stress have not yet been reported.",
+      "claim": "Because the final cheese contains no detectable modified DNA or protein, FPC is treated as a 'processing aid' rather than an ingredient.",
       "status": "VERIFIED",
-      "note": "The curation brief explicitly lists this caveat: 'These are greenhouse/controlled-environment results; field trials under real agronomic conditions have not yet been reported.' The article accurately reflects this limitation.",
+      "note": "The processing aid classification is confirmed by multiple sources and is the regulatory basis for FPC's exemption from labeling requirements. The logic — no detectable modified DNA/protein in the final product — is consistently reported.",
       "required_fix": null
     },
     {
-      "claim": "The metabolic compensation mechanism is described but not fully mapped — we know MeSBEI upregulation occurs, but the precise regulatory cascade is unresolved.",
+      "claim": "Under 21 CFR 184.1685, manufacturers are not required to disclose its use on packaging — not even under the 2016 Bioengineered Food Disclosure Standard.",
       "status": "VERIFIED",
-      "note": "The curation brief confirms: 'The metabolic compensation mechanism (MeSBEI upregulation) is described but not fully mechanistically resolved — we know it happens; the precise regulatory cascade is not yet mapped.'",
+      "note": "21 CFR 184.1685 lists chymosin as GRAS. The 2016 Bioengineered Food Disclosure Standard exempts processing aids and ingredients derived from bioengineered crops/organisms where no modified genetic material is detectable in the final product. Multiple sources confirm this exemption applies to FPC.",
       "required_fix": null
     },
     {
-      "claim": "Traditional processing methods like boiling, fermentation, and drying can alter resistant starch levels, meaning the 6.7-fold increase measured in the lab may not translate directly to the dinner plate.",
+      "claim": "Australia's food standards authority applies the same logic: no modified DNA detectable in the final product means no label required.",
       "status": "VERIFIED",
-      "note": "The curation brief confirms this caveat: 'Resistant starch content in a lab setting may not translate directly to dietary impact — processing methods (boiling, fermentation, drying) common in African cassava preparation can alter resistant starch levels.' This is also well-established food science.",
+      "note": "FSANZ (Food Standards Australia New Zealand) applies the same principle: foods highly refined to the point where no novel DNA or novel protein remains are not required to carry GM labeling. This is confirmed by FSANZ's own guidance on GM foods.",
       "required_fix": null
     },
     {
-      "claim": "Cassava is notoriously genetically recalcitrant — difficult to transform and even harder to edit.",
+      "claim": "The Vegetarian Resource Group has noted that FPC is technically not identifiable on most labels, leaving even conscientious vegetarians unable to tell whether their cheese was set with animal rennet or microbial chymosin.",
       "status": "VERIFIED",
-      "note": "The curation brief confirms: 'Cassava has historically been genetically recalcitrant — difficult to transform and edit.' This is a well-known challenge in cassava biotechnology literature.",
+      "note": "The VRG blog post (2012) explicitly addresses this issue, confirming that FPC is not identifiable on most labels and that consumers generally cannot distinguish between animal rennet and microbial chymosin based on labeling.",
       "required_fix": null
     },
     {
-      "claim": "Resistant starch behaves functionally like dietary fiber — slowing glucose release, feeding beneficial gut bacteria, and improving glycemic response.",
+      "claim": "Industry adopted FPC for compelling reasons: it is cheaper, more consistent, higher-yielding, and free from dependence on calf slaughter.",
       "status": "VERIFIED",
-      "note": "The curation brief confirms: 'Resistant starch has documented health benefits: it behaves functionally like dietary fiber, slows glucose release, and is associated with improved glycemic response and gut health.' This is standard nutritional science.",
+      "note": "Multiple sources, including the Cheese Scientist blog and other industry sources, confirm that FPC offers cost advantages, consistency, higher yield, and supply independence from calf slaughter compared to animal rennet.",
       "required_fix": null
     },
     {
-      "claim": "Cassava's starch is almost entirely the rapidly digestible kind, which spikes blood sugar and offers little in the way of dietary fiber.",
+      "claim": "Calling FPC 'a GMO in your cheese' is imprecise: the enzyme itself is not genetically modified — it is produced by genetically modified organisms but is chemically identical to its animal-derived counterpart.",
+      "status": "VERIFIED",
+      "note": "This is a scientifically accurate distinction. The chymosin enzyme produced via FPC is chemically identical to calf-derived chymosin; the genetic modification is in the production organism, not in the enzyme itself or the final cheese product.",
+      "required_fix": null
+    },
+    {
+      "claim": "Pfizer developed the original FPC but no longer controls the market; multiple enzyme manufacturers now produce it.",
+      "status": "VERIFIED",
+      "note": "Multiple sources confirm Pfizer's historical role in developing FPC, and the current market includes multiple manufacturers. The article's clarification is accurate.",
+      "required_fix": null
+    },
+    {
+      "claim": "The safety record after 35 years is unblemished.",
       "status": "ACCEPTABLE_UNCERTAINTY",
-      "note": "This is a reasonable characterization consistent with the study's rationale for targeting starch composition. Cassava starch is known to be high in amylopectin and low in amylose, making it rapidly digestible. The phrase 'almost entirely' is a slight oversimplification (cassava typically contains ~17-25% amylose), but the article's point about rapid digestibility is directionally correct. The brief does not provide exact amylose baseline figures to confirm 'almost entirely,' but the study's 16.4% increase in amylose implies a relatively low baseline.",
+      "note": "FPC has been used since 1990 (approximately 35 years) with no widely reported safety incidents. However, the phrase 'unblemished' is a strong absolute claim that is difficult to definitively verify — one would need to confirm no adverse safety reports have ever been filed. No sources were found reporting safety concerns, and the FDA's GRAS status has not been revoked, but the absolute claim cannot be fully confirmed. The article's own framing notes 'consumer safety is not in serious dispute,' which is a more defensible phrasing.",
       "required_fix": null
     },
     {
-      "claim": "Genome editing has already reshaped maize, rice, and wheat.",
-      "status": "ACCEPTABLE_UNCERTAINTY",
-      "note": "This is a general framing claim. CRISPR has been widely applied in maize, rice, and wheat with numerous published studies, so 'reshaped' is a reasonable (if somewhat strong) characterization. The brief does not make this specific claim, but it is well-supported by the broader literature. The word 'reshaped' implies significant impact, which is defensible given the volume of editing work in these cereals.",
+      "claim": "The 90% figure is widely cited but originates from industry estimates, not a rigorous peer-reviewed census.",
+      "status": "VERIFIED",
+      "note": "The article's own clarification accurately characterizes the provenance of the 90% figure. No peer-reviewed census was found in the research; the figure traces to industry estimates and is broadly accepted but not rigorously surveyed.",
+      "required_fix": null
+    },
+    {
+      "claim": "The GMO labeling wars are usually framed as a fight between transparency and fear-mongering, but the FPC story suggests that war was effectively settled in 1990, when the FDA decided that a processing aid's invisibility in the final product mattered more than its genetically engineered origin.",
+      "status": "VERIFIED",
+      "note": "This is an editorial interpretation rather than a factual claim, but it is grounded in the documented regulatory history. The FDA's 1990 GRAS determination did establish the principle that chemical identity and detectability in the final product — not the production method — would govern labeling. The framing is supported by the evidence.",
+      "required_fix": null
+    },
+    {
+      "claim": "Consumers who diligently check labels for 'non-GMO' certifications are very likely eating cheese set with a product born of genetic engineering — and the labeling system is designed so they cannot find out which.",
+      "status": "VERIFIED",
+      "note": "Given the ~90% market penetration of FPC in U.S. hard cheese and the exemption from labeling disclosure, this claim is well-supported. Consumers cannot determine from standard labeling whether FPC was used. The phrase 'designed so they cannot find out' is editorially charged but factually grounded in the regulatory framework.",
       "required_fix": null
     }
   ]
@@ -1308,23 +1199,19 @@ Important caveats remain. These results come from controlled greenhouse conditio
 
 ## Revision 1
 
-# When Cassava Rewired Itself: A Gene Edit That Paid Off Twice
+# The Most Successful GMO You've Never Heard Of
 
-In crop engineering, there is a stubborn rule: push one trait, and another gives way. Boost nutrition, lose yield. So when scientists used CRISPR to knock out a starch gene in cassava, they expected a trade-off. Instead, the plant solved the problem on its own.
+The most successful genetically modified food product in history isn't a salmon or a potato. It's the enzyme that sets roughly 90% of American hard cheese — and it has been quietly at work since 1990. Almost no one knows because, by law, it doesn't appear on the label.
 
-Cassava is a survival crop. Over [800 million people](https://doi.org/10.1016/j.carbpol.2026.125382) — most in sub-Saharan Africa — depend on its starchy roots as a daily calorie source. For some of the world's most food-insecure populations, cassava is not optional; it is the difference between eating and not. Yet cassava's starch is dominated by the rapidly digestible kind, which spikes blood sugar and offers little in the way of dietary fiber. Improving its nutritional profile has long been a goal, but cassava is notoriously genetically recalcitrant — difficult to transform and even harder to edit. It has not been a willing subject for the genome-editing revolution that has already reshaped maize, rice, and wheat.
+For thousands of years, cheesemakers relied on rennet — an enzyme scraped from the fourth stomach of slaughtered calves — to curdle milk into curds. It worked, but it was expensive, variable, and limited by the supply of young animals. In the late 1980s, scientists at Pfizer solved the bottleneck with a neat trick of genetic engineering: they copied the gene that codes for chymosin, the key milk-clotting protein in calf rennet, and pasted it into a microorganism. Bacteria, yeast, or mold could then churn out the enzyme by the vat-full. The result was fermentation-produced chymosin, or FPC. And the key to understanding its subsequent invisibility is that regulatory classification — not public debate — would determine whether consumers ever learned it was there.
 
-That is what makes the new study, [published in *Carbohydrate Polymers*](https://doi.org/10.1016/j.carbpol.2026.125382), so striking. Researchers used CRISPR/Cas9 to knock out *MeSSI*, a gene encoding soluble starch synthase I — an enzyme central to building amylopectin, the branched, easily digested component of starch. The logic was straightforward: disable the enzyme that makes "fast" starch, and the plant should shift toward amylose, the linear, harder-to-digest form. That shift is what produces resistant starch, which behaves functionally like dietary fiber — slowing glucose release, feeding beneficial gut bacteria, and improving glycemic response.
+In March 1990, the FDA approved FPC — making it the [first genetically engineered product ever permitted in the U.S. food supply](https://www.latimes.com/archives/la-xpm-1990-03-24-mn-681-story.html). The agency's reasoning was elegant in its simplicity: because the chymosin molecule produced by genetically modified microbes is chemically identical to the one pulled from a calf stomach, there was no scientific basis for treating it differently. The [Federal Register notice](https://archives.federalregister.gov/issue_slice/1990/3/23/10930-10936.pdf), filed in response to a petition from Pfizer Central Research, affirmed FPC as GRAS — Generally Recognized as Safe — extending to the bioengineered enzyme the same status long held by traditional calf rennet.
 
-The results exceeded expectations. The edited cassava lines showed a **6.7-fold increase in resistant starch content** and a **16.4% rise in amylose levels** compared to unmodified plants. Those numbers alone would be notable. But the real surprise was what did *not* happen: total starch accumulation stayed the same, and storage root yield was unaffected. No penalty. No drag.
+That decision set in motion one of the largest silent ingredient swaps in modern food history. Today, [roughly 90% of hard cheese made in the United States](https://spacedaily.com/sd-v-roughly-90-of-hard-cheese-made-in-the-united-states-is-now-set-with-an-enzyme-grown-in-a-vat-not-pulled-from-a-calfs-stomach/) is set with FPC rather than animal rennet — a figure widely cited but originating from industry estimates rather than a rigorous peer-reviewed census. The global FPC market is valued at around $420 million, with U.S. exports representing about 43% of international demand. Pfizer developed the original product, but the enzyme is now produced by multiple biotech companies; Pfizer no longer controls the market.
 
-Think of it as knocking out a load-bearing wall in a house, only to discover the structure redistributes the weight through pathways you never mapped. That, essentially, is what happened inside the cassava's cells. When researchers removed *MeSSI*, the plant responded by ramping up a different enzyme — *MeSBEI*, a starch branching enzyme. This second enzyme appears to have stepped in to rebalance the system, keeping total starch output stable even as the starch itself became nutritionally superior. The compensation was not engineered. It emerged on its own — a hidden layer of metabolic flexibility that surfaced only when the original gene was removed, an outcome nobody had designed.
+What kept it invisible was a regulatory classification, not a public relations campaign. The microorganisms themselves — the genetically modified bacteria, yeast, or mold — are filtered out during processing. What remains is pure chymosin, indistinguishable by any chemical test from its calf-derived twin. Because the final cheese contains no detectable modified DNA or protein, FPC is treated as a "processing aid" rather than an ingredient. Under [21 CFR 184.1685](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1685), manufacturers are not required to disclose its use on packaging — not even under the 2016 Bioengineered Food Disclosure Standard, which was specifically designed to give consumers GMO transparency. Australia's food standards authority applies the same logic: no modified DNA detectable in the final product means no label required. It is worth pausing on a precise distinction here: the enzyme itself is not genetically modified — it is produced *by* genetically modified organisms but is chemically identical to its animal-derived counterpart. Whether this counts as "a GMO in your cheese" depends on whether you define GMO by the production process or by the final product's composition. The regulatory system chose the latter.
 
-This matters beyond cassava. It suggests that genome editing in so-called orphan crops — neglected by decades of breeding investment — may not just replicate what worked in major cereals. It may reveal biology that was always there, waiting to be uncovered. For the hundreds of millions who rely on cassava, the stakes are concrete: a variety that delivers more resistant starch without sacrificing productivity would be a rare nutritional win-win. Farmers would not be asked to choose between feeding their families and nourishing them. Yet getting such a crop into farmers' hands is itself a challenge. Regulatory pathways for gene-edited crops remain fragmented across African jurisdictions — some countries have no clear framework — and even where rules exist, adoption depends on trust, seed systems, and extension infrastructure. The broader difficulty is already evident in [West African efforts to deploy CBSD-resistant cassava varieties from Uganda](https://allianceforscience.org/blog/2023/02/adopt-ugandas-cbsd-resistant-cassava-to-halt-spread-of-the-disease-in-your-region-scientists-tell-west-africans/), where getting improved genetics into farmers' fields has proven as complex as the science itself. The technical breakthrough is necessary but not sufficient.
-
-Important caveats remain. These results come from controlled greenhouse conditions; field trials under real agronomic stress have not yet been reported. The metabolic compensation mechanism is described but not fully mapped — we know *MeSBEI* upregulation occurs, but the precise regulatory cascade is unresolved. And cassava is rarely eaten raw: traditional processing methods like boiling, fermentation, and drying can alter resistant starch levels, meaning the 6.7-fold increase measured in the lab may not translate directly to the dinner plate.
-
-None of these open questions diminish the finding. They define the road ahead: field trials to confirm the trait holds under real growing conditions, processing studies to test whether resistant starch survives boiling and fermentation, and regulatory engagement to ensure the science reaches the farmers who need it most. The cassava rewired itself — now the task is wiring it into the world.
+The GMO labeling wars are usually framed as a fight between transparency and fear-mongering. But the FPC story suggests that war was effectively settled in 1990, when the FDA decided that a processing aid's invisibility in the final product mattered more than its genetically engineered origin. The irony is sharp. Consumers who diligently check labels for "non-GMO" certifications are very likely eating cheese set with a product born of genetic engineering — and the labeling system is designed so they cannot find out which. The [Vegetarian Resource Group](https://www.vrg.org/blog/2012/08/21/microbial-rennets-and-fermentation-produced-chymosin-fpc-how-vegetarian-are-they/) has noted that FPC is technically not identifiable on most labels, leaving even conscientious vegetarians unable to tell whether their cheese was set with animal rennet or microbial chymosin. Industry adopted FPC for compelling reasons: it is cheaper, more consistent, higher-yielding, and free from dependence on calf slaughter. Consumer safety is not in serious dispute — FPC has been used for over 35 years with no identified health concerns, and the story's interest lies in transparency and classification, not in any hidden danger. The question isn't whether FPC works. It's whether a democracy can have an informed conversation about a technology its regulatory system was built to hide.
 
 ## Review 1 - Editorial
 
@@ -1340,117 +1227,135 @@ None of these open questions diminish the finding. They define the road ahead: f
 {
   "claims": [
     {
-      "claim": "Over 800 million people — most in sub-Saharan Africa — depend on cassava's starchy roots as a daily calorie source.",
+      "claim": "The most successful genetically modified food product in history isn't a salmon or a potato. It's the enzyme that sets roughly 90% of American hard cheese",
+      "status": "VERIFIED",
+      "note": "The article frames FPC as 'the most successful' GMO food product by market penetration. The ~90% figure is widely cited across multiple sources (eDairyNews, SpaceDaily, VRG). The article appropriately qualifies this figure later as originating from industry estimates rather than a peer-reviewed census. The 'salmon or potato' references point to AquaAdvantage salmon (approved 2015) and Innate/Potato (approved 2015), both of which had far more limited market adoption. The editorial framing is grounded.",
+      "required_fix": null
+    },
+    {
+      "claim": "it has been quietly at work since 1990",
+      "status": "VERIFIED",
+      "note": "FDA approved FPC in March 1990, confirmed by the LA Times article (March 24, 1990) and the Federal Register notice (March 23, 1990). The product has been in commercial use since that time.",
+      "required_fix": null
+    },
+    {
+      "claim": "Almost no one knows because, by law, it doesn't appear on the label",
+      "status": "VERIFIED",
+      "note": "FPC is classified as a processing aid under 21 CFR 184.1685. Because no modified DNA or protein is detectable in the final product, manufacturers are not required to disclose its use on labels, including under the 2016 Bioengineered Food Disclosure Standard. The regulatory basis for non-disclosure is confirmed by multiple sources.",
+      "required_fix": null
+    },
+    {
+      "claim": "For thousands of years, cheesemakers relied on rennet — an enzyme scraped from the fourth stomach of slaughtered calves — to curdle milk into curds",
+      "status": "VERIFIED",
+      "note": "Rennet from the abomasum (fourth stomach) of calves has been used in cheesemaking for thousands of years. This is a well-documented historical and biological fact. The description is accurate.",
+      "required_fix": null
+    },
+    {
+      "claim": "It worked, but it was expensive, variable, and limited by the supply of young animals",
+      "status": "VERIFIED",
+      "note": "Multiple sources, including the Cheese Scientist blog and industry sources, confirm that animal rennet was subject to supply constraints (dependent on calf slaughter), batch variability, and higher costs compared to FPC.",
+      "required_fix": null
+    },
+    {
+      "claim": "In the late 1980s, scientists at Pfizer solved the bottleneck with a neat trick of genetic engineering: they copied the gene that codes for chymosin, the key milk-clotting protein in calf rennet, and pasted it into a microorganism",
+      "status": "VERIFIED",
+      "note": "The LA Times (1990) and multiple other sources confirm that Pfizer scientists developed FPC by transferring the calf chymosin gene into microorganisms. The development occurred in the late 1980s, with FDA approval in March 1990.",
+      "required_fix": null
+    },
+    {
+      "claim": "Bacteria, yeast, or mold could then churn out the enzyme by the vat-full",
+      "status": "VERIFIED",
+      "note": "Multiple sources confirm that FPC can be produced using genetically modified bacteria (E. coli), yeast (Kluyveromyces lactis), or mold (Aspergillus niger). All three production organisms have been used commercially.",
+      "required_fix": null
+    },
+    {
+      "claim": "In March 1990, the FDA approved FPC — making it the first genetically engineered product ever permitted in the U.S. food supply",
+      "status": "VERIFIED",
+      "note": "The LA Times article from March 24, 1990, and the Federal Register notice (March 23, 1990) confirm both the approval date and the characterization as the first genetically engineered product permitted in the U.S. food supply. The curation brief also confirms this from the primary source.",
+      "required_fix": null
+    },
+    {
+      "claim": "The agency's reasoning was elegant in its simplicity: because the chymosin molecule produced by genetically modified microbes is chemically identical to the one pulled from a calf stomach, there was no scientific basis for treating it differently",
+      "status": "VERIFIED",
+      "note": "Multiple sources confirm that the FDA's GRAS determination was based on the chemical identity of FPC with calf-derived chymosin. This reasoning is reflected in the Federal Register notice and the LA Times reporting.",
+      "required_fix": null
+    },
+    {
+      "claim": "The Federal Register notice, filed in response to a petition from Pfizer Central Research, affirmed FPC as GRAS — Generally Recognized as Safe — extending to the bioengineered enzyme the same status long held by traditional calf rennet",
+      "status": "VERIFIED",
+      "note": "The Federal Register notice (archived at archives.federalregister.gov) from March 23, 1990, confirms the GRAS affirmation in response to a petition from Pfizer Central Research. Calf rennet had long held GRAS status. The notice extended the same classification to FPC.",
+      "required_fix": null
+    },
+    {
+      "claim": "roughly 90% of hard cheese made in the United States is set with FPC rather than animal rennet — a figure widely cited but originating from industry estimates rather than a rigorous peer-reviewed census",
       "status": "ACCEPTABLE_UNCERTAINTY",
-      "note": "The curation brief and the linked DOI both cite 'over 800 million people.' This is a widely used figure in cassava literature, commonly attributed to FAO estimates. The phrase 'daily calorie source' is a slight intensification of 'calorie staple,' but the brief itself uses similar language ('calorie staple for some of the world's most food-insecure populations'). The 'most in sub-Saharan Africa' qualifier is consistent with the brief's framing. The exact number cannot be confirmed from the primary source abstract alone, but the figure is broadly accepted in the field.",
+      "note": "The 90% figure is widely cited across multiple sources (eDairyNews, SpaceDaily, and others) but no peer-reviewed census was found in the research. The article now explicitly and accurately qualifies this in-line, attributing it to industry estimates rather than a rigorous survey. This responsible qualification makes the claim acceptable despite the underlying uncertainty.",
       "required_fix": null
     },
     {
-      "claim": "The study was published in Carbohydrate Polymers.",
-      "status": "VERIFIED",
-      "note": "The DOI https://doi.org/10.1016/j.carbpol.2026.125382 resolves to a Carbohydrate Polymers article. The ScienceDirect URL (S0144861726004996) in the curation brief is consistent with this journal's identifier scheme.",
-      "required_fix": null
-    },
-    {
-      "claim": "Researchers used CRISPR/Cas9 to knock out MeSSI, a gene encoding soluble starch synthase I.",
-      "status": "VERIFIED",
-      "note": "Directly confirmed by the curation brief: 'CRISPR/Cas9 was used to knock out MeSSI (a soluble starch synthase I gene) in cassava.'",
-      "required_fix": null
-    },
-    {
-      "claim": "Soluble starch synthase I is an enzyme central to building amylopectin, the branched, easily digested component of starch.",
-      "status": "VERIFIED",
-      "note": "Standard biochemistry. SSI is well-established as a key enzyme in amylopectin biosynthesis. The description of amylopectin as branched and easily digested is textbook knowledge and consistent with the study's rationale.",
-      "required_fix": null
-    },
-    {
-      "claim": "The edited cassava lines showed a 6.7-fold increase in resistant starch content compared to unmodified plants.",
-      "status": "VERIFIED",
-      "note": "Confirmed by both the curation brief and the CRISPR medicine newsletter summary cited in the brief: '6.7-fold increase in resistant starch content.'",
-      "required_fix": null
-    },
-    {
-      "claim": "The edited cassava lines showed a 16.4% rise in amylose levels compared to unmodified plants.",
-      "status": "VERIFIED",
-      "note": "Confirmed by both the curation brief and the CRISPR medicine newsletter summary: '16.4% increase in amylose levels.'",
-      "required_fix": null
-    },
-    {
-      "claim": "Total starch accumulation stayed the same, and storage root yield was unaffected.",
-      "status": "VERIFIED",
-      "note": "Confirmed by the curation brief: 'no reduction in total starch accumulation or storage root yield.' The newsletter summary also confirms this.",
-      "required_fix": null
-    },
-    {
-      "claim": "When MeSSI was knocked out, the plant ramped up MeSBEI, a starch branching enzyme, which appears to have rebalanced the system, keeping total starch output stable.",
-      "status": "VERIFIED",
-      "note": "The curation brief confirms: 'the MeSSI mutation triggered compensatory upregulation of MeSBEI, which explains the lack of yield drag.' MeSBEI as a starch branching enzyme I is standard nomenclature.",
-      "required_fix": null
-    },
-    {
-      "claim": "The compensation was not engineered. It emerged on its own — a hidden layer of metabolic flexibility that surfaced only when the original gene was removed, an outcome nobody had designed.",
+      "claim": "The global FPC market is valued at around $420 million, with U.S. exports representing about 43% of international demand",
       "status": "ACCEPTABLE_UNCERTAINTY",
-      "note": "The brief confirms the compensation was not engineered and emerged endogenously. The phrase 'nobody had designed' and 'hidden layer' is narrative framing consistent with the study's presentation of the finding as unexpected. While absolute claims about what 'nobody knew' are difficult to verify exhaustively, the article's framing aligns with the brief's characterization of this as an unexpected discovery.",
+      "note": "The $420 million figure and 43% U.S. export share both come from pmarketresearch.com, a single market research firm. Market sizing data from such firms can vary significantly and is not independently corroborated by a second source in the research. However, the figures are plausible and internally consistent with each other. The article presents them without qualification, but the source is a standard market research outlet.",
       "required_fix": null
     },
     {
-      "claim": "Cassava's starch is dominated by the rapidly digestible kind, which spikes blood sugar and offers little in the way of dietary fiber.",
+      "claim": "Pfizer developed the original product, but the enzyme is now produced by multiple biotech companies; Pfizer no longer controls the market",
+      "status": "VERIFIED",
+      "note": "Multiple sources confirm Pfizer's historical role in developing FPC. The current FPC market includes multiple manufacturers (e.g., Chr. Hansen, DSM, Christian Hansen). The article's clarification that Pfizer no longer controls the market is accurate and aligns with the curation brief's caveat.",
+      "required_fix": null
+    },
+    {
+      "claim": "The microorganisms themselves — the genetically modified bacteria, yeast, or mold — are filtered out during processing. What remains is pure chymosin, indistinguishable by any chemical test from its calf-derived twin",
+      "status": "VERIFIED",
+      "note": "Multiple sources confirm that the microorganisms are removed during processing and that the resulting chymosin is chemically identical to calf-derived chymosin. This is the basis for the FDA's GRAS classification and the processing aid designation.",
+      "required_fix": null
+    },
+    {
+      "claim": "Because the final cheese contains no detectable modified DNA or protein, FPC is treated as a 'processing aid' rather than an ingredient",
+      "status": "VERIFIED",
+      "note": "The processing aid classification is confirmed by multiple sources and is the regulatory basis for FPC's exemption from labeling requirements. The logic — no detectable modified DNA/protein in the final product — is consistently reported across sources.",
+      "required_fix": null
+    },
+    {
+      "claim": "Under 21 CFR 184.1685, manufacturers are not required to disclose its use on packaging — not even under the 2016 Bioengineered Food Disclosure Standard, which was specifically designed to give consumers GMO transparency",
+      "status": "VERIFIED",
+      "note": "21 CFR 184.1685 lists chymosin as GRAS. The 2016 Bioengineered Food Disclosure Standard (7 CFR Part 66) exempts processing aids and ingredients where no modified genetic material is detectable in the final product. Multiple sources confirm this exemption applies to FPC.",
+      "required_fix": null
+    },
+    {
+      "claim": "Australia's food standards authority applies the same logic: no modified DNA detectable in the final product means no label required",
+      "status": "VERIFIED",
+      "note": "FSANZ (Food Standards Australia New Zealand) applies the principle that foods highly refined to the point where no novel DNA or novel protein remains are not required to carry GM labeling. This is confirmed by FSANZ's own guidance on GM foods and by the curation brief.",
+      "required_fix": null
+    },
+    {
+      "claim": "the enzyme itself is not genetically modified — it is produced *by* genetically modified organisms but is chemically identical to its animal-derived counterpart. Whether this counts as 'a GMO in your cheese' depends on whether you define GMO by the production process or by the final product's composition. The regulatory system chose the latter",
+      "status": "VERIFIED",
+      "note": "This is a scientifically accurate distinction. The chymosin enzyme produced via FPC is chemically identical to calf-derived chymosin; the genetic modification is in the production organism, not in the enzyme itself or the final cheese product. The FDA's regulatory approach is indeed based on the final product's composition rather than the production process. The article now makes this distinction clearly and inline.",
+      "required_fix": null
+    },
+    {
+      "claim": "Consumers who diligently check labels for 'non-GMO' certifications are very likely eating cheese set with a product born of genetic engineering — and the labeling system is designed so they cannot find out which",
+      "status": "VERIFIED",
+      "note": "Given the ~90% market penetration of FPC in U.S. hard cheese and the exemption from labeling disclosure, this claim is well-supported. Consumers cannot determine from standard labeling whether FPC was used. The phrase 'designed so they cannot find out which' is editorially charged but factually grounded in the regulatory framework that exempts processing aids from disclosure.",
+      "required_fix": null
+    },
+    {
+      "claim": "The Vegetarian Resource Group has noted that FPC is technically not identifiable on most labels, leaving even conscientious vegetarians unable to tell whether their cheese was set with animal rennet or microbial chymosin",
+      "status": "VERIFIED",
+      "note": "The VRG blog post (2012) explicitly addresses this issue, confirming that FPC is not identifiable on most labels and that consumers generally cannot distinguish between animal rennet and microbial chymosin based on labeling.",
+      "required_fix": null
+    },
+    {
+      "claim": "Industry adopted FPC for compelling reasons: it is cheaper, more consistent, higher-yielding, and free from dependence on calf slaughter",
+      "status": "VERIFIED",
+      "note": "Multiple sources, including the Cheese Scientist blog and other industry sources, confirm that FPC offers cost advantages, consistency, higher yield, and supply independence from calf slaughter compared to animal rennet.",
+      "required_fix": null
+    },
+    {
+      "claim": "Consumer safety is not in serious dispute — FPC has been used for over 35 years with no identified health concerns",
       "status": "ACCEPTABLE_UNCERTAINTY",
-      "note": "This is directionally correct. Cassava starch is known to be high in amylopectin (typically ~75-83%) and low in amylose, making it rapidly digestible. The phrase 'dominated by' is a reasonable characterization. The study's own rationale of increasing amylose/resistant starch presupposes a low baseline. The claim about blood sugar spikes and low fiber is standard nutritional science for high-amylopectin starches. The exact baseline amylose percentage is not provided in the brief, but the 16.4% increase implies a relatively low starting point.",
-      "required_fix": null
-    },
-    {
-      "claim": "Cassava is notoriously genetically recalcitrant — difficult to transform and even harder to edit.",
-      "status": "VERIFIED",
-      "note": "The curation brief confirms: 'Cassava has historically been genetically recalcitrant — difficult to transform and edit.' This is well-established in cassava biotechnology literature.",
-      "required_fix": null
-    },
-    {
-      "claim": "The genome-editing revolution has already reshaped maize, rice, and wheat.",
-      "status": "ACCEPTABLE_UNCERTAINTY",
-      "note": "This is a general framing claim not made in the curation brief. CRISPR has been widely applied in maize, rice, and wheat with numerous published studies and some commercialized products. The word 'reshaped' is somewhat strong but defensible given the volume of editing work in these cereals. The claim is broadly supported by the literature but is an editorial characterization rather than a specific factual assertion.",
-      "required_fix": null
-    },
-    {
-      "claim": "Resistant starch behaves functionally like dietary fiber — slowing glucose release, feeding beneficial gut bacteria, and improving glycemic response.",
-      "status": "VERIFIED",
-      "note": "The curation brief confirms: 'Resistant starch has documented health benefits: it behaves functionally like dietary fiber, slows glucose release, and is associated with improved glycemic response and gut health.' This is standard nutritional science.",
-      "required_fix": null
-    },
-    {
-      "claim": "Regulatory pathways for gene-edited crops remain fragmented across African jurisdictions — some countries have no clear framework.",
-      "status": "VERIFIED",
-      "note": "The curation brief confirms: 'Regulatory pathways for gene-edited crops remain fragmented across African jurisdictions — some countries have no clear framework.' This is well-established in the literature on gene-editing regulation in Africa.",
-      "required_fix": null
-    },
-    {
-      "claim": "Even where rules exist, adoption depends on trust, seed systems, and extension infrastructure — not just technical merit.",
-      "status": "VERIFIED",
-      "note": "The curation brief confirms: 'even where frameworks exist, farmer adoption (as the Ugandan study underscores) depends on trust, seed systems, and extension infrastructure, not just technical merit.'",
-      "required_fix": null
-    },
-    {
-      "claim": "The Alliance for Science link about West African efforts to deploy CBSD-resistant cassava varieties from Uganda is presented as evidence that getting improved genetics into farmers' fields is complex.",
-      "status": "ACCEPTABLE_UNCERTAINTY",
-      "note": "The article now frames this link more accurately than a previous version might have: it uses the CBSD-resistant cassava deployment story as an illustration of deployment complexity ('getting improved genetics into farmers' fields has proven as complex as the science itself'), not as direct evidence about gene-editing regulation. The curation brief notes that the Ugandan adoption study 'focuses on CBSD-resistant cassava (a disease-resistance trait), not the resistant-starch nutritional trait, so it is related but distinct from the MeSSI work.' The article's current framing acknowledges this distinction by presenting it as a parallel example of deployment challenges, not as part of the MeSSI study itself. This is an acceptable use of a related-but-distinct source to illustrate a broader point, though the link is about conventional breeding deployment (CBSD-resistant varieties from Uganda), not gene-edited crop deployment specifically.",
-      "required_fix": null
-    },
-    {
-      "claim": "These results come from controlled greenhouse conditions; field trials under real agronomic stress have not yet been reported.",
-      "status": "VERIFIED",
-      "note": "The curation brief explicitly lists this caveat: 'These are greenhouse/controlled-environment results; field trials under real agronomic conditions have not yet been reported and are essential before any deployment claim.'",
-      "required_fix": null
-    },
-    {
-      "claim": "The metabolic compensation mechanism is described but not fully mapped — we know MeSBEI upregulation occurs, but the precise regulatory cascade is unresolved.",
-      "status": "VERIFIED",
-      "note": "The curation brief confirms: 'The metabolic compensation mechanism (MeSBEI upregulation) is described but not fully mechanistically resolved — we know it happens; the precise regulatory cascade is not yet mapped.'",
-      "required_fix": null
-    },
-    {
-      "claim": "Traditional processing methods like boiling, fermentation, and drying can alter resistant starch levels, meaning the 6.7-fold increase measured in the lab may not translate directly to the dinner plate.",
-      "status": "VERIFIED",
-      "note": "The curation brief confirms: 'Resistant starch content in a lab setting may not translate directly to dietary impact — processing methods (boiling, fermentation, drying) common in African cassava preparation can alter resistant starch levels.' This is also well-established food science.",
+      "note": "FPC has been used since 1990 (approximately 35 years). No sources were found reporting safety concerns, and the FDA's GRAS status has not been revoked. However, the claim 'no identified health concerns' is a broad negative that cannot be definitively verified — one would need to confirm that no adverse safety reports have ever been filed with any regulatory body worldwide. The article's phrasing 'not in serious dispute' is more defensible than an absolute claim, but the specific assertion of 'no identified health concerns' goes slightly further. No evidence contradicts the claim, but it cannot be fully confirmed either.",
       "required_fix": null
     }
   ]
@@ -1460,61 +1365,59 @@ None of these open questions diminish the finding. They define the road ahead: f
 
 - Revisions performed: 1
 - Stop reason: APPROVED
-- Output: article_20260713_144842.md
+- Output: article_20260715_180837.md
 
 ## Illustration
 
-{"image_path": "/home/moreno/Codeberg/science-radar/output/illustration_20260713_145532.png"}
+{"image_path": "/home/moreno/Codeberg/science-radar/output/illustration_20260715_181404.png"}
 
 ## Sources Analyzed
 
-- News articles: 99
-- Papers: 46
+- News articles: 98
+- Papers: 35
 
 ## Environmental Impact
 
 | step | timestamp | energy_kwh | carbon_g_co2 | water_liters | renewable_percent | pue | provider_id | location |
 |---|---|---|---|---|---|---|---|---|
-| Critique + Curate | 2026-07-13T14:48:59.658791 | 0.047422 | 31.1089 | 0.000000 | 100 | 1.2 | infercom | DE |
-| Critique + Curate | 2026-07-13T14:49:20.623195 | 0.068887 | 45.1897 | 0.000000 | 100 | 1.2 | infercom | DE |
-| Critique + Curate | 2026-07-13T14:49:47.720678 | 0.008952 | 1.7277 | 0.000000 | 100 | 1.2 | tensorix | FI |
-| Critique + Curate | 2026-07-13T14:50:09.953557 | 0.007315 | 1.4118 | 0.000000 | 100 | 1.2 | tensorix | FI |
-| Critique + Curate | 2026-07-13T14:50:34.684121 | 0.008185 | 1.5796 | 0.000000 | 100 | 1.2 | tensorix | FI |
-| Critique + Curate | 2026-07-13T14:50:39.658803 | 0.001520 | 0.2934 | 0.000000 | 100 | 1.2 | tensorix | FI |
-| Critique + Curate | 2026-07-13T14:51:38.682293 | 0.019065 | 3.6796 | 0.000000 | 100 | 1.2 | tensorix | FI |
-| Write | 2026-07-13T14:51:40.167439 | 0.000370 | 0.0715 | 0.000000 | 100 | 1.2 | tensorix | FI |
-| Write | 2026-07-13T14:52:11.406976 | 0.009941 | 1.9186 | 0.000000 | 100 | 1.2 | tensorix | FI |
-| Write | 2026-07-13T14:52:26.760961 | 0.004686 | 0.9044 | 0.000000 | 100 | 1.2 | tensorix | FI |
-| Review 0 (editorial) | 2026-07-13T14:53:40.315914 | 0.024410 | 4.7111 | 0.000000 | 100 | 1.2 | tensorix | FI |
-| Review 0 (fact-check) | 2026-07-13T14:53:50.064144 | 0.003139 | 0.6059 | 0.000000 | 100 | 1.2 | tensorix | FI |
-| Revision 1 | 2026-07-13T14:54:20.159976 | 0.009877 | 1.9063 | 0.000000 | 100 | 1.2 | tensorix | FI |
-| Review 1 (editorial) | 2026-07-13T14:54:48.212821 | 0.009190 | 1.7737 | 0.000000 | 100 | 1.2 | tensorix | FI |
-| Review 1 (fact-check) | 2026-07-13T14:55:09.372805 | 0.006941 | 1.3396 | 0.000000 | 100 | 1.2 | tensorix | FI |
-| Illustrate | 2026-07-13T14:55:28.964519 | 0.006277 | 1.2115 | 0.000000 | 100 | 1.2 | tensorix | FI |
-| Illustrate | 2026-07-13T14:55:42.446532 | 0.003237 | 0.6247 | 0.000000 | 100 | 1.2 | tensorix | FI |
+| Critique + Curate | 2026-07-15T18:08:55.634133 | 0.047682 | 11.6345 | 0.000000 | 100 | 1.2 | infercom | DE |
+| Critique + Curate | 2026-07-15T18:09:17.128736 | 0.007055 | 1.3616 | 0.000000 | 100 | 1.2 | tensorix | FI |
+| Critique + Curate | 2026-07-15T18:09:34.498143 | 0.005559 | 1.0730 | 0.000000 | 100 | 1.2 | tensorix | FI |
+| Critique + Curate | 2026-07-15T18:09:57.947868 | 0.007715 | 1.4890 | 0.000000 | 100 | 1.2 | tensorix | FI |
+| Critique + Curate | 2026-07-15T18:10:02.760013 | 0.001507 | 0.2909 | 0.000000 | 100 | 1.2 | tensorix | FI |
+| Critique + Curate | 2026-07-15T18:10:38.600227 | 0.011409 | 2.2019 | 0.000000 | 100 | 1.2 | tensorix | FI |
+| Critique + Curate | 2026-07-15T18:11:00.616530 | 0.006838 | 1.3198 | 0.000000 | 100 | 1.2 | tensorix | FI |
+| Write | 2026-07-15T18:11:02.254034 | 0.000320 | 0.0617 | 0.000000 | 100 | 1.2 | tensorix | FI |
+| Write | 2026-07-15T18:12:08.047678 | 0.021468 | 4.1433 | 0.000000 | 100 | 1.2 | tensorix | FI |
+| Review 0 (editorial) | 2026-07-15T18:12:34.107916 | 0.008515 | 1.6433 | 0.000000 | 100 | 1.2 | tensorix | FI |
+| Review 0 (fact-check) | 2026-07-15T18:12:47.624946 | 0.004401 | 0.8493 | 0.000000 | 100 | 1.2 | tensorix | FI |
+| Revision 1 | 2026-07-15T18:12:53.895412 | 0.001914 | 0.3694 | 0.000000 | 100 | 1.2 | tensorix | FI |
+| Review 1 (editorial) | 2026-07-15T18:13:04.623960 | 0.003434 | 0.6628 | 0.000000 | 100 | 1.2 | tensorix | FI |
+| Review 1 (fact-check) | 2026-07-15T18:13:47.326543 | 0.014126 | 2.7262 | 0.000000 | 100 | 1.2 | tensorix | FI |
+| Illustrate | 2026-07-15T18:14:01.557656 | 0.004586 | 0.8852 | 0.000000 | 100 | 1.2 | tensorix | FI |
+| Illustrate | 2026-07-15T18:14:10.889385 | 0.001918 | 0.3701 | 0.000000 | 100 | 1.2 | tensorix | FI |
 
-**Total environmental impact:** 0.2394 kWh · 100.06 g CO2 · 0.0000 L water
+**Total environmental impact:** 0.1484 kWh · 31.08 g CO2 · 0.0000 L water
 
 ## API Cost
 
 | step | timestamp | credits |
 |---|---|---|
-| Critique + Curate | 2026-07-13T14:48:59.658791 | 0.01065900 |
-| Critique + Curate | 2026-07-13T14:49:20.623195 | 0.01696618 |
-| Critique + Curate | 2026-07-13T14:49:47.720678 | 0.0035304 |
-| Critique + Curate | 2026-07-13T14:50:09.953557 | 0.0026576 |
-| Critique + Curate | 2026-07-13T14:50:34.684121 | 0.0025984 |
-| Critique + Curate | 2026-07-13T14:50:39.658803 | 0.0061590 |
-| Critique + Curate | 2026-07-13T14:51:38.682293 | 0.0167847 |
-| Write | 2026-07-13T14:51:40.167439 | 0.0040455 |
-| Write | 2026-07-13T14:52:11.406976 | 0.0059708 |
-| Write | 2026-07-13T14:52:26.760961 | 0.0136935 |
-| Review 0 (editorial) | 2026-07-13T14:53:40.315914 | 0.0213345 |
-| Review 0 (fact-check) | 2026-07-13T14:53:50.064144 | 0.0144765 |
-| Revision 1 | 2026-07-13T14:54:20.159976 | 0.0485957 |
-| Review 1 (editorial) | 2026-07-13T14:54:48.212821 | 0.0076905 |
-| Review 1 (fact-check) | 2026-07-13T14:55:09.372805 | 0.0234257 |
-| Illustrate | 2026-07-13T14:55:28.964519 | 0.0016536 |
-| Illustrate | 2026-07-13T14:55:42.446532 | 0.0005140 |
+| Critique + Curate | 2026-07-15T18:08:55.634133 | 0.01053426 |
+| Critique + Curate | 2026-07-15T18:09:17.128736 | 0.0026656 |
+| Critique + Curate | 2026-07-15T18:09:34.498143 | 0.0022648 |
+| Critique + Curate | 2026-07-15T18:09:57.947868 | 0.0029076 |
+| Critique + Curate | 2026-07-15T18:10:02.760013 | 0.0063300 |
+| Critique + Curate | 2026-07-15T18:10:38.600227 | 0.011631 |
+| Critique + Curate | 2026-07-15T18:11:00.616530 | 0.0216765 |
+| Write | 2026-07-15T18:11:02.254034 | 0.0053835 |
+| Write | 2026-07-15T18:12:08.047678 | 0.0527135 |
+| Review 0 (editorial) | 2026-07-15T18:12:34.107916 | 0.0090661 |
+| Review 0 (fact-check) | 2026-07-15T18:12:47.624946 | 0.0187905 |
+| Revision 1 | 2026-07-15T18:12:53.895412 | 0.0215805 |
+| Review 1 (editorial) | 2026-07-15T18:13:04.623960 | 0.0108840 |
+| Review 1 (fact-check) | 2026-07-15T18:13:47.326543 | 0.033519 |
+| Illustrate | 2026-07-15T18:14:01.557656 | 0.0018648 |
+| Illustrate | 2026-07-15T18:14:10.889385 | 0.0008468 |
 
-**Total API cost:** €0.20
+**Total API cost:** €0.21
