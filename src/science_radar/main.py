@@ -80,7 +80,8 @@ def run_pipeline():
             t.name: t.raw for t in curation_result.tasks_output
         }
 
-        for label, raw in _curation_intermediates.items():
+        # Step 2: Curate
+        for label, raw in list(_curation_intermediates.items())[:-1]:
             sections[label] = raw
         sections["Curation Brief (Arbiter)"] = curation_result.raw
         print("  OK")
