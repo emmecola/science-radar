@@ -1,4 +1,4 @@
-![Illustration](illustration_20260715_181404.png)
+![Illustration](illustration_example.png)
 
 # The Most Successful GMO You've Never Heard Of
 
