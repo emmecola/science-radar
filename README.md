@@ -85,6 +85,12 @@ PAPERS_DAYS_LIMIT = 7       # look back this many days for papers
 MAX_REVISION_LOOPS = 5      # max writer revisions after the initial draft
 ```
 
+Alternatively, you can configure the pipeline via environment variables:
+
+```bash
+NEWS_DAYS_LIMIT=14
+```
+
 ## Running
 
 ```bash
