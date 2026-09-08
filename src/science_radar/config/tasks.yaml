@@ -223,5 +223,7 @@ task_illustrate:
   agent: illustrator
   expected_output: >
     Return ONLY the JSON object returned by the generate_illustration tool,
-    with no extra commentary. The JSON contains an "image_path" key with the
-    local file path to the saved PNG image.
+    with no extra commentary. The JSON must contain both an "image_path" key
+    with the local file path to the saved PNG image and a "prompt" key with
+    the full image-generation prompt that was used. Do not omit or strip
+    either key.
