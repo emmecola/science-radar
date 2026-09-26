@@ -10,6 +10,8 @@ os.environ.setdefault("CREWAI_TRACING_ENABLED", "false")
 from crewai import Agent, Crew, LLM, Task
 from crewai.project import CrewBase, agent, task
 from crewai.agents.agent_builder.base_agent import BaseAgent
+from crewai.skills.models import Skill
+from crewai.skills.parser import load_skill_metadata
 
 from science_radar.env_impact import MeliousEnvImpactInterceptor
 from science_radar.reviews import editorial_review_guardrail, fact_check_guardrail
@@ -20,6 +22,10 @@ load_dotenv()
 _env_impact_interceptor = MeliousEnvImpactInterceptor()
 
 _skills_dir = Path(__file__).resolve().parent.parent.parent / "skills"
+
+
+def _skill(name: str) -> Skill:
+    return load_skill_metadata(_skills_dir / name)
 
 # Validate required environment variables
 _required_vars = {
@@ -63,7 +69,7 @@ class ScienceRadar():
 
     @agent
     def source_critic(self) -> Agent:
-        return Agent(config=self.agents_config['source_critic'], llm=_scout_llm, skills=[str(_skills_dir / "topic-relevance")], verbose=True)  # type: ignore[index]
+        return Agent(config=self.agents_config['source_critic'], llm=_scout_llm, skills=[_skill("topic-relevance")], verbose=True)  # type: ignore[index]
 
     @agent
     def curator_novelty(self) -> Agent:
@@ -79,23 +85,23 @@ class ScienceRadar():
 
     @agent
     def arbiter(self) -> Agent:
-        return Agent(config=self.agents_config['arbiter'], llm=_critic_llm, skills=[str(_skills_dir / "editorial-arbitration")], tools=[web_search, get_paper], verbose=True)  # type: ignore[index]
+        return Agent(config=self.agents_config['arbiter'], llm=_critic_llm, skills=[_skill("editorial-arbitration")], tools=[web_search, get_paper], verbose=True)  # type: ignore[index]
 
     @agent
     def writer(self) -> Agent:
-        return Agent(config=self.agents_config['writer'], llm=_writer_llm, skills=[str(_skills_dir / "essay-writer")], tools=[web_search, get_paper], verbose=True)  # type: ignore[index]
+        return Agent(config=self.agents_config['writer'], llm=_writer_llm, skills=[_skill("essay-writer")], tools=[web_search, get_paper], verbose=True)  # type: ignore[index]
 
     @agent
     def editorial_critic(self) -> Agent:
-        return Agent(config=self.agents_config['editorial_critic'], llm=_review_llm, skills=[str(_skills_dir / "editorial-revision")], tools=[web_search], verbose=True)  # type: ignore[index]
+        return Agent(config=self.agents_config['editorial_critic'], llm=_review_llm, skills=[_skill("editorial-revision")], tools=[web_search], verbose=True)  # type: ignore[index]
 
     @agent
     def fact_checker(self) -> Agent:
-        return Agent(config=self.agents_config['fact_checker'], llm=_review_llm, skills=[str(_skills_dir / "fact-checker")], tools=[web_search, get_paper], verbose=True)  # type: ignore[index]
+        return Agent(config=self.agents_config['fact_checker'], llm=_review_llm, skills=[_skill("fact-checker")], tools=[web_search, get_paper], verbose=True)  # type: ignore[index]
 
     @agent
     def illustrator(self) -> Agent:
-        return Agent(config=self.agents_config['illustrator'], llm=_illustration_llm, skills=[str(_skills_dir / "image-prompt-writer")], tools=[generate_illustration], verbose=True)  # type: ignore[index]
+        return Agent(config=self.agents_config['illustrator'], llm=_illustration_llm, skills=[_skill("image-prompt-writer")], tools=[generate_illustration], verbose=True)  # type: ignore[index]
 
     # --- Tasks ---
 
