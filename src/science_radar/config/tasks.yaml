@@ -115,9 +115,11 @@ task_editorial_critique:
   description: >
     Score the following article on structure, clarity, and engagement (1–10 each).
     Do not evaluate factual accuracy or source quality — that is handled separately
-    by the fact checker. Return one JSON object containing the three scores
-    and specific, actionable revision notes. Include revision notes for every
-    dimension scored below 7. Do not calculate an overall score or verdict.
+    by the fact checker. Also check the article against the writer's hard rules.
+    Return one JSON object containing the three scores and specific, actionable 
+    revision notes. Include revision notes for every dimension scored below 7 
+    and for every violation of the writer's hard rules. Do not calculate an overall 
+    score or verdict.
 
     ARTICLE:
     {article}

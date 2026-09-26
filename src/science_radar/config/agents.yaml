@@ -50,7 +50,9 @@ writer:
 
 editorial_critic:
   role: Editorial Critic
-  goal: Score article on structure, clarity, and engagement. Do not assess factual accuracy or source quality — that is the fact checker's job.
+  goal:  >
+    Score article on structure, clarity, and engagement, and flag violations of the writer's hard rules. 
+    Do not assess factual accuracy or source quality — that is the fact checker's job.
   backstory: Senior science editor.
 
 fact_checker:

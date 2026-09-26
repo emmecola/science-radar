@@ -65,7 +65,8 @@ When revising an article based on editorial critique and fact-check feedback:
 1. **Fact-check fixes first**: Apply every `REVISE` fix and resolve every structural
    factual issue before anything else. Preserve `ACCEPTABLE_UNCERTAINTY` claims as
    qualified unless another review explicitly requires a change.
-2. **Editorial fixes next**: Address clarity, structure, and sourcing issues from the editorial critique. Work through them in priority order.
+2. **Editorial fixes next**: Address all issues from the editorial critique. 
+   Work through them in priority order.
 3. **Preserve voice and structure**: Only change what the reviews require or what is
    necessary to resolve those issues. Do not rewrite sections that were not criticised.
    The goal is surgical revision, not a fresh draft.
@@ -86,7 +87,7 @@ The structure and tone guidelines from the writing section still apply — revis
 
 ## Hard Rules
 
-- The revised article must begin directly with the headline — no preamble, no bullet-point notes, no search summaries, no meta-commentary of any kind
+- The article must begin directly with the headline — no preamble, no bullet-point notes, no search summaries, no meta-commentary of any kind
 - The headline must be punchy and journalistic — spark curiosity, do not just describe the topic. Maximum 10 words. No academic-style titles.
   - Bad: "Engineering Closed Flowers: How Prime Editing Could Lock Engineered Genes Inside Rice" (13 words, descriptive)
   - Good: "The Rice That Won't Open" or "Locked Flowers, Engineered Genes" (short, curiosity-driven)

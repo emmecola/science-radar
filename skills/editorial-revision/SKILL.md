@@ -1,13 +1,15 @@
 ---
 name: editorial-revision
 description: Rubric for scoring a science essay on structure, clarity,
-             and engagement, and for producing actionable revision notes.
+             and engagement, checking hard-rule compliance, and for
+             producing actionable revision notes.
 ---
 
 ## Purpose
 
-You will receive a science essay. Score it on three dimensions and produce
-actionable revision notes. You are NOT rewriting — only evaluating and directing.
+You will receive a science essay. Score it on three dimensions, check it
+against the writer's hard rules, and produce actionable revision notes.
+You are NOT rewriting — only evaluating and directing.
 
 Do not assess factual accuracy or source quality. Source verification and
 attribution accuracy are handled separately by the fact checker. If you notice
@@ -40,6 +42,25 @@ Score each dimension 1–10. Apply the criteria below strictly and consistently.
 - **5–6**: Academic register, passive constructions, no memorable moments
 - **1–4**: Dry throughout; no reason for a non-specialist to continue reading
 
+## Hard-Rule Compliance
+
+Beyond the three dimensions, check the article against the writer's hard
+rules. These are mechanical requirements — a violation
+is a defect even when the prose otherwise scores well. Check every one:
+
+- The article begins directly with the headline
+- The headline is short, punchy and journalistic
+- Total length is 680–720 words
+- No Markdown dividers (`---` or similar) anywhere in the text
+- No headings anywhere in the text
+
+When you find a violation:
+
+- Cap the **structure** score at 6.
+- Emit a revision note for every violation and place these notes first in the
+  `revision_notes` array. Prefix the `issue` field with `[HARD RULE]` so the
+  writer prioritises them.
+
 ## Output Format
 
 Return a JSON object matching this structure:
@@ -60,9 +81,10 @@ Return a JSON object matching this structure:
 ```
 
 Do not calculate an overall score or verdict. The application derives approval
-from the three scores. Include a revision note for every dimension below 7. Notes
-must identify the paragraph or sentence, point to the exact problem, and state
-what needs to change. Return no text outside the structured object.
+from the three scores. Include a revision note for every dimension below 7 and
+a separate note for every hard-rule violation. Notes must identify the
+paragraph or sentence, point to the exact problem, and state what needs to
+change. Return no text outside the structured object.
 
 ## Tool Use
 
