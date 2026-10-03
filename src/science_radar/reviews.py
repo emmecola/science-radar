@@ -77,6 +77,18 @@ def parse_review(raw: str, model: type[ReviewModel]) -> ReviewModel:
             raise ValueError(f"Invalid {model.__name__} output: {extraction_error}") from direct_error
 
 
+_EDITORIAL_EXAMPLE = (
+    '{"structure": 1-10, "clarity": 1-10, "engagement": 1-10, "revision_notes": '
+    '[{"location": "<section>", "issue": "<problem>", "required_fix": "<change>"}]}'
+)
+
+_FACT_CHECK_EXAMPLE = (
+    '{"claims": [{"claim": "<exact claim from the article>", "status": '
+    '"VERIFIED" | "ACCEPTABLE_UNCERTAINTY" | "REVISE", "note": "<brief verification>", '
+    '"required_fix": "<required change; only for REVISE>"}]}'
+)
+
+
 def editorial_review_guardrail(output: Any) -> tuple[bool, str]:
     try:
         review = parse_review(output.raw, EditorialReview)
@@ -84,7 +96,10 @@ def editorial_review_guardrail(output: Any) -> tuple[bool, str]:
         return (
             False,
             "Invalid editorial review. Return one corrected JSON object matching the "
-            f"required schema. Validation error: {error}",
+            "required schema. An empty object ({}) or an object missing any required "
+            "field is invalid.\n"
+            f"Required shape: {_EDITORIAL_EXAMPLE}\n"
+            f"Validation error: {error}",
         )
     return True, review.model_dump_json()
 
@@ -97,6 +112,10 @@ def fact_check_guardrail(output: Any) -> tuple[bool, str]:
             False,
             "Invalid fact-check report. Audit every concrete factual assertion in the "
             "article and return at least one claim in one corrected JSON object matching "
-            f"the required schema. Validation error: {error}",
+            "the required schema. An empty object ({}) or an empty claims array "
+            '({"claims": []}) is invalid — every article contains factual assertions to '
+            "audit.\n"
+            f"Required shape: {_FACT_CHECK_EXAMPLE}\n"
+            f"Validation error: {error}",
         )
     return True, report.model_dump_json()

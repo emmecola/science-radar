@@ -142,7 +142,7 @@ class ScienceRadar():
         return Task(
             config=self.tasks_config['task_fact_check'],  # type: ignore[index]
             guardrail=fact_check_guardrail,
-            guardrail_max_retries=2,
+            guardrail_max_retries=3,
         )
 
     @task
