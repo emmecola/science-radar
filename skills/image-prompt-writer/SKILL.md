@@ -38,7 +38,11 @@ make a reader want to read the essay, not summarise it.
 - Avoid objects that inherently display text or numbers — clocks,
   thermostats, gauges, dials, scoreboards, signs.
 - One concept per image. Pick the single most resonant visual idea and
-  build the whole composition around it.
+   build the whole composition around it.
+- No close-up human figures, and no hands or fingers in focus anywhere
+   in the image
+- No multiple interacting people: no handoffs, handshakes, gripping,
+   passing objects, touching, carrying together, or crowd scenes
 
 ## Style Rotation
 
@@ -81,12 +85,14 @@ Essay topic: a study showing microplastics have been found in
 human brain tissue for the first time.
 
 Prompt:
-> Soviet constructivist poster style. A colossal human head in
-> profile, rendered as a cross-section, with tiny translucent
-> fragments suspended inside like constellations. Bold flat
-> colours — deep red, ivory, black. The fragments glow faintly,
-> cold and indifferent. Monumental, unsettling, inevitable.
-> No text, no labels, no scientific diagrams.
+> Soviet constructivist poster style. A colossal human brain-shaped
+> boulder cracked open like an egg on a barren plain, its hollow
+> interior filled with tiny translucent fragments suspended like
+> constellations. A lone human silhouette stands far away on the
+> horizon, dwarfed by the boulder. Bold flat colours — deep red,
+> ivory, black. The fragments glow faintly, cold and indifferent.
+> Monumental, unsettling, inevitable. No text, no labels, no
+> scientific diagrams.
 
 ## Output
 
