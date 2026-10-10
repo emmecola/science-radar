@@ -52,7 +52,7 @@ _melious_api_key = _required_vars["MELIOUS_API_KEY"]
 
 _scout_llm   = LLM(model=_required_vars["SCOUT_MODEL"],   base_url=_melious_base_url, api_key=_melious_api_key, max_retries=5, interceptor=_env_impact_interceptor)
 _critic_llm  = LLM(model=_required_vars["CRITIC_MODEL"],  base_url=_melious_base_url, api_key=_melious_api_key, max_retries=5, max_tokens=8192, interceptor=_env_impact_interceptor)
-_review_llm = LLM(model=_required_vars["CRITIC_MODEL"], base_url=_melious_base_url, api_key=_melious_api_key, max_retries=5, max_tokens=8192, response_format={"type": "json_object"}, interceptor=_env_impact_interceptor)
+_review_llm = LLM(model=_required_vars["CRITIC_MODEL"], base_url=_melious_base_url, api_key=_melious_api_key, max_retries=5, max_tokens=8192, interceptor=_env_impact_interceptor)
 _curator_llm = LLM(model=_required_vars["CURATOR_MODEL"], base_url=_melious_base_url, api_key=_melious_api_key, max_retries=5, interceptor=_env_impact_interceptor)
 _writer_llm  = LLM(model=_required_vars["WRITER_MODEL"],  base_url=_melious_base_url, api_key=_melious_api_key, max_retries=5, interceptor=_env_impact_interceptor)
 _illustration_llm = LLM(model=_required_vars["ILLUSTRATION_MODEL"], base_url=_melious_base_url, api_key=_melious_api_key, max_retries=5, interceptor=_env_impact_interceptor)
