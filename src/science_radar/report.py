@@ -3,6 +3,8 @@ import tempfile
 from datetime import datetime
 from pathlib import Path
 
+from science_radar.lib.sanitize import sanitize_untrusted
+
 
 def flush_report(file_path: Path, topic: str, sections: dict, status: str = "COMPLETE") -> None:
     """Write a pipeline report from collected sections, atomically.
@@ -24,7 +26,7 @@ def flush_report(file_path: Path, topic: str, sections: dict, status: str = "COM
             continue
         lines.append(f"## {label}")
         lines.append("")
-        lines.append(str(content))
+        lines.append(sanitize_untrusted(str(content)))
         lines.append("")
 
     # Atomic write via temp file + os.replace
@@ -50,7 +52,7 @@ def save_article(
     if illustration_path:
         lines.append(f"![Illustration]({illustration_path.name})")
         lines.append("")
-    lines.append(text)
+    lines.append(sanitize_untrusted(text))
     content = "\n".join(lines)
 
     tmp_dir = article_file.parent

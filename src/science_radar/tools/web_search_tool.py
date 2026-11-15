@@ -4,6 +4,8 @@ import os
 import requests
 from crewai.tools import tool
 
+from science_radar.lib.sanitize import sanitize_untrusted_json
+
 
 @tool("web_search")
 def web_search(query: str) -> str:
@@ -24,7 +26,7 @@ def web_search(query: str) -> str:
         response.raise_for_status()
         results = response.json().get("web", {}).get("results", [])
 
-        return json.dumps(
+        return sanitize_untrusted_json(json.dumps(
             [
                 {
                     "title": r.get("title"),
@@ -34,6 +36,6 @@ def web_search(query: str) -> str:
                 for r in results
             ],
             indent=2,
-        )
+        ))
     except Exception as e:
         return json.dumps({"error": f"Web search failed: {e}"}, indent=2)

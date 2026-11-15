@@ -8,6 +8,7 @@ from science_radar.config import MAX_REVISION_LOOPS, OUTPUT_DIR, TOPIC, TOPIC_NE
 from science_radar.crew import ScienceRadar
 from science_radar.env_impact import captured_costs, captured_impacts, set_current_step
 from science_radar.lib import search_news, search_papers
+from science_radar.lib.sanitize import sanitize_untrusted_json
 from science_radar.report import billing_markdown, flush_report, impact_markdown, impact_totals, save_article
 from science_radar.reviews import (
     EditorialReview,
@@ -62,8 +63,10 @@ def run_pipeline():
         if errors:
             raise RuntimeError("; ".join(errors))
 
-        sections["Raw News Results"] = news_results
-        sections["Raw Paper Results"] = paper_results
+        sanitized_news_results = sanitize_untrusted_json(news_results)
+        sanitized_paper_results = sanitize_untrusted_json(paper_results)
+        sections["Raw News Results"] = sanitized_news_results
+        sections["Raw Paper Results"] = sanitized_paper_results
         print("  OK")
 
         # Step 2: Critique + Curate
@@ -72,8 +75,8 @@ def run_pipeline():
         set_current_step("Critique + Curate")
         curation_result = crew.critique_crew().kickoff(inputs={
             "topic": TOPIC,
-            "news_results": news_results,
-            "paper_results": paper_results,
+            "news_results": sanitized_news_results,
+            "paper_results": sanitized_paper_results,
         })
 
         _curation_intermediates = {

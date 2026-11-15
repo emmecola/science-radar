@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 
 from science_radar.config import TOPIC_SEMANTIC, PAPERS_LIMIT, PAPERS_DAYS_LIMIT
 from science_radar.lib.api_retry import get_with_retry
+from science_radar.lib.sanitize import sanitize_untrusted_json
 
 
 def search_papers(query: str = TOPIC_SEMANTIC, days: int = PAPERS_DAYS_LIMIT) -> str:
@@ -49,7 +50,7 @@ def search_papers(query: str = TOPIC_SEMANTIC, days: int = PAPERS_DAYS_LIMIT) ->
 
     papers = response.json().get("data", [])[:PAPERS_LIMIT]
 
-    return json.dumps(
+    return sanitize_untrusted_json(json.dumps(
         [
             {
                 "title": p.get("title"),
@@ -65,7 +66,7 @@ def search_papers(query: str = TOPIC_SEMANTIC, days: int = PAPERS_DAYS_LIMIT) ->
             if (p.get("abstract") or "").strip()
         ],
         indent=2,
-    )
+    ))
 
 
 def lookup_paper_by_doi(doi_or_url: str) -> str:
@@ -150,7 +151,7 @@ def lookup_paper_by_doi(doi_or_url: str) -> str:
         if a.get("name")
     ]
 
-    return json.dumps(
+    return sanitize_untrusted_json(json.dumps(
         {
             "title": data.get("title"),
             "authors": authors,
@@ -164,4 +165,4 @@ def lookup_paper_by_doi(doi_or_url: str) -> str:
             "abstract_source": "semantic_scholar" if abstract else "none",
         },
         indent=2,
-    )
+    ))

@@ -5,20 +5,20 @@ from datetime import datetime, timedelta
 
 from science_radar.config import TOPIC_NEWSAPI, NEWS_LIMIT, NEWS_DAYS_LIMIT
 from science_radar.lib.api_retry import get_with_retry
-
+from science_radar.lib.sanitize import sanitize_untrusted_json
 
 def search_news(query: str = TOPIC_NEWSAPI, days: int = NEWS_DAYS_LIMIT) -> str:
     """Search recent news articles from the last N days on a given topic."""
     if not os.getenv("NEWSAPI_KEY"):
         return json.dumps({"error": "NEWSAPI_KEY environment variable is not set"}, indent=2)
 
+    api_key = os.getenv("NEWSAPI_KEY")
     params = {
         "q": query,
         "from": (datetime.now() - timedelta(days=days)).strftime("%Y-%m-%d"),
         "sortBy": "publishedAt",
         "language": "en",
         "pageSize": NEWS_LIMIT,
-        "apiKey": os.getenv("NEWSAPI_KEY"),
     }
 
     try:
@@ -26,6 +26,7 @@ def search_news(query: str = TOPIC_NEWSAPI, days: int = NEWS_DAYS_LIMIT) -> str:
             "NewsAPI",
             "https://newsapi.org/v2/everything",
             params=params,
+            headers={"X-Api-Key": api_key},
             timeout=30,
         )
     except requests.exceptions.RetryError:
@@ -37,7 +38,7 @@ def search_news(query: str = TOPIC_NEWSAPI, days: int = NEWS_DAYS_LIMIT) -> str:
 
     articles = response.json().get("articles", [])[:NEWS_LIMIT]
 
-    return json.dumps(
+    return sanitize_untrusted_json(json.dumps(
         [
             {
                 "title": a.get("title"),
@@ -48,4 +49,4 @@ def search_news(query: str = TOPIC_NEWSAPI, days: int = NEWS_DAYS_LIMIT) -> str:
             for a in articles
         ],
         indent=2,
-    )
+    ))
