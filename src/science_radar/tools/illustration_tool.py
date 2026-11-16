@@ -1,12 +1,34 @@
 import base64
 import json
 import os
+from dataclasses import dataclass
 from datetime import datetime
+from pathlib import Path
 
 from openai import OpenAI
 from crewai.tools import tool
 
 from science_radar.config import OUTPUT_DIR
+
+
+@dataclass(frozen=True)
+class IllustrationResult:
+    image_path: Path
+    prompt: str
+
+
+_last_illustration: IllustrationResult | None = None
+
+
+def get_last_illustration() -> IllustrationResult | None:
+    """Return the most recent successful illustration, if any."""
+    return _last_illustration
+
+
+def reset_last_illustration() -> None:
+    """Clear the recorded illustration so stale results are never reused."""
+    global _last_illustration
+    _last_illustration = None
 
 
 @tool("generate_illustration")
@@ -40,6 +62,8 @@ def generate_illustration(prompt: str) -> str:
             image_data = base64.b64decode(response.data[0].b64_json)
             with open(image_path, "wb") as f:
                 f.write(image_data)
+            global _last_illustration
+            _last_illustration = IllustrationResult(image_path=image_path, prompt=prompt)
             return json.dumps({"image_path": str(image_path), "prompt": prompt})
         return json.dumps({"error": "Image generation failed — no base64 data returned."})
     except Exception as e:

@@ -2,7 +2,6 @@
 import json
 import warnings
 from datetime import datetime
-from pathlib import Path
 
 from science_radar.config import MAX_REVISION_LOOPS, OUTPUT_DIR, TOPIC, TOPIC_NEWSAPI, TOPIC_SEMANTIC
 from science_radar.crew import ScienceRadar
@@ -17,6 +16,7 @@ from science_radar.reviews import (
     fact_check_approved,
     parse_review,
 )
+from science_radar.tools.illustration_tool import get_last_illustration, reset_last_illustration
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
@@ -178,20 +178,17 @@ def run_pipeline():
         illustration_prompt = None
         try:
             set_current_step("Illustrate")
+            reset_last_illustration()
             illustration = crew.illustrate_crew().kickoff(
                 inputs={"revised_article": current_article}
             )
 
-            # Extract illustration path and prompt from output
-            try:
-                ill_data = json.loads(illustration.raw)
-                if isinstance(ill_data, dict):
-                    if "image_path" in ill_data:
-                        illustration_path = Path(ill_data["image_path"])
-                    if "prompt" in ill_data:
-                        illustration_prompt = ill_data["prompt"]
-            except (json.JSONDecodeError, KeyError, ValueError):
-                pass
+            # Read the illustration recorded by the tool itself, rather than
+            # parsing the LLM's final answer (which may be fenced or mangled).
+            result = get_last_illustration()
+            if result is not None:
+                illustration_path = result.image_path
+                illustration_prompt = result.prompt
 
             # Build a nicely formatted Illustration section for the pipeline report
             if illustration_prompt:
