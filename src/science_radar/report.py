@@ -42,6 +42,27 @@ def flush_report(file_path: Path, topic: str, sections: dict, status: str = "COM
         raise
 
 
+def _ensure_h1(text: str) -> str:
+    """Guarantee the article opens with a single `# ` H1 heading.
+
+    LLM output is non-deterministic: the writer sometimes drops the `#`
+    from the headline despite the prompts. Normalize the first non-empty
+    line to exactly one `#`, so the saved article always renders a title.
+    """
+    lines = text.splitlines()
+    for i, line in enumerate(lines):
+        stripped = line.strip()
+        if not stripped:
+            continue
+        if stripped.startswith("#"):
+            title = stripped.lstrip("#").strip()
+        else:
+            title = stripped.strip("*").strip()
+        lines[i] = f"# {title or stripped}"
+        return "\n".join(lines)
+    return text
+
+
 def save_article(
     article_file: Path,
     text: str,
@@ -52,7 +73,7 @@ def save_article(
     if illustration_path:
         lines.append(f"![Illustration]({illustration_path.name})")
         lines.append("")
-    lines.append(sanitize_untrusted(text))
+    lines.append(_ensure_h1(sanitize_untrusted(text)))
     content = "\n".join(lines)
 
     tmp_dir = article_file.parent

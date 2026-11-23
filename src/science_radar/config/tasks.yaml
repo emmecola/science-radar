@@ -108,7 +108,10 @@ task_write:
     replace it. Source substitution is unfixable downstream.
     Output ONLY the article in markdown — no preamble, no meta-commentary, just the
     article starting with the title. The headline (H1, max 10 words) must be catchy
-    and journalistic — spark curiosity, do not describe the topic.
+    and journalistic — spark curiosity, do not describe the topic. The very first
+    line of the output must be the headline as a Markdown H1 heading: a single
+    "#" followed by one space and the headline text. Do not use any other
+    Markdown headings anywhere in the body.
 
     CURATION BRIEF:
     {curation_brief}
@@ -168,8 +171,10 @@ task_revise:
     checker. Apply every required factual fix, correct any wrong figures or
     attributions, and incorporate editorial feedback on clarity and sourcing.
     Verify that the article contains NO headings in the body text — the only
-    markdown heading allowed is the H1 title at the top; remove any ##, ###, or
-    other section headings and convert them to plain flowing prose.
+    markdown heading allowed is the H1 title at the top, which must remain a
+    single "#" followed by one space and the headline text; remove any ##, ###,
+    or other section headings from the body and convert them to plain flowing
+    prose. Never remove or alter the "#" of the H1 title line.
     Preserve the core structure and voice of the article — only change what is
     required by the reviews or necessary to resolve those issues. Treat only fact-check claims with
     status REVISE as mandatory factual changes; preserve

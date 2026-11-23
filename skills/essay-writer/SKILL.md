@@ -88,6 +88,7 @@ The structure and tone guidelines from the writing section still apply — revis
 ## Hard Rules
 
 - The article must begin directly with the headline — no preamble, no bullet-point notes, no search summaries, no meta-commentary of any kind
+- The headline must be the very first line, formatted as a Markdown H1 heading: a single "#" followed by one space and the headline text
 - The headline must be punchy and journalistic — spark curiosity, do not just describe the topic. Maximum 10 words. No academic-style titles.
   - Bad: "Engineering Closed Flowers: How Prime Editing Could Lock Engineered Genes Inside Rice" (13 words, descriptive)
   - Good: "The Rice That Won't Open" or "Locked Flowers, Engineered Genes" (short, curiosity-driven)
@@ -95,6 +96,6 @@ The structure and tone guidelines from the writing section still apply — revis
 - Core claims, findings, and data must come from the curation brief — background context and explanatory material may be supplemented via search
 - Do not editorialize in the implications section — implications must follow from the curation brief, not from your priors
 - Do not separate sections with `---` or any Markdown dividers.
-- Never use headings in the text
+- Never use headings in the body text — the H1 headline at the top is the only permitted heading
 - Never invent factual details not in the curation brief — if a reviewer demands specifics you cannot source, qualify as uncertain or remove the claim
 - The article must reference the exact source URL specified in the curation brief under "Selected Item." Do not substitute a different URL — even if your search returns what appears to be a related or improved source.
